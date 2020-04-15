@@ -1,0 +1,2708 @@
+# Copyright CiviCRM LLC (c) 2004-2015
+# This file is distributed under the same license as the CiviCRM package.
+# If you contribute heavily to a translation and deem your work copyrightable,
+# make sure you license it to CiviCRM LLC under Academic Free License 3.0.
+# Translators:
+# Piotr Szotkowski <chastell@chastell.net>, 2011
+# Zoltán Reizinger <zreizinger@hdsnet.hu>, 2013-2016,2018-2020
+# Zoltán Reizinger <zreizinger@hdsnet.hu>, 2012-2013
+msgid ""
+msgstr ""
+"Project-Id-Version: CiviCRM\n"
+"POT-Creation-Date: 2020-01-21 16:29-0500\n"
+"PO-Revision-Date: 2020-01-27 07:30+0000\n"
+"Last-Translator: Zoltán Reizinger <zreizinger@hdsnet.hu>\n"
+"Language-Team: Hungarian (http://www.transifex.com/civicrm/civicrm/language/hu/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: hu\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: CRM/Member/BAO/Membership.php
+msgid "No valid membership status for given dates."
+msgstr "Az adott dátumokon nincs érvényes tagsági állapot."
+
+#: CRM/Member/BAO/Membership.php CRM/Member/Form/MembershipView.php
+msgid "Membership Type:"
+msgstr "Tagság típusa"
+
+#: CRM/Member/BAO/Membership.php
+msgid "do not import"
+msgstr "nem importálható"
+
+#: CRM/Member/BAO/Membership.php
+msgid "Membership Fields"
+msgstr "Tagság mezők"
+
+#: CRM/Member/BAO/Membership.php
+msgid "Invalid date \"%1\" (must have form yyyy-mm-dd)."
+msgstr "Érvénytelen dátum \"%1\" (éééé-hh-nn formátumban adja meg)."
+
+#: CRM/Member/BAO/Membership.php
+msgid ""
+"Oops, it looks like there is no valid membership status corresponding to the"
+" membership start and end dates for this membership. Contact the site "
+"administrator for assistance."
+msgstr "Pardon, nincs érvényes tagság, a megadott tagság kezdő és vég időpontokhoz. Lépjen kapcsolatba a honlapl adminisztrátorával."
+
+#: CRM/Member/BAO/Membership.php
+msgid ""
+"Deceased Membership status is missing or not active. <a href='%1'>Click here"
+" to check</a>."
+msgstr "Elhunyt tagsági állapot hiányzik vagy nem aktív.  <a href='%1'>kattintson ide az ellenőrzéshez</a>."
+
+#: CRM/Member/BAO/Membership.php
+msgid "Processed %1 membership records. Updated %2 records."
+msgstr "Feldolgozva %1 tagsági rekord. Frissítve %2 rekord."
+
+#: CRM/Member/BAO/MembershipStatus.php
+msgid ""
+"This membership status cannot be deleted as memberships exist with this "
+"status"
+msgstr "Ez a tagsági állapot nem törölhető, mert ezzel az állapottal tagság létezik."
+
+#: CRM/Member/BAO/MembershipType.php
+msgid "This membership type cannot be deleted due to following reason(s):"
+msgstr "Ez a tagság típus az alábbi ok(ok) miatt nem törölhető:"
+
+#: CRM/Member/BAO/MembershipType.php
+msgid ""
+"%3. There are some contacts who have this membership type assigned to them. "
+"Search for contacts with this membership type from <a href='%1'>Find "
+"Members</a>. If you are still getting this message after deleting these "
+"memberships, there may be contacts in the Trash (deleted) with this "
+"membership type. Try using <a href=\"%2\">Advanced Search</a> and checking "
+"\"Search in Trash\"."
+msgstr "%3. Néhány kapcsolathoz ez a tagság típus hozzá van rendelve. Keressen kapcsolatokat ezzel a tagság típussal, <a href='%1'>Tagok keresése</a>. Ha továbbra is kapja ezt az üzenetet a tagságok törlése után, talán vannak kapcsolatok a kukában(töröltek) ezzel a tagságtípussal. Próbálja meg a <a href=\"%2\">Részletes keresést</a> a \"Kukában keresés\" megjelölésével."
+
+#: CRM/Member/BAO/MembershipType.php
+msgid ""
+"%2. This Membership Type is used in an <a href='%1'>Online Contribution "
+"page</a>. Uncheck this membership type in the Memberships tab."
+msgstr "%2, Ez a tagság típus használatban van a <a href='%1'>Online adományoldalon</a>. Szüntesse meg a kijelölését a tagság lapon."
+
+#: CRM/Member/BAO/Query.php
+msgid "Member Since %2 %1"
+msgstr "Tag %2 %1 óta."
+
+#: CRM/Member/BAO/Query.php
+msgid "Is a current member"
+msgstr "Jelenleg tag"
+
+#: CRM/Member/BAO/Query.php
+msgid "Is a non-current member"
+msgstr "Jelenleg nem tag"
+
+#: CRM/Member/BAO/Query.php
+msgid "Membership is a Test"
+msgstr "Teszt tagság"
+
+#: CRM/Member/BAO/Query.php
+msgid "Membership is NOT Auto-Renew"
+msgstr "Nem automatikusan megújuló tagság"
+
+#: CRM/Member/BAO/Query.php
+msgid "Membership is Auto-Renew and In Progress"
+msgstr "Automatikusan megújuló tagság megújítása folyamatban"
+
+#: CRM/Member/BAO/Query.php
+msgid "Membership is Auto-Renew and Failed"
+msgstr "Automatikusan megújuló tagság megújítás sikertelen"
+
+#: CRM/Member/BAO/Query.php
+msgid "Membership is Auto-Renew and Cancelled"
+msgstr "Automatikusan megújuló tagság megújítása törölve"
+
+#: CRM/Member/BAO/Query.php
+msgid "Membership is Auto-Renew and Ended"
+msgstr "Automatikusan megújuló tagság megújítás befejeződött"
+
+#: CRM/Member/BAO/Query.php
+msgid "Membership is Auto-Renew"
+msgstr "Automatikusan megújuló tagság"
+
+#: CRM/Member/BAO/Query.php
+msgid "Membership is Pay Later"
+msgstr "Később fizető tagág"
+
+#: CRM/Member/BAO/Query.php
+msgid "Membership is NOT Pay Later"
+msgstr "NEM később fizető tagság"
+
+#: CRM/Member/BAO/Query.php
+msgid "Primary Members Only"
+msgstr "Csak elsődleges tagoknak"
+
+#: CRM/Member/BAO/Query.php
+msgid "Related Members Only"
+msgstr "Csak kapcsolódó tagoknak"
+
+#: CRM/Member/BAO/Query.php
+msgid "Membership Status Is Overriden"
+msgstr "Tagsági állapot felülírva"
+
+#: CRM/Member/BAO/Query.php
+msgid "Membership Status Is NOT Overriden"
+msgstr "Tagsági állapot NINCS felülírva"
+
+#: CRM/Member/BAO/Query.php
+msgid "Current Member?"
+msgstr "Jelenleg tag?"
+
+#: CRM/Member/BAO/Query.php
+msgid "Primary Member?"
+msgstr "Elsődleges tag?"
+
+#: CRM/Member/BAO/Query.php
+msgid "Pay Later?"
+msgstr "Később fizet?"
+
+#: CRM/Member/BAO/Query.php
+msgid "Auto-Renew Subscription Status?"
+msgstr "Előfizetési állapot automatikusan megújuljon?"
+
+#: CRM/Member/BAO/Query.php
+msgid "- None -"
+msgstr "- Egyik sem - "
+
+#: CRM/Member/BAO/Query.php
+msgid "Ended"
+msgstr "Befejezve"
+
+#: CRM/Member/BAO/Query.php
+msgid "Membership is a Test?"
+msgstr "Teszt tagság?"
+
+#: CRM/Member/BAO/Query.php
+msgid "Membership Status Is Overriden?"
+msgstr "Tagsági állapot felülírva?"
+
+#: CRM/Member/DAO/Membership.php CRM/Member/DAO/MembershipBlock.php
+#: CRM/Member/DAO/MembershipStatus.php CRM/Member/DAO/MembershipType.php
+msgid "Membership Id"
+msgstr "Tagság azonosító"
+
+#: CRM/Member/DAO/Membership.php
+msgid "Membership Type Id"
+msgstr "Tagsági típus azonosítója"
+
+#: CRM/Member/DAO/Membership.php
+msgid "Beginning of initial membership period (member since...)."
+msgstr "A tagság eredeti kezdő időpontja (Tagság kezdete...)"
+
+#: CRM/Member/DAO/Membership.php
+msgid "Beginning of current uninterrupted membership period."
+msgstr "A jelenlegi érvényes folyamatos tagság periódus kezdete."
+
+#: CRM/Member/DAO/Membership.php
+msgid "Membership Expiration Date"
+msgstr "Tagság lejárati ideje"
+
+#: CRM/Member/DAO/Membership.php
+msgid "Current membership period expire date."
+msgstr "Aktuális tagsági ciklus végdátuma"
+
+#: CRM/Member/DAO/Membership.php
+msgid "Membership Status Id"
+msgstr "Tagsági állapot azonosítója"
+
+#: CRM/Member/DAO/Membership.php
+msgid "FK to Membership Status"
+msgstr "FK a Tagság állapothoz"
+
+#: CRM/Member/DAO/Membership.php
+msgid "Status Override"
+msgstr "Állapot felülírása"
+
+#: CRM/Member/DAO/Membership.php
+msgid ""
+"Admin users may set a manual status which overrides the calculated status. "
+"When this flag is true, automated status update scripts should NOT modify "
+"status for the record."
+msgstr "Az Admin felhasználók beállíthatnak kézi állapotot, amely felülírja a számított állapotot. Amikor ez a jelző igaz, az automatizált állapot frissítő  szkript NEM fogja módosítani bejegyzés állapotát."
+
+#: CRM/Member/DAO/Membership.php CRM/Member/Form/Membership.php
+msgid "Status Override End Date"
+msgstr "Állapot felülírás vég dátuma"
+
+#: CRM/Member/DAO/Membership.php
+msgid ""
+"Then end date of membership status override if 'Override until selected "
+"date' override type is selected."
+msgstr "A tagság állapot felülírás végdátuma ha 'Felülírás a kiválasztott dátumig' felülírás típus a kiválasztott."
+
+#: CRM/Member/DAO/Membership.php
+msgid "Primary Member ID"
+msgstr "Elsődleges tag azonosító"
+
+#: CRM/Member/DAO/Membership.php
+msgid "Optional FK to Parent Membership."
+msgstr "Opcionális FK a szülő tagsághoz"
+
+#: CRM/Member/DAO/Membership.php CRM/Member/DAO/MembershipType.php
+msgid "Max Related"
+msgstr "Max kapcsolódó"
+
+#: CRM/Member/DAO/Membership.php
+msgid "Maximum number of related memberships (membership_type override)."
+msgstr "A kapcsolódó tagságok maximális száma (membership_type felülírása)."
+
+#: CRM/Member/DAO/Membership.php
+msgid "Membership Recurring Contribution"
+msgstr "Tagság ismétlődő adományok"
+
+#: CRM/Member/DAO/Membership.php
+msgid ""
+"Conditional foreign key to civicrm_contribution_recur id. Each membership in"
+" connection with a recurring contribution carries a foreign key to the "
+"recurring contribution record. This assumes we can track these processor "
+"initiated events."
+msgstr "Feltételes idegen kulcs a civicrm_contribution_recur azonosítóhoz. Minden ismétlődő hozzájárulással kapcsolatos tagság idegen kulcsot hordoz az ismétlődő hozzájárulás rekordjában. Ez feltételezi, hogy nyomon követhetjük ezeket a feldolgozó által kezdeményezett eseményeket."
+
+#: CRM/Member/DAO/Membership.php
+msgid "The campaign for which this membership is attached."
+msgstr "Az a kampány, amelyhez ez a tagság kapcsolódik."
+
+#: CRM/Member/DAO/MembershipBlock.php
+msgid "Membership Block ID"
+msgstr "Tagság blokk azonosító"
+
+#: CRM/Member/DAO/MembershipBlock.php
+msgid "Membership Block Entity Table"
+msgstr "Tagság blokk elem tábla"
+
+#: CRM/Member/DAO/MembershipBlock.php CRM/Member/DAO/MembershipStatus.php
+msgid "Name for Membership Status"
+msgstr "Tagság állapot neve"
+
+#: CRM/Member/DAO/MembershipBlock.php
+msgid "Membership Block Entity ID"
+msgstr "Tagság blokk elem azonosító"
+
+#: CRM/Member/DAO/MembershipBlock.php
+msgid "FK to civicrm_contribution_page.id"
+msgstr "FK civicrm_contribution_page azonosítóhoz"
+
+#: CRM/Member/DAO/MembershipBlock.php
+msgid "Membership Block Membership Types"
+msgstr "Tagság blokk tagság típusok"
+
+#: CRM/Member/DAO/MembershipBlock.php
+msgid "Membership types to be exposed by this block"
+msgstr "A blokk által feltárt tagsági típusok"
+
+#: CRM/Member/DAO/MembershipBlock.php
+msgid "Membership Block Default Type"
+msgstr "Tagság blokk alapértelmezett típus"
+
+#: CRM/Member/DAO/MembershipBlock.php
+msgid "Optional foreign key to membership_type"
+msgstr "Opcionális idegen kulcs a membership_type típushoz"
+
+#: CRM/Member/DAO/MembershipBlock.php
+msgid "Membership Block Display Minimum Fee"
+msgstr "Tagság blokk minimum díj kijelzése"
+
+#: CRM/Member/DAO/MembershipBlock.php
+msgid "Display minimum membership fee"
+msgstr "Minimális tagsági díj kijelzése"
+
+#: CRM/Member/DAO/MembershipBlock.php
+msgid "Membership Block Is Separate Payment"
+msgstr "Tagság blokk az különálló befizetés"
+
+#: CRM/Member/DAO/MembershipBlock.php
+msgid "Should membership transactions be processed separately"
+msgstr "A tagsági tranzakciókat külön kell-e feldolgozni"
+
+#: CRM/Member/DAO/MembershipBlock.php
+msgid "Membership Block New Title"
+msgstr "Tagság blokk új cím"
+
+#: CRM/Member/DAO/MembershipBlock.php
+msgid "Title to display at top of block"
+msgstr "A blokk tetején megjelenítendő cím"
+
+#: CRM/Member/DAO/MembershipBlock.php
+msgid "Membership Block New Text"
+msgstr "Tagság blokk új szöveg"
+
+#: CRM/Member/DAO/MembershipBlock.php
+msgid "Text to display below title"
+msgstr "A cím alatt megjelenítendő szöveg"
+
+#: CRM/Member/DAO/MembershipBlock.php
+msgid "Membership Block Renewal Title"
+msgstr "Tagság blokk megújítás cím"
+
+#: CRM/Member/DAO/MembershipBlock.php
+msgid "Title for renewal"
+msgstr "Megújítás címe"
+
+#: CRM/Member/DAO/MembershipBlock.php
+msgid "Membership Block Renewal Text"
+msgstr "Tagság blokk megújítás szöveg"
+
+#: CRM/Member/DAO/MembershipBlock.php
+msgid "Text to display for member renewal"
+msgstr "A tagság megújításnál megjelenítendő szöveg"
+
+#: CRM/Member/DAO/MembershipBlock.php
+msgid "Is Required"
+msgstr "Szükséges"
+
+#: CRM/Member/DAO/MembershipBlock.php
+msgid "Is membership sign up optional"
+msgstr "A tagság feliratkozás opcionális"
+
+#: CRM/Member/DAO/MembershipBlock.php
+msgid "Is this membership_block enabled"
+msgstr "Ez a membership_block engedélyezett"
+
+#: CRM/Member/DAO/MembershipLog.php
+msgid "Membership Log ID"
+msgstr "Tagság napló azonosító"
+
+#: CRM/Member/DAO/MembershipLog.php CRM/Member/DAO/MembershipPayment.php
+msgid "FK to Membership table"
+msgstr "Tagság táblához FK"
+
+#: CRM/Member/DAO/MembershipLog.php
+msgid ""
+"New status assigned to membership by this action. FK to Membership Status"
+msgstr "Ezzel a művelettel a tagsághoz új állapot került hozzárendelésre. FK a tagság állapothoz"
+
+#: CRM/Member/DAO/MembershipLog.php
+msgid "Membership Log Start Date"
+msgstr "A tagság napló kezdődátuma"
+
+#: CRM/Member/DAO/MembershipLog.php
+msgid "New membership period start date"
+msgstr "Új tagsági periódus kezdő dátuma "
+
+#: CRM/Member/DAO/MembershipLog.php
+msgid "Membership Log End Date"
+msgstr "A tagság napló befejeződési dátuma"
+
+#: CRM/Member/DAO/MembershipLog.php
+msgid "New membership period expiration date."
+msgstr "Új tagsági periódus lejárati dátuma."
+
+#: CRM/Member/DAO/MembershipLog.php
+msgid "Membership Log modified By"
+msgstr "Tagság naplót módosította"
+
+#: CRM/Member/DAO/MembershipLog.php
+msgid "Membership Change Date"
+msgstr "Tagság változási dátum"
+
+#: CRM/Member/DAO/MembershipLog.php
+msgid "Date this membership modification action was logged."
+msgstr "A tagság módosítási akció naplózott dátuma."
+
+#: CRM/Member/DAO/MembershipLog.php CRM/Member/DAO/MembershipType.php
+msgid "Membership Type ID"
+msgstr "Tagság típus azonosító"
+
+#: CRM/Member/DAO/MembershipLog.php
+msgid "FK to Membership Type."
+msgstr "FK a tagság típushoz"
+
+#: CRM/Member/DAO/MembershipLog.php
+msgid "Maximum Related Memberships"
+msgstr "Maximum kapcsolódó tagságok"
+
+#: CRM/Member/DAO/MembershipLog.php CRM/Member/DAO/MembershipType.php
+msgid "Maximum number of related memberships."
+msgstr "A kapcsolódó tagságok maximális száma."
+
+#: CRM/Member/DAO/MembershipPayment.php
+msgid "Membership Payment ID"
+msgstr "Tagság befizetés azonosító"
+
+#: CRM/Member/DAO/MembershipStatus.php
+msgid "Membership Status ID"
+msgstr "Tagság állapot azonosító"
+
+#: CRM/Member/DAO/MembershipStatus.php
+msgid "Label for Membership Status"
+msgstr "Tagság állapothoz címke"
+
+#: CRM/Member/DAO/MembershipStatus.php CRM/Member/Form/MembershipStatus.php
+#: templates/CRM/Member/Page/MembershipStatus.tpl
+msgid "Start Event"
+msgstr "Esemény kezdete"
+
+#: CRM/Member/DAO/MembershipStatus.php
+msgid "Event when this status starts."
+msgstr "Esemény, amikor ez az állapot elindul."
+
+#: CRM/Member/DAO/MembershipStatus.php
+msgid "Start Event Adjust Unit"
+msgstr "Esemény  beállító egység kezdése"
+
+#: CRM/Member/DAO/MembershipStatus.php
+msgid "Unit used for adjusting from start_event."
+msgstr "start_event egység beállításától kezdve."
+
+#: CRM/Member/DAO/MembershipStatus.php CRM/Member/Form/MembershipStatus.php
+msgid "Start Event Adjust Interval"
+msgstr "Esemény kezdetének elintézési határideje"
+
+#: CRM/Member/DAO/MembershipStatus.php
+msgid "Status range begins this many units from start_event."
+msgstr "start_event egységtől kezdődő állapot tartomány egységeinek száma"
+
+#: CRM/Member/DAO/MembershipStatus.php CRM/Member/Form/MembershipStatus.php
+#: templates/CRM/Member/Page/MembershipStatus.tpl
+msgid "End Event"
+msgstr "Esemény vége"
+
+#: CRM/Member/DAO/MembershipStatus.php
+msgid "Event after which this status ends."
+msgstr "Esemény, amely után ez az állapot véget ér."
+
+#: CRM/Member/DAO/MembershipStatus.php
+msgid "End Event Adjust Unit"
+msgstr "Esemény  beállító egység befejezése"
+
+#: CRM/Member/DAO/MembershipStatus.php
+msgid "Unit used for adjusting from the ending event."
+msgstr "A befejező eseménytől való beállításhoz használt egység."
+
+#: CRM/Member/DAO/MembershipStatus.php CRM/Member/Form/MembershipStatus.php
+msgid "End Event Adjust Interval"
+msgstr "Esemény végének elintézési határideje"
+
+#: CRM/Member/DAO/MembershipStatus.php
+msgid "Status range ends this many units from end_event."
+msgstr "end_event egységek száma az állapot tartomány végéig."
+
+#: CRM/Member/DAO/MembershipStatus.php CRM/Member/Form/MembershipStatus.php
+msgid "Current Membership?"
+msgstr "Jelenlegi tagság?"
+
+#: CRM/Member/DAO/MembershipStatus.php
+msgid ""
+"Does this status aggregate to current members (e.g. New, Renewed, Grace "
+"might all be TRUE... while Unrenewed, Lapsed, Inactive would be FALSE)."
+msgstr "Jelenlegi tagok állapotát összegzi-e ez az állapot (pl. új, megújított, tiszteletbeli mind lehet IGAZ... ugyanakkor a nem megújított, lejárt, inaktív HAMIS lesz)."
+
+#: CRM/Member/DAO/MembershipStatus.php
+msgid "Administrator Only?"
+msgstr "Csak az adminisztrátor?"
+
+#: CRM/Member/DAO/MembershipStatus.php
+msgid "Is this status for admin/manual assignment only."
+msgstr "Ez az állapot csak admin / kézi hozzárendelésre vonatkozik."
+
+#: CRM/Member/DAO/MembershipStatus.php
+msgid "Default Status?"
+msgstr "Alapértelmezett állapot?"
+
+#: CRM/Member/DAO/MembershipStatus.php
+msgid ""
+"Assign this status to a membership record if no other status match is found."
+msgstr "Adja meg ezt az állapotot a tagsági rekordhoz, ha nem található másik állapot."
+
+#: CRM/Member/DAO/MembershipStatus.php
+msgid "Is this membership_status enabled."
+msgstr "Ez a membership_status engedélyezett."
+
+#: CRM/Member/DAO/MembershipStatus.php
+msgid "Is Reserved"
+msgstr "Fenntartva"
+
+#: CRM/Member/DAO/MembershipStatus.php
+msgid "Is this membership_status reserved."
+msgstr "Ez a membership_status fentartott."
+
+#: CRM/Member/DAO/MembershipType.php
+msgid "Membership Type Domain"
+msgstr "Tagság típus domén"
+
+#: CRM/Member/DAO/MembershipType.php
+msgid "Name of Membership Type"
+msgstr "Tagság típus neve"
+
+#: CRM/Member/DAO/MembershipType.php
+msgid "Membership Type Description"
+msgstr "Tagság típus leírás"
+
+#: CRM/Member/DAO/MembershipType.php
+msgid "Description of Membership Type"
+msgstr "Tagság típus leírása"
+
+#: CRM/Member/DAO/MembershipType.php
+msgid "Membership Type Organization"
+msgstr "Tagság típus szervezet"
+
+#: CRM/Member/DAO/MembershipType.php
+msgid "Owner organization for this membership type. FK to Contact ID"
+msgstr "Ezen tagság típus tulajdonos szervezete. FK a Kapcsolat azonosítóhoz."
+
+#: CRM/Member/DAO/MembershipType.php
+msgid "Membership Financial Type"
+msgstr "Tagság pénzügyi típus"
+
+#: CRM/Member/DAO/MembershipType.php
+msgid ""
+"If membership is paid by a contribution - what financial type should be "
+"used. FK to civicrm_financial_type.id"
+msgstr "Ha a tagságot egy adománnyal fizetik ki - milyen pénzügyi típust kell alkalmazni. FK civicrm_financial_type.id azonosítóhoz."
+
+#: CRM/Member/DAO/MembershipType.php
+msgid "Membership Type Minimum Fee"
+msgstr "Tagság típus minimum díj"
+
+#: CRM/Member/DAO/MembershipType.php
+msgid ""
+"Minimum fee for this membership (0 for free/complimentary memberships)."
+msgstr "Minimális tagdíj (0 az ingyenes/tiszteletbeli tagságoknál)"
+
+#: CRM/Member/DAO/MembershipType.php
+#: templates/CRM/Member/Page/MembershipType.tpl
+#: templates/CRM/Member/Page/Tab.tpl
+msgid "Minimum Fee"
+msgstr "Minimális díj"
+
+#: CRM/Member/DAO/MembershipType.php
+msgid "Membership Type Duration Unit"
+msgstr "Tagság típus időtartam egysége"
+
+#: CRM/Member/DAO/MembershipType.php
+msgid "Unit in which membership period is expressed."
+msgstr "Tagsági periódust jellemző egység"
+
+#: CRM/Member/DAO/MembershipType.php
+msgid "Membership Type Duration Interval"
+msgstr "Tagság típus időtartam intervallum"
+
+#: CRM/Member/DAO/MembershipType.php
+msgid ""
+"Number of duration units in membership period (e.g. 1 year, 12 months)."
+msgstr "Tagsági periódus hosszúsági egységek száma (pl. 1 év, 12 hónap)."
+
+#: CRM/Member/DAO/MembershipType.php
+msgid "Membership Type Plan"
+msgstr "Tagság típus terv"
+
+#: CRM/Member/DAO/MembershipType.php
+msgid ""
+"Rolling membership period starts on signup date. Fixed membership periods "
+"start on fixed_period_start_day."
+msgstr "Gördülő tagsági periódus a feliratkozási dátummal kezdődik. A Rögzített tagsági periódus a fixed_period_start_day napon kezdődik."
+
+#: CRM/Member/DAO/MembershipType.php
+msgid ""
+"For fixed period memberships, month and day (mmdd) on which "
+"subscription/membership will start. Period start is back-dated unless after "
+"rollover day."
+msgstr "Rögzített időtartamú tagságok esetén az a hónap és nap (hhnn), amelyen az előfizetés / tagság megkezdődik. A periódus kezdő időpontja visszadátumozva, kivéve, az átváltási napot követően."
+
+#: CRM/Member/DAO/MembershipType.php CRM/Member/Form/MembershipType.php
+msgid "Fixed Period Rollover Day"
+msgstr "Fix periódus fordulónapja"
+
+#: CRM/Member/DAO/MembershipType.php
+msgid ""
+"For fixed period memberships, signups after this day (mmdd) rollover to next"
+" period."
+msgstr "Rögzített időtartamú tagság esetén a feliratkozás ez után a dátum után (hhnn) átmegy a következő periódusra."
+
+#: CRM/Member/DAO/MembershipType.php
+msgid "Membership Type Relationship"
+msgstr "Tagság típus viszony"
+
+#: CRM/Member/DAO/MembershipType.php
+msgid "FK to Relationship Type ID"
+msgstr "FK a viszony típus azonosítóra"
+
+#: CRM/Member/DAO/MembershipType.php
+msgid "Max Related Members for Type"
+msgstr "Típus max kapcsolódó tagok "
+
+#: CRM/Member/DAO/MembershipType.php
+msgid "Visible"
+msgstr "Látható"
+
+#: CRM/Member/DAO/MembershipType.php
+msgid "Membership Type Receipt Text"
+msgstr "Tagság típus nyugta szövege"
+
+#: CRM/Member/DAO/MembershipType.php
+msgid "Receipt Text for membership signup"
+msgstr "Tagság feliratkozási nyugta szövege"
+
+#: CRM/Member/DAO/MembershipType.php
+msgid "Membership Type Renewal Text"
+msgstr "Tagság típus megújítás szövege"
+
+#: CRM/Member/DAO/MembershipType.php
+msgid "Receipt Text for membership renewal"
+msgstr "Tagság megújítási nyugta szövege"
+
+#: CRM/Member/DAO/MembershipType.php
+msgid ""
+"0 = No auto-renew option; 1 = Give option, but not required; 2 = Auto-renew "
+"required;"
+msgstr "0 = nincs automatikus megújítás opció; 1 = Opció megadása, de nem szükséges; 2 = automatikus megújítás szükséges;"
+
+#: CRM/Member/DAO/MembershipType.php
+msgid "Is this membership_type enabled"
+msgstr "Ez a membership_type engedélyezett"
+
+#: CRM/Member/Form/Membership.php
+msgid ""
+"Consider modifying the membership status instead if you want to maintain an "
+"audit trail and avoid losing payment data. You can set the status to "
+"Cancelled by editing the membership and clicking the Status Override "
+"checkbox."
+msgstr "Gondolja át, a tagság állapot módosítását ahelyett, hogy a pénzügyi adatok karbantartását végezné el, elkerülendő a fizetési adatok elvesztését. Beállíthatja a tagsági állapotot Törölt-nek, a tagságot szerkesztve, az Állapot felülírása opciót bekapcsolva. "
+
+#: CRM/Member/Form/Membership.php
+msgid "Click 'Delete' if you want to continue."
+msgstr "Kattintson a 'Törlés' -re ha tovább akar lépni."
+
+#: CRM/Member/Form/Membership.php
+msgid ""
+"This Membership is linked to a contribution. You must have 'delete in "
+"CiviContribute' permission in order to delete this record."
+msgstr "Ez a tagság adományhoz kapcsolódik. Ki kell 'törölnie a CiviAdományban' az engedélyezést  a rekord törléséhez."
+
+#: CRM/Member/Form/Membership.php CRM/Member/Form/MembershipRenewal.php
+#: CRM/Member/Page/DashBoard.php CRM/Member/Selector/Search.php
+#: templates/CRM/Member/Form/MembershipView.tpl
+#: templates/CRM/Member/Page/MembershipStatus.tpl
+msgid "Member"
+msgstr "Tag"
+
+#: CRM/Member/Form/Membership.php templates/CRM/Member/Form/MembershipView.tpl
+msgid "Max related"
+msgstr "Max kapcsolódó"
+
+#: CRM/Member/Form/Membership.php
+#: templates/CRM/Member/Form/MembershipRenewal.tpl
+msgid "Membership Organization and Type"
+msgstr "Szervezeti tagság és típus"
+
+#: CRM/Member/Form/Membership.php
+msgid "Status Override?"
+msgstr "Állapot felülírása?"
+
+#: CRM/Member/Form/Membership.php
+msgid "Record Membership Payment?"
+msgstr "Rögzítsük a tagsági befizetést?"
+
+#: CRM/Member/Form/Membership.php CRM/Member/Form/MembershipRenewal.php
+msgid "Record Payment from a Different Contact?"
+msgstr "Rögzítsünk fizetést egy másik kapcsolathoz?"
+
+#: CRM/Member/Form/Membership.php CRM/Member/Form/MembershipRenewal.php
+msgid "Payment From"
+msgstr "Befizető"
+
+#: CRM/Member/Form/Membership.php CRM/Member/Form/MembershipRenewal.php
+msgid "Send Confirmation and Receipt?"
+msgstr "Megerősítés és nyugta küldése?"
+
+#: CRM/Member/Form/Membership.php
+msgid "Select at most one option associated with the same membership type."
+msgstr "Válasszon ki legfeljebb egy opciót ami az azonos tagság típushoz van hozzárendelve."
+
+#: CRM/Member/Form/Membership.php
+msgid "Select at least one membership option."
+msgstr "Válasszon legalább egy tagsági opciót."
+
+#: CRM/Member/Form/Membership.php
+msgid "Record Membership Payment is required when you use a price set."
+msgstr "A tagsági díj fizetés rögzítés szükséges ha árlistát használ."
+
+#: CRM/Member/Form/Membership.php
+msgid "Please select a membership type."
+msgstr "Kérem válassza ki a tagsági típust."
+
+#: CRM/Member/Form/Membership.php
+msgid "Please enter an integer for the number of terms."
+msgstr "Kérem egészt adjon meg a kifejezések számának."
+
+#: CRM/Member/Form/Membership.php CRM/Member/Form/MembershipType.php
+msgid "Please enter the financial Type."
+msgstr "Kérem adja meg a a pénzügyi Típust."
+
+#: CRM/Member/Form/Membership.php
+msgid ""
+"Please do not select more than one membership associated with the same "
+"organization."
+msgstr "Kérem ne válasszon több mint egy tagságot egy szervezetnél. "
+
+#: CRM/Member/Form/Membership.php
+msgid "Please Select a Soft Credit Type"
+msgstr "Kérem válasszon ki egy lágy befizetés típust"
+
+#: CRM/Member/Form/Membership.php
+msgid "Please select a contact"
+msgstr "Kérem válasszon ki egy kapcsolatot"
+
+#: CRM/Member/Form/Membership.php
+msgid "Start date must be the same or later than Member since."
+msgstr "A kezdőidőpontnak meg kell egyeznie a tagság kezdetével, vagy későbbinek kell lennie."
+
+#: CRM/Member/Form/Membership.php
+msgid ""
+"Please enter a status that does NOT represent a current membership status."
+msgstr "Kérem adjon meg egy állapotot, ami NEM képviseli a jelenlegi tagság állapotot."
+
+#: CRM/Member/Form/Membership.php
+msgid ""
+"Because you set an End Date for a lifetime membership, This must be set to "
+"\"Override Permanently\""
+msgstr "Mivel az Élethosszig tartó tagság került beállításra, ezt \"Végleges felülírás\"-ra kell állítani."
+
+#: CRM/Member/Form/Membership.php
+msgid "Start date must be set if end date is set."
+msgstr "A kezdőidőpontot is meg kell adni, ha végidőpontot adott meg."
+
+#: CRM/Member/Form/Membership.php
+msgid "End date must be the same or later than start date."
+msgstr "A végidőpontnak a kezdőidőponttal kell megegyeznie, vagy annál későbbi időpontot kell megadni."
+
+#: CRM/Member/Form/Membership.php
+msgid ""
+"There is no valid Membership Status available for selected membership dates."
+msgstr "A kiválasztott tagsági időkre nincs érvényes tagsági állapot."
+
+#: CRM/Member/Form/Membership.php
+msgid ""
+"Oops, it looks like there is no valid membership status available for the "
+"given membership dates. You can <a href=\"%1\">Configure Membership Status "
+"Rules</a>."
+msgstr "Pardon, a megadott tagsági időkre nincs érvényes tagsági állapot.   A  <a href=\"%1\">Tagsági állapot szabályok beállíthatók</a>."
+
+#: CRM/Member/Form/Membership.php
+msgid ""
+"OR You can sign up by setting Status Override? to something other than "
+"\"NO\"."
+msgstr "VAGY Feliratkozhat az Állapot felülírással? valami másra mint a \"NEM\"."
+
+#: CRM/Member/Form/Membership.php
+msgid "Membership Status Error"
+msgstr "Tagsági állapot hiba"
+
+#: CRM/Member/Form/Membership.php
+msgid "Please enter the Member Since."
+msgstr "Adja meg a tagsága kezdetét."
+
+#: CRM/Member/Form/Membership.php
+msgid "Please enter the Membership status."
+msgstr "Kérem adja meg a tagsági állapotot."
+
+#: CRM/Member/Form/Membership.php
+msgid "Please enter the Membership override end date."
+msgstr "Kérem adja meg a tagság felülírási vég dátumot."
+
+#: CRM/Member/Form/Membership.php
+msgid "Please enter the contribution."
+msgstr "Kérjük adja meg a hozzájárulást."
+
+#: CRM/Member/Form/Membership.php
+msgid "%1 Membership: Offline signup (by %2)"
+msgstr "%1 tagság: offline feliratkozás (%2 által)"
+
+#: CRM/Member/Form/Membership.php
+msgid ""
+"Contribution submitted by a staff person using member's credit card for "
+"signup"
+msgstr "A szervezet munkatársa által tag bankkártyája segítségével benyújtott adomány a feliratkozáshoz"
+
+#: CRM/Member/Form/Membership.php
+msgid "%1 Membership Signup: Credit card or direct debit (by %2)"
+msgstr "%1 tagság feliratkozás: bankkártya vagy hitelkártya (%2 által)"
+
+#: CRM/Member/Form/Membership.php
+msgid "A membership confirmation and receipt has been sent to %1."
+msgstr "A tagság visszaigazolása és a nyugta elküldve %1."
+
+#: CRM/Member/Form/Membership.php
+msgid ""
+"Associated recurring contribution cannot be updated on membership type "
+"change."
+msgstr "A kapcsolódó ismétlődő adományt nem lehet frissíteni a tagság típus változásakor. "
+
+#: CRM/Member/Form/Membership.php
+msgid "Associated contribution is updated on membership type change."
+msgstr "A kapcsolódó adomány frissítve a tagság típus változásával. "
+
+#: CRM/Member/Form/Membership.php
+msgid "Membership for %1 has been updated."
+msgstr "%1 tagsága frissítésre került."
+
+#: CRM/Member/Form/Membership.php
+msgid "The membership End Date is %1."
+msgstr "A tagság lejárati dátuma %1."
+
+#: CRM/Member/Form/Membership.php
+msgid "%1 membership for %2 has been added."
+msgstr "%1 tagság a %2 részére hozzáadva."
+
+#: CRM/Member/Form/Membership.php
+msgid "The new membership End Date is %1."
+msgstr "Az új tagság befejező dátuma: %1!"
+
+#: CRM/Member/Form/Membership.php
+msgid ""
+"The financial types associated with the old and new membership types are "
+"different. You may want to edit the contribution associated with this "
+"membership to adjust its financial type."
+msgstr "Az új és régi tagság típushoz hozzárendelt pénzügyi típusok különbözőek. Ehhez a tagsághoz tartozó adományt szerkesztheti, beállítva a pénzügyi típusát."
+
+#: CRM/Member/Form/Membership.php
+msgid ""
+"The cost of the old and new membership types are different. You may want to "
+"edit the contribution associated with this membership to adjust its amount."
+msgstr "A régi és új tagság típusok költségei különböznek. Ehhez a tagsághoz tartozó adományt szerkesztheti, beállítva a pénzügyi típusát."
+
+#: CRM/Member/Form/MembershipBlock.php
+msgid "Membership Section Enabled?"
+msgstr "Tagsági modul engedélyezve?"
+
+#: CRM/Member/Form/MembershipBlock.php
+msgid "Title - New Membership"
+msgstr "Cím - Új tagság"
+
+#: CRM/Member/Form/MembershipBlock.php
+msgid "Introductory Message - New Memberships"
+msgstr "Bemutatkozó szöveg - Új tagság"
+
+#: CRM/Member/Form/MembershipBlock.php
+msgid "Title - Renewals"
+msgstr "Cím - Megújítások"
+
+#: CRM/Member/Form/MembershipBlock.php
+msgid "Introductory Message - Renewals"
+msgstr "Bemutatkozó szöveg  - Megújítások"
+
+#: CRM/Member/Form/MembershipBlock.php
+msgid "Require Membership Signup"
+msgstr "Tag bejelentkezés szükséges"
+
+#: CRM/Member/Form/MembershipBlock.php
+msgid "Display Membership Fee"
+msgstr "Mutassa a tagdíj összegét"
+
+#: CRM/Member/Form/MembershipBlock.php
+msgid "Separate Membership Payment"
+msgstr "Különálló tagdíj fizetés"
+
+#: CRM/Member/Form/MembershipBlock.php
+msgid "Membership Types Label"
+msgstr "Tagság típus címke"
+
+#: CRM/Member/Form/MembershipBlock.php
+msgid "Not offered"
+msgstr "Nem felajánlott"
+
+#: CRM/Member/Form/MembershipBlock.php
+msgid "Give option"
+msgstr "Adjon meg egy opciót"
+
+#: CRM/Member/Form/MembershipBlock.php
+#: templates/CRM/Member/Form/MembershipBlock.tpl
+#: templates/CRM/Member/Form/MembershipView.tpl
+#: templates/CRM/Member/Page/Tab.tpl
+msgid "Auto-renew"
+msgstr "Automatikus meghosszabítás "
+
+#: CRM/Member/Form/MembershipBlock.php
+msgid "Membership Types Default"
+msgstr "Alapértelmezett tagsági típusok"
+
+#: CRM/Member/Form/MembershipBlock.php
+msgid ""
+"The membership price set associated with this online contribution allows a "
+"user to select BOTH an auto-renew AND a non-auto-renew membership. This "
+"requires submitting multiple processor transactions, and is not supported "
+"for one or more of the payment processors enabled under the Amounts tab."
+msgstr "Ehhez az online adományhoz kapcsolódó tagsági árlista megengedi a felhasználóknak, hogy MINDKETTŐT az automatikus ÉS a nem automatikus tagság megújítást kiválassza.  Ehhez az kell, hogy többszálú tranzakciókat tudjon feldolgozni, és ezt a Összegek lapon engedélyezett egy vagy több fizetés feldolgozó nem támogatja."
+
+#: CRM/Member/Form/MembershipBlock.php
+msgid ""
+"You cannot enable both Membership Signup and a Contribution Price Set on the"
+" same online contribution page."
+msgstr "Nem engedélyezheti egy adomány oldalon a tagság feliratkozást és az adomány árlista értékének a egyidejű beállítását.  "
+
+#: CRM/Member/Form/MembershipBlock.php
+msgid ""
+"Please select at least one Membership Type to include in the Membership "
+"section of this page."
+msgstr "Válasszon ki legalább egy tagsági típust ezen oldal  Tagság szakaszába történő beillesztésre."
+
+#: CRM/Member/Form/MembershipBlock.php
+msgid ""
+"You cannot select more than %1 choices. For more complex functionality, "
+"please use a Price Set."
+msgstr "Nem választhat több mint %1 változatot, a bonyolultabb funkciókhoz, kérem használjon egy árlistát."
+
+#: CRM/Member/Form/MembershipBlock.php
+msgid ""
+"You need to enable Separate Membership Payment when online contribution page"
+" is configured for both Membership and Recurring Contribution"
+msgstr "Engedélyeznie kell a különálló tagság fizetést, amikor az online adomány oldal a tagságra és az ismétlődő fizetésre is beállított"
+
+#: CRM/Member/Form/MembershipBlock.php
+msgid ""
+"You cannot enable both Recurring Contributions and Auto-renew memberships on"
+" the same online contribution page"
+msgstr "Nem engedélyezheti egyszerre az ismétlődő adományokat és  az automatikusan megújuló tagságot egy online adomány oldalon"
+
+#: CRM/Member/Form/MembershipBlock.php
+msgid "Add status rules, before configuring membership"
+msgstr "Adja hozzá az állapot szabályokat a tagság beállításához."
+
+#: CRM/Member/Form/MembershipBlock.php
+msgid "Can't set default option for an unchecked membership type."
+msgstr "Az alapértelmezett opció nem beállítható, a tagsági típus kiválasztása előtt."
+
+#: CRM/Member/Form/MembershipBlock.php
+msgid "Please enable the contribution amount section to use this option."
+msgstr "Kérem engedélyezze az adomány szakaszt, ezen opció használatához."
+
+#: CRM/Member/Form/MembershipConfig.php CRM/Member/Form.php
+#: CRM/Member/Page/Tab.php CRM/Member/Selector/Search.php
+#: templates/CRM/Member/Page/DashBoard.tpl
+msgid "Renew"
+msgstr "Megújít"
+
+#: CRM/Member/Form/MembershipRenewal.php
+msgid "%1 membership for %2 has been renewed."
+msgstr "%1 tagság %2 részére megújítva."
+
+#: CRM/Member/Form/MembershipRenewal.php
+msgid "A renewal confirmation and receipt has been sent to %1."
+msgstr "A tagság megújítás visszaigazolása és a nyugta elküldve %1."
+
+#: CRM/Member/Form/MembershipRenewal.php
+msgid ""
+"Membership Renewal using a credit card requires a Membership fee. Since "
+"there is no fee associated with the selected membership type, you can use "
+"the normal renewal mode."
+msgstr "A bankkártyás tagság megújításhoz szükséges a tagsági díj megadása. Mivel nincs a kiválasztott tagság típushoz díj hozzárendelve, normál megújítási módot használhatja."
+
+#: CRM/Member/Form/MembershipRenewal.php
+msgid "Includes %1 amount of %2"
+msgstr "Tartalmazza %1 összeget %2"
+
+#: CRM/Member/Form/MembershipRenewal.php
+msgid "Renewal Membership Organization and Type"
+msgstr "Szervezeti tagság megújítása és típusa"
+
+#: CRM/Member/Form/MembershipRenewal.php
+msgid "Date Renewal Entered"
+msgstr "Megújítási dátum megadva"
+
+#: CRM/Member/Form/MembershipRenewal.php
+msgid "Extend Membership by"
+msgstr "Tagság meghosszabbítása  "
+
+#: CRM/Member/Form/MembershipRenewal.php
+msgid "Please enter a whole number for how many periods to renew."
+msgstr "Kérem adjon meg egész számot, hogy hány periódussal hosszabbítsuk meg a tagságát. "
+
+#: CRM/Member/Form/MembershipRenewal.php
+msgid "Record Renewal Payment?"
+msgstr "Megújítási befizetés rögzíthető?"
+
+#: CRM/Member/Form/MembershipRenewal.php
+msgid "Renewal Message"
+msgstr "Megújítási üzenet"
+
+#: CRM/Member/Form/MembershipRenewal.php
+msgid ""
+"Oops. It looks like you are trying to change the membership type while "
+"renewing the membership. Please click the \"change membership type\" link, "
+"and select a Membership Organization."
+msgstr "Hoppá. Úgy tűnik ön megpróbálta a tagság típust megváltoztatni a tagság megújítás során. Kérem kattintson a \"tagsági típus megváltoztatása\" linkre, és válassza ki a szervezethez tartozó tagságot."
+
+#: CRM/Member/Form/MembershipRenewal.php
+msgid ""
+"Oops. It looks like you are trying to change the membership type while "
+"renewing the membership. Please click the \"change membership type\" link "
+"and select a Membership Type from the list."
+msgstr "Hoppá. Úgy tűnik ön megpróbálta a tagság típust megváltoztatni a tagság megújítás során. Kérem kattintson a \"tagsági típus megváltoztatása\" linkre, és válassza ki a a listából a tagság típust."
+
+#: CRM/Member/Form/MembershipRenewal.php
+msgid "Renewal date must be the same or later than Member since (Join Date)."
+msgstr "A megújítási dátumnak későbbinek kell lennie mint a tagság kezdete (csatlakozási dátum)."
+
+#: CRM/Member/Form/MembershipRenewal.php
+msgid "Please select a Financial Type."
+msgstr "Kérem válassza ki a pénzügyi típust."
+
+#: CRM/Member/Form/MembershipRenewal.php
+msgid "Please enter a Contribution Amount."
+msgstr "Kérem adja meg az adomány összegét."
+
+#: CRM/Member/Form/MembershipRenewal.php
+msgid ""
+"Contribution submitted by a staff person using member's credit card for "
+"renewal"
+msgstr "A szervezet munkatársa által tag bankkártyája segítségével benyújtott adomány a megújításhoz"
+
+#: CRM/Member/Form/MembershipStatus.php
+#: templates/CRM/Member/Form/MembershipStatus.tpl
+msgid ""
+"Display name for this Membership status (e.g. New, Current, Grace, "
+"Expired...)."
+msgstr "Tagság állapot kijelzési neve (pl. Új, Érvényes, Tiszteletbeli, Lejárt...)"
+
+#: CRM/Member/Form/MembershipStatus.php
+#: templates/CRM/Member/Form/MembershipStatus.tpl
+msgid ""
+"Check this box if this status is for use by administrative staff only. If "
+"checked, this status is never automatically assigned by CiviMember. It is "
+"assigned to a contact's Membership by checking the <strong>Status "
+"Override</strong> flag when adding or editing the Membership record. Start "
+"and End Event settings are ignored for Administrator statuses. EXAMPLE: This"
+" setting can be useful for special case statuses like 'Non-expiring', "
+"'Barred' or 'Expelled', etc."
+msgstr "Válassza ki ezt a jelölőnégyzetet, ha az állapotot csak az adminisztratív személyzet használja. Ha kiválasztott, ez az állapot sohasem lesz automatikusan beállítva a CiviTag által. A kapcsolat tagságához csak akkor kerül hozzáadásra, ha <strong>Állapot felülírás</strong> flag kiválasztásra kerül, a tagsági rekord hozzáadása, vagy szerkesztése során. Az esemény kezdő és vég beállításai figyelmen kívül lesznek hagyva adminisztrátori besorolásúaknak. PÉLDA: Ez a beállítás hasznos lehet az olyan speciális állapotok esetében, mint a 'Nem-lejáró', 'Letiltott' vagy 'Kizárt', stb. "
+
+#: CRM/Member/Form/MembershipStatus.php
+msgid ""
+"You will not be able to delete this membership status if there are existing "
+"memberships with this status. You will need to check all your membership "
+"status rules afterwards to ensure that a valid status will always be "
+"available."
+msgstr "Nem tudja törölni ezt a tagság állapotot mindaddig, amíg létező tagságok használják ezt az állapotot. Az összes tagság állapotot ellenőrizze le utána, hogy érvényes tagság állapotok álljanak rendelkezésre."
+
+#: CRM/Member/Form/MembershipStatus.php
+msgid ""
+"A membership status with this label already exists. Please select another "
+"label."
+msgstr "Tagsági állapot ezzel a címkével már létezik. kérem válasszon másik címkét."
+
+#: CRM/Member/Form/MembershipStatus.php
+msgid "Start Event Adjustment"
+msgstr "Esemény beállítás megkezdése"
+
+#: CRM/Member/Form/MembershipStatus.php
+msgid "End Event Adjustment"
+msgstr "Esemény beállítás befejezése"
+
+#: CRM/Member/Form/MembershipStatus.php
+msgid "Delete Failed"
+msgstr "Törlés meghiúsult."
+
+#: CRM/Member/Form/MembershipStatus.php
+msgid "Selected membership status has been deleted."
+msgstr "A kiválasztott tagsági állapot törölve."
+
+#: CRM/Member/Form/MembershipStatus.php
+msgid "The membership status '%1' has been saved."
+msgstr "A '%1' tagsági állapot mentve."
+
+#: CRM/Member/Form/MembershipType.php
+msgid "e.g. 'Student', 'Senior', 'Honor Society'..."
+msgstr "pl. 'Diák', 'Nyugdíjas', 'Tiszteletbeli'..."
+
+#: CRM/Member/Form/MembershipType.php
+msgid ""
+"Description of this membership type for internal use. May include "
+"eligibility, benefits, terms, etc."
+msgstr "Ennek a tagságnak a leírása csak belső használatra. Tartalmazhat jogosultságot, juttatásokat, feltételeket, stb."
+
+#: CRM/Member/Form/MembershipType.php
+msgid ""
+"Members assigned this membership type belong to which organization (e.g. "
+"this is for membership in 'Save the Whales - Northwest Chapter'). NOTE: This"
+" organization/group/chapter must exist as a CiviCRM Organization type "
+"contact."
+msgstr "Ezen tagság típushoz hozzárendelt tagok mely szervezethez tartoznak (pl. ez a 'tagság a Mentsük meg a bálnákat - Északnyugati helyi csoport' -é). MEGJEGYZÉS: Ezen szervezetnek/csoportnak/helyi csoportnak a CiviCRM Szervezeti típusként kell rendelkezésre állnia. "
+
+#: CRM/Member/Form/MembershipType.php
+msgid ""
+"Minimum fee required for this membership type. For free/complimentary "
+"memberships - set minimum fee to zero (0). NOTE: When using CiviCRM to "
+"process sales taxes this should be the tax exclusive amount."
+msgstr "Minimális tagdíj megadása szükséges ehhez a tagság típushoz. Az ingyenes/ajándék tagság esetében - állítsa a minimális díjat nullára (0). MEGJEGYZÉS: Amikor a CiviCRM-t az ÁFA feldolgozására is használják, ennek adómentes beállításúnak kell lennie."
+
+#: CRM/Member/Form/MembershipType.php
+#: templates/CRM/Member/Form/MembershipType.tpl
+msgid ""
+"Select the financial type assigned to fees for this membership type (for "
+"example 'Membership Fees'). This is required for all membership types - "
+"including free or complimentary memberships."
+msgstr "Válassza ki a tagsághoz tartozó tagdíjhoz kapcsolódó pénzügyi típust (például 'Tagdíj'). Ez minden tagság típus esetében kötelező - beleértve az ingyenes vagy tiszteletbeli tagságok esetét is. "
+
+#: CRM/Member/Form/MembershipType.php
+#: templates/CRM/Member/Form/MembershipType.tpl
+msgid ""
+"You will need to select and configure a supported payment processor "
+"(currently Authorize.Net, PayPal Pro, or PayPal Website Standard) in order "
+"to offer automatically renewing memberships."
+msgstr "Támogatott fizetés feldolgozót kell kiválasztania és beállítania (jelenleg támogatott az Authorize.Net, PayPal Pro, vagy PayPal Website Standard) az automatikusan megújuló tagság ajánlásához."
+
+#: CRM/Member/Form/MembershipType.php
+#: templates/CRM/Member/Form/MembershipType.tpl
+msgid ""
+"Duration of this membership (e.g. 30 days, 2 months, 5 years, 1 lifetime)"
+msgstr "Tagság időtartama (például 30 nap, 2 hónap, 5 év, 1 élettartam)"
+
+#: CRM/Member/Form/MembershipType.php
+#: templates/CRM/Member/Form/MembershipType.tpl
+msgid ""
+"Select 'rolling' if membership periods begin at date of signup. Select "
+"'fixed' if membership periods begin on a set calendar date."
+msgstr "Válassza a 'gördülő'-t ha a tagsági periódus a feliratkozással kezdődik. Válasza 'fix'-t ha a tagsági periódus a naptári dátumhoz kapcsolódik."
+
+#: CRM/Member/Form/MembershipType.php
+#: templates/CRM/Member/Form/MembershipType.tpl
+msgid ""
+"Month and day on which a <strong>fixed</strong> period membership or "
+"subscription begins. Example: A fixed period membership with Start Day set "
+"to Jan 01 means that membership periods would be 1/1/06 - 12/31/06 for "
+"anyone signing up during 2006."
+msgstr "Hónap és nap, amelyiken a <strong>rögzített</strong> időtartamú tagság vagy feliratkozás kezdődik. Példa: A rögzített időtartamú tagság amelyik január 01-vel kezdődik, azt jelenti, hogy ez a tagság 2006-01-01 és 2006-12-31 között lesz érvényes, bármikor lép be 2006 során a tag. "
+
+#: CRM/Member/Form/MembershipType.php
+#: templates/CRM/Member/Form/MembershipType.tpl
+msgid ""
+"Membership signups on or after this date cover the following calendar year "
+"as well. Example: If the rollover day is November 30, membership period for "
+"signups during December will cover the following year."
+msgstr "Az e dátum utáni tagsági feliratkozás a következő naptári évre is vonatkozik. Példa: Ha a rollover nap november 30, a decemberi feliratkozások már a következő évet is magába foglalja. "
+
+#: CRM/Member/Form/MembershipType.php templates/CRM/Member/Form/Membership.tpl
+#: templates/CRM/Member/Form/MembershipType.tpl
+msgid "Maximum number of related memberships (leave blank for unlimited)."
+msgstr "Kapcsolódó tagságok maximális száma (hagyja üresen ha korlátlan)."
+
+#: CRM/Member/Form/MembershipType.php
+#: templates/CRM/Member/Form/MembershipType.tpl
+msgid ""
+"Can this membership type be used for self-service signups ('Public'), or is "
+"it only for CiviCRM users with 'Edit Contributions' permission ('Admin')."
+msgstr "Ez a tagság típus rendelkezésre áll az önkiszolgáló feliratkozásra ('Publikus'), vagy csak a 'Adományok szerkesztése' jogosultsággal rendelkező CiviCRM felhasználó részére áll rendelkezésre ('Admin')."
+
+#: CRM/Member/Form/MembershipType.php
+msgid ""
+"WARNING: Deleting this option will result in the loss of all membership "
+"records of this type."
+msgstr "FIGYELMEZTETÉS: Ennek az opciónak a törlése az összes ilyen típusú tagsági rekord elvesztéséhez vezet."
+
+#: CRM/Member/Form/MembershipType.php
+msgid ""
+"A membership type with this name already exists. Please select another name."
+msgstr "Ezzel a névvel már létezik tagsági típus. Kérem válasszon másik nevet."
+
+#: CRM/Member/Form/MembershipType.php
+msgid "Please enter a monetary value for the Minimum Fee."
+msgstr "Kérem adja meg a minimális tagdíj összegét. "
+
+#: CRM/Member/Form/MembershipType.php
+msgid "Membership Organization"
+msgstr "Szervezeti tagság"
+
+#: CRM/Member/Form/MembershipType.php
+#: templates/CRM/Member/Page/MembershipType.tpl
+msgid "Auto-renew Option"
+msgstr "Automatikus meghosszabbítás opció"
+
+#: CRM/Member/Form/MembershipType.php
+msgid "Please enter a membership type name."
+msgstr "Kérem adja meg a tagsági típus nevét."
+
+#: CRM/Member/Form/MembershipType.php
+msgid "Please enter a duration interval."
+msgstr "Kérem adja meg az időtartam hosszát."
+
+#: CRM/Member/Form/MembershipType.php
+msgid ""
+"Automatic renewals are not supported by the currently available payment "
+"processors when the membership duration is greater than 1 year / 12 months."
+msgstr "Az automatikus meghosszabbítás nem támogatott a rendelkezésre álló fizetési feldolgozók esetében, ha a tagság hosszabb mint 1 év / 12 hónap."
+
+#: CRM/Member/Form/MembershipType.php
+msgid "Period type should be Rolling when duration unit is Day"
+msgstr "A periódus típusának Gördülőnek kell lennie, ha a időtartam egysége Nap."
+
+#: CRM/Member/Form/MembershipType.php
+msgid "Please enter a valid fixed period start day"
+msgstr "Kérem adjon meg valós rögzített időszak kezdőnapot. "
+
+#: CRM/Member/Form/MembershipType.php
+msgid "Please enter a valid fixed period rollover day"
+msgstr "Kérem adjon meg valós rögzített időszak átütemezési napot. "
+
+#: CRM/Member/Form/MembershipType.php
+msgid "Please enter valid Fixed Period Start Day"
+msgstr "Kérem adjon meg valós rögzített időszak kezdőnapot. "
+
+#: CRM/Member/Form/MembershipType.php
+msgid "Please enter valid Fixed Period Rollover Day"
+msgstr "Kérem adjon meg valós rögzített időszak átütemezési napot. "
+
+#: CRM/Member/Form/MembershipType.php
+msgid "Membership Type Not Deleted"
+msgstr "Tagsági típus nincs törölve"
+
+#: CRM/Member/Form/MembershipType.php
+msgid "Selected membership type has been deleted."
+msgstr "A kiválasztott tagság típus törölve."
+
+#: CRM/Member/Form/MembershipType.php
+msgid "The membership type '%1' has been saved."
+msgstr "A '%1' tagság típus mentve."
+
+#: CRM/Member/Form/MembershipView.php
+msgid "Cancel Related Membership"
+msgstr "A kapcsolódó tagság törlése"
+
+#: CRM/Member/Form/MembershipView.php
+msgid "Create Related Membership"
+msgstr "Kapcsolódó tagság létrehozása"
+
+#: CRM/Member/Form/MembershipView.php
+msgid "Related membership for %1 has been deleted."
+msgstr "Kapcsolódó tagság %1 részére törölve."
+
+#: CRM/Member/Form/MembershipView.php
+msgid "Membership Deleted"
+msgstr "Tagság törölve"
+
+#: CRM/Member/Form/MembershipView.php
+msgid "Manual Assignment of Related Membership"
+msgstr "Kapcsolódó tagság kézi hözzárendelése"
+
+#: CRM/Member/Form/MembershipView.php
+msgid "Related membership for %1 has been created."
+msgstr "Kapcsolódó tagság %1 részére létrehozva."
+
+#: CRM/Member/Form/MembershipView.php
+msgid "Membership Added"
+msgstr "Tagság hozzáadva"
+
+#: CRM/Member/Form/MembershipView.php
+msgid "Invalid action specified in URL"
+msgstr "Érvénytelen művelet megadva az URL-ben"
+
+#: CRM/Member/Form/MembershipView.php
+msgid "Unlimited"
+msgstr "Korlátlan"
+
+#: CRM/Member/Form/MembershipView.php
+msgid "None available"
+msgstr "Nem áll rendelkezésre"
+
+#: CRM/Member/Form/MembershipView.php
+msgid "%1 available"
+msgstr "%1 rendelkezésre áll"
+
+#: CRM/Member/Form/MembershipView.php
+msgid "View Membership for"
+msgstr "Tagságai megtekintése"
+
+#: CRM/Member/Form/Search.php
+msgid "Member Name or Email"
+msgstr "Tag neve vagy e-mail címe."
+
+#: CRM/Member/Form/Search.php
+msgid "Member Tag(s)"
+msgstr "Tag címke(ék)"
+
+#: CRM/Member/Form/Search.php
+msgid "Member Group(s)"
+msgstr "Tagság csoport(ok)"
+
+#: CRM/Member/Form/Search.php
+msgid "Member Contact Type"
+msgstr "Tag kapcsolat típus"
+
+#: CRM/Member/Form/Search.php
+msgid "Find Memberships"
+msgstr "Tagság keresése"
+
+#: CRM/Member/Form/Task/Batch.php CRM/Member/Form/Task/PickProfile.php
+#: CRM/Member/Task.php
+msgid "Update multiple memberships"
+msgstr "Többszörös tagság frissítése "
+
+#: CRM/Member/Form/Task/Batch.php
+msgid "Update Members(s)"
+msgstr "Tagság(ok) frissítése"
+
+#: CRM/Member/Form/Task/Batch.php
+msgid ""
+"File type field(s) in the selected profile are not supported for Update "
+"multiple memberships."
+msgstr "A kiválasztott profil Mező típus mező(k), Több tag frissítése nem támogatott."
+
+#: CRM/Member/Form/Task/Batch.php
+msgid "Update Memberships"
+msgstr "Tagság frissítése "
+
+#: CRM/Member/Form/Task/Delete.php
+msgid "Delete Memberships"
+msgstr "Tagságok törlése"
+
+#: CRM/Member/Form/Task/Delete.php
+msgid "%count membership deleted."
+msgid_plural "%count memberships deleted."
+msgstr[0] "%count tagság törölve"
+msgstr[1] "%count tagságok törölve"
+
+#: CRM/Member/Form/Task/Label.php
+msgid "Print one label per Membership (rather than per contact)"
+msgstr "Nyomtasson egy címkét tagságonként (inkább mint kapcsolatonként)"
+
+#: CRM/Member/Form/Task/Label.php
+msgid ""
+"As you are printing one label per membership your merge settings are being "
+"ignored"
+msgstr "Mivel tagságonként egy címkét nyomtat a körlevél beállítások figyelmen kívül hagyásra kerülnek"
+
+#: CRM/Member/Form/Task/PickProfile.php
+msgid ""
+"The maximum number of members you can select for Update multiple memberships"
+" is %1. You have selected %2. Please select fewer members from your search "
+"results and try again."
+msgstr "A tagok maximális a tömeges frissítésnél %1. Ön által választott %2. Kérem válasszon kevesebb tagot a keresési eredményből, és próbálja meg újra. "
+
+#: CRM/Member/Form/Task/PickProfile.php
+msgid ""
+"You will need to create a Profile containing the %1 fields you want to edit "
+"before you can use Update multiple memberships. Navigate to Administer "
+"CiviCRM >> CiviCRM Profile to configure a Profile. Consult the online "
+"Administrator documentation for more information."
+msgstr "%1 mezőket tartalmazó profilt kell létrehoznia, amit szerkeszthetne is mielőtt a profilon keresztüli tömeges frissítést alkalmazná. Menjen az Adminisztrálás >> Profilokhoz a profil beállításához. Forduljon az online adminisztrátori dokumentációhoz további információért."
+
+#: CRM/Member/Form/Task/Print.php
+msgid "Print Members"
+msgstr "Tagok nyomtatása"
+
+#: CRM/Member/Form.php
+msgid ""
+"There are no configured membership statuses. You cannot add this membership "
+"until your membership statuses are correctly configured"
+msgstr "Nincsenek beállított tagsági állapotok. Nem adhatja hozzá ezt a tagságot addig amíg nincsenek a tagsági állapotok helyesen beállítva,"
+
+#: CRM/Member/Form.php
+msgid "Membership renewed automatically"
+msgstr "Tagság automatikusan megújítva"
+
+#: CRM/Member/Import/Form/DataSource.php
+msgid "Insert new Membership"
+msgstr "Új tagság beillesztése"
+
+#: CRM/Member/Import/Form/DataSource.php
+msgid "Update existing Membership"
+msgstr "Meglévő tagság frissítése"
+
+#: CRM/Member/Import/Form/MapField.php
+msgid "(OR Membership ID if update mode.)"
+msgstr "(VAGY tagsági azonosító, frissítési módban)"
+
+#: CRM/Member/Import/Form/MapField.php
+msgid "Duplicate Import Membership Mapping Name"
+msgstr "Duplikált import tagsági adatillesztő név"
+
+#: CRM/Member/Import/Parser.php
+msgid "View Membership URL"
+msgstr "Tagság URL megtekintése"
+
+#: CRM/Member/Info.php
+msgid "CiviCRM Membership Engine"
+msgstr "CiviCRM Tagság motor"
+
+#: CRM/Member/Info.php
+msgid "access CiviMember"
+msgstr "CiviTag hozzáférés"
+
+#: CRM/Member/Info.php
+msgid "View memberships"
+msgstr "Tagságok megtekintése"
+
+#: CRM/Member/Info.php
+msgid "edit memberships"
+msgstr "tagságok szerkesztése"
+
+#: CRM/Member/Info.php
+msgid "Create and update memberships"
+msgstr "Tagságok létrehozása és frissítése"
+
+#: CRM/Member/Info.php
+msgid "delete in CiviMember"
+msgstr "CiviTagban törlés"
+
+#: CRM/Member/Info.php CRM/Member/Task.php
+msgid "Delete memberships"
+msgstr "Tagságok törlése"
+
+#: CRM/Member/Info.php
+msgid "Your Membership(s)"
+msgstr "Az ön tagsága(i)"
+
+#: CRM/Member/Page/DashBoard.php
+msgid "Invalid date query \"%1\" in URL (valid syntax is yyyymm)."
+msgstr "Érvénytelen lekérdezési dátum %1 az URL-ben (érvényes szintaxis yyyymm)."
+
+#: CRM/Member/Page/MembershipStatus.php
+#: templates/CRM/Member/Form/MembershipStatus.tpl
+msgid "Edit Membership Status"
+msgstr "Tagsági állapot frissítése"
+
+#: CRM/Member/Page/MembershipStatus.php
+msgid "Disable Membership Status"
+msgstr "Tagsági állapot letiltása"
+
+#: CRM/Member/Page/MembershipStatus.php
+msgid "Enable Membership Status"
+msgstr "Tagsági állapot engedélyezése"
+
+#: CRM/Member/Page/MembershipStatus.php
+#: templates/CRM/Member/Form/MembershipStatus.tpl
+msgid "Delete Membership Status"
+msgstr "Tagsági állapot törlése"
+
+#: CRM/Member/Page/MembershipType.php CRM/Member/Page/Tab.php
+msgid "Edit Membership Type"
+msgstr "Tagtípusok szerkesztése"
+
+#: CRM/Member/Page/MembershipType.php
+msgid "Disable Membership Type"
+msgstr "Tagsági típus letiltása"
+
+#: CRM/Member/Page/MembershipType.php
+msgid "Enable Membership Type"
+msgstr "Tagsági típus engedélyezése"
+
+#: CRM/Member/Page/MembershipType.php
+msgid "Delete Membership Type"
+msgstr "Tagsági típus törlése"
+
+#: CRM/Member/Page/Tab.php
+msgid "%1 created"
+msgstr "%1 létrehozva"
+
+#: CRM/Member/Page/Tab.php
+msgid "%1 out of %2"
+msgstr "%1 a %2 közül"
+
+#: CRM/Member/Page/Tab.php
+msgid "N/A"
+msgstr "N/A"
+
+#: CRM/Member/Page/Tab.php CRM/Member/Selector/Search.php
+msgid "View Membership"
+msgstr "Tagságok megtekintése"
+
+#: CRM/Member/Page/Tab.php
+msgid "Create Membership"
+msgstr "Tagság létrehozása"
+
+#: CRM/Member/Page/Tab.php CRM/Member/Selector/Search.php
+msgid "Edit Membership"
+msgstr "Tagság szerkesztése"
+
+#: CRM/Member/Page/Tab.php CRM/Member/Selector/Search.php
+msgid "Renew-Credit Card"
+msgstr "Bankkártyás megújítás"
+
+#: CRM/Member/Page/Tab.php CRM/Member/Selector/Search.php
+msgid "Renew Membership Using Credit Card"
+msgstr "Tagság megújítása bankkártya használatával"
+
+#: CRM/Member/Page/Tab.php CRM/Member/Selector/Search.php
+msgid "Delete Membership"
+msgstr "Tagságok törlése"
+
+#: CRM/Member/Page/Tab.php
+msgid ""
+"WARNING: If you cancel the recurring contribution associated with this "
+"membership, the membership will no longer be renewed automatically. However,"
+" the current membership status will not be affected."
+msgstr "FIGYELMEZTETÉS: Ha törli ehhez a tagsághoz kapcsolódó megismétlődő befizetést, a tagság nem kerül automatikusan megújításra. Ugyanakkor, a jelenlegi  tagsági állapotát mindez nem érinti."
+
+#: CRM/Member/Page/Tab.php CRM/Member/Selector/Search.php
+msgid "Cancel Auto Renew Subscription"
+msgstr "Automatikus meghosszabbítás feliratkozás megszüntetése"
+
+#: CRM/Member/Page/Tab.php
+msgid "Members"
+msgstr "Tagok"
+
+#: CRM/Member/Selector/Search.php
+msgid "Auto-renew?"
+msgstr "Automatikus meghosszabbítás?"
+
+#: CRM/Member/StatusOverrideTypes.php
+msgid "Override Permanently"
+msgstr "Végleges felülírás"
+
+#: CRM/Member/StatusOverrideTypes.php
+msgid "Override Until Selected Date"
+msgstr "Felülírás a kiválasztott dátumig."
+
+#: CRM/Member/Task.php
+msgid "Export members"
+msgstr "Tagok exportálása"
+
+#: CRM/Member/Task.php
+msgid "Print/merge document for memberships"
+msgstr "Dokumentum nyomtatás/egybevonás"
+
+#: templates/CRM/Member/Form/Membership.hlp
+msgid ""
+"A recurring payment (subscription) request will be submitted to the selected"
+" payment processor. If the request is successful, this membership will be "
+"automatically renewed on the last day of the membership period until the "
+"recurring payment is cancelled. Membership payment receipt emails will "
+"include a link for the member to cancel the auto-renewal."
+msgstr "Az ismétlődő fizetési (előfizetési) kérelem a kiválasztott fizetési feldolgozó felé lesz elküldve. Ha a kérelem sikeres, akkor ez a tagság automatikusan meghosszabbításra kerül az előfizetési periódus utolsó napján, mindaddig amíg az ismétlődő fizetés törlésre nem kerül. A tagsági díj nyugtázó e-mail tartalmazni fog egy linket az automatikus megújítás lemondására.  "
+
+#: templates/CRM/Member/Form/Membership.hlp
+msgid "To cancel automatic renewal:"
+msgstr "Automatikus megújítás törlésére:"
+
+#: templates/CRM/Member/Form/Membership.hlp
+msgid ""
+"If this recurring payment uses a processor which has support for integrated "
+"cancellation, click \"Cancel\" on this form, and use the \"Cancel Auto-renew"
+" Subscription\" action (click \"more\" in the membership listing row)."
+msgstr "Ha ez az ismétlődő befizetés olyan feldolgozót használ amely támogatja az integrált törlést, kattintson a \"Mégsem\" gombra ezen az űrlapon, és használja \"Előfizetés automatikus meghosszabbítás törlése\" linket (kattintson a \"több\"-re a tagság lista sorban)."
+
+#: templates/CRM/Member/Form/Membership.hlp
+msgid ""
+"If you do not see the \"Cancel Auto-renew Subscription\" action, you will "
+"need to cancel the associated Recurring Contribution record from the "
+"Contributions tab. <strong>In this case you must also manually cancel the "
+"recurring payment from the payment processor website</strong>."
+msgstr "Ha nem látja az \"Előfizetés automatikus meghosszabbítás törlése\" linket, törölnie kell a kapcsolódó ismétlődő adomány rekordot az Adományok fülön. <strong>Ebben az esetben kézzel kell törölnie az ismétlődő befizetést a fizetés feldolgozó weboldalán.</strong>"
+
+#: templates/CRM/Member/Form/Membership.tpl
+msgid ""
+"You will not be able to send an automatic email receipt for this Membership "
+"because there is no email address recorded for this contact. If you want a "
+"receipt to be sent when this Membership is recorded, click Cancel and then "
+"click Edit from the Summary tab to add an email address before recording the"
+" Membership."
+msgstr "Nem tud majd tagság megújítást nyugtázó automatikus e-mailt küldeni mert, ennek a kapcsolatnak nincs rögzített e-mail címe. Ha azt akarja, hogy a nyugta elküldésre kerüljön amikor ez a tagság rögzítésre kerül, kattintson a mégsem gombra, majd a szerkesztésre az összegzés oldalon, az e-mail cím megadására a tagság megújítása előtt.    "
+
+#: templates/CRM/Member/Form/Membership.tpl
+msgid ""
+"Use this form to submit Membership Record on behalf of %1. <strong>A %2 "
+"transaction will be submitted</strong> using the selected payment processor."
+msgstr "Használja ezt az űrlapot a tagság  rekord %1 nevében.  <strong> %2 tranzakció  lesz elküldve</strong> a kiválasztott fizetési feldolgozóval."
+
+#: templates/CRM/Member/Form/Membership.tpl
+msgid "submit credit card membership"
+msgstr "Bankkártyás tagsági díj fizetés beküldése"
+
+#: templates/CRM/Member/Form/Membership.tpl
+#: templates/CRM/Member/Form/MembershipRenewal.tpl
+msgid "Select Membership Organization and then Membership Type."
+msgstr "Válassza ki először a szervezetet majd a tagsági típust."
+
+#: templates/CRM/Member/Form/Membership.tpl
+msgid ""
+"Set the membership end date this many membership periods from now. Make sure"
+" the appropriate corresponding fee is entered below."
+msgstr "Hosszabbítsa meg a tagsági vég dátumot ennyi tagsági periódussal. Legyen biztos abban, hogy a megfelelő tagsági díj alább megadásra került."
+
+#: templates/CRM/Member/Form/Membership.tpl
+msgid "Source of this membership. This value is searchable."
+msgstr "E tagság forrása. Ez az érték kereshető."
+
+#: templates/CRM/Member/Form/Membership.tpl
+msgid "When did this contact first become a member?"
+msgstr "Ez a kapcsolat mikor lett először tag?"
+
+#: templates/CRM/Member/Form/Membership.tpl
+msgid ""
+"First day of current continuous membership period. Start Date will be "
+"automatically set based on Membership Type if you don't select a date."
+msgstr "A jelenleg is érvényes folyamatos tagság első napja. A kezdési időpont automatikusan kerül beállításra, a tagság típusa alapján, ha nem választ ki dátumot."
+
+#: templates/CRM/Member/Form/Membership.tpl
+msgid "Over-ride end date"
+msgstr "Befejező dátum felülírása"
+
+#: templates/CRM/Member/Form/Membership.tpl
+msgid ""
+"Latest membership period expiration date. End Date will be automatically set"
+" based on Membership Type if you don't select a date."
+msgstr "A legutolsó tagsági periódus lejárati dátuma. A vég dátum automatikusan kerül beállításra a tagság típus alapján, ha nem választ ki dátumot."
+
+#: templates/CRM/Member/Form/Membership.tpl
+msgid ""
+"When <strong>Status Override</strong> is active, the selected status will "
+"remain in force (it will NOT be subject to membership status rules) until it"
+" is cancelled or become inactive."
+msgstr "Amikor az <strong>Állapot felülírás </strong> aktív, a kiválasztott állapot lesz érvényben (NEM lesz tárgya a tagság állapot szabályok változásának), amíg nem kerül törlésre vagy nem lesz inaktív."
+
+#: templates/CRM/Member/Form/Membership.tpl
+msgid "Update Payment Status"
+msgstr "Fizetési állapot frissítése"
+
+#: templates/CRM/Member/Form/Membership.tpl
+msgid ""
+"Check this box to enter or update payment information. You will also be able"
+" to generate a customized receipt."
+msgstr "Válassza ki ezt a jelölőnégyzetet a fizetési információk frissítésére. Képes lesz egyedileg testreszabott nyugta generálására is."
+
+#: templates/CRM/Member/Form/Membership.tpl
+msgid "Membership Payment and Receipt"
+msgstr "Tagsági díj fizetés és nyugta"
+
+#: templates/CRM/Member/Form/Membership.tpl
+msgid ""
+"Automatically email a membership confirmation and receipt to %1? OR if the "
+"payment is from a different contact, this email will only go to them."
+msgstr "Tagság megerősítő üzenet és nyugta küldése automatikus e-mailben %1 címre? VAGY ha a befizetés másik kapcsolattól érkezett, ez az e-mail csak neki megy el."
+
+#: templates/CRM/Member/Form/Membership.tpl
+msgid ""
+"For auto-renewing memberships the emails are sent when each payment is "
+"received"
+msgstr "Az automatikusan megújuló tagságokhoz a e-mail kiküldésre került amikor a befizetés megérkezett."
+
+#: templates/CRM/Member/Form/Membership.tpl
+msgid "Automatically email a membership confirmation and receipt to "
+msgstr "Tagság megerősítő üzenet és nyugta küldése automatikus e-mailben neki"
+
+#: templates/CRM/Member/Form/Membership.tpl
+msgid ""
+"OR if the payment is from a different contact, this email will only go to "
+"them."
+msgstr "VAGY ha a befizetés másik kapcsolattól érkezett, ez az e-mail csak neki megy el."
+
+#: templates/CRM/Member/Form/Membership.tpl
+msgid ""
+"If you need to include a special message for this member, enter it here. "
+"Otherwise, the confirmation email will include the standard receipt message "
+"configured under System Message Templates."
+msgstr "Ha ennek a tagnak speciális üzenetet kíván küldeni, itt írja meg. Egyébként a megerősítő e-mail a szabványos nyugta üzenetet fogja tartalmazni, ami a rendszer üzenet sablonok alatt korábban be lett állítva."
+
+#: templates/CRM/Member/Form/Membership.tpl
+#: templates/CRM/Member/Form/MembershipView.tpl
+msgid "Related Soft Contributions"
+msgstr "Kapcsolódó lágy befiezetések"
+
+#: templates/CRM/Member/Form/Membership.tpl
+#: templates/CRM/Member/Form/MembershipStandalone.js
+msgid "and end date of %1"
+msgstr "és a %1 befejező dátuma"
+
+#: templates/CRM/Member/Form/Membership.tpl
+#: templates/CRM/Member/Form/MembershipStandalone.js
+msgid "This contact has an existing %1 membership at %2 with %3 status%4."
+msgstr "Ennek a kapcsolatnak meglévő %1 tagsága van %2 és %3 %4 állapottal."
+
+#: templates/CRM/Member/Form/Membership.tpl
+#: templates/CRM/Member/Form/MembershipStandalone.js
+msgid "Renew the existing membership instead"
+msgstr "Helyette újítsa meg a meglévő tagságot"
+
+#: templates/CRM/Member/Form/Membership.tpl
+#: templates/CRM/Member/Form/MembershipStandalone.js
+msgid "View all existing and / or expired memberships for this contact"
+msgstr "Tekintse meg ezen kapcsolat meglévő és/vagy lejárt tagságait "
+
+#: templates/CRM/Member/Form/Membership.tpl
+#: templates/CRM/Member/Form/MembershipStandalone.js
+msgid "Duplicate Membership?"
+msgstr "Duplikált tagság?"
+
+#: templates/CRM/Member/Form/Membership.tpl
+msgid "Manual membership and price"
+msgstr "Kézi tagság és ár"
+
+#: templates/CRM/Member/Form/Membership.tpl
+msgid "No contacts are currently eligible to inherit this relationship."
+msgstr "Nincs olyan kapcsolat amelyik jogosult örökölni ezt a viszonyt."
+
+#: templates/CRM/Member/Form/Membership.tpl
+msgid "One contact is currently eligible to inherit this relationship."
+msgstr "Egy olyan kapcsolat van, amelyik jogosult örökölni ezt a viszonyt."
+
+#: templates/CRM/Member/Form/Membership.tpl
+msgid "%1 contacts are currently eligible to inherit this relationship."
+msgstr "%1 kapcsolat van, amelyik jogosult örökölni ezt a viszonyt."
+
+#: templates/CRM/Member/Form/MembershipBlock.hlp
+msgid "Separate Payment"
+msgstr "Külön fizetés"
+
+#: templates/CRM/Member/Form/MembershipBlock.hlp
+msgid ""
+"Check this box if you are including both Membership Signup/Renewal AND a "
+"Contribution Amount section, AND you want the membership fee to be handled "
+"as a separate transaction."
+msgstr "Aktiválja ezt a jelölőnégyzetet, ha a Tagság Feliratkozás/megújítás ÉS a Adományozási Összeg szakaszt ki akarja választani, ÉS azt akarja, hogy a tagsági díj külön tranzakcióként legyen kezelve."
+
+#: templates/CRM/Member/Form/MembershipBlock.hlp
+msgid ""
+"With this configuration, the membership fee is automatically charged, and "
+"users have an option to make an additional contribution (two separate "
+"payment transactions will be generated)."
+msgstr "Ezzel a beállítással, a tagsági díj automatikus terhelésre kerül, és a felhasználónak lehetősége lesz kiegészítő adomány tételére (két különálló fizetési tranzakció kerül létrehozásra)."
+
+#: templates/CRM/Member/Form/MembershipBlock.hlp
+msgid ""
+"The contribution amount covering the membership fee will use the financial "
+"type configured with the selected membership type (see the membership types "
+"configuration tool to review those settings). Any additional contribution "
+"will use the financial type configured for this online contribution page."
+msgstr "A tagsági díjat lefedő hozzájárulási összeg a kiválasztott tagság típussal beállított pénzügyi típust használja (tekintse meg a tagsági típusok beállítási eszközét ezen beállítások átnézésére). Bármilyen további adomány ennek az online adományoldalnak a beállításánál beállított pénzügyi típust fogja használni."
+
+#: templates/CRM/Member/Form/MembershipBlock.hlp
+msgid ""
+"If this option is NOT checked and you include a Contribution Amount section,"
+" then a single transaction is processed for their contribution amount which "
+"must at least cover the selected membership fee."
+msgstr "Ha ez az opció NINCS kiválasztva és ön bevonja az adomány összege szakaszt, az adományt feldolgozó egyedi tranzakciónak legalább fedeznie kell a kiválasztott tagsági díj összegét. "
+
+#: templates/CRM/Member/Form/MembershipBlock.hlp
+msgid "Display Fee"
+msgstr "Díj kijelzése"
+
+#: templates/CRM/Member/Form/MembershipBlock.hlp
+msgid ""
+"When this box is checked, the membership fee is included in the listing of "
+"each membership option on the signup and renewal page. This is recommended "
+"for most configurations."
+msgstr "Ha ez az opció kiválasztott, a tagsági díj szerepel mindegyik tagsági díj lista opcióban a feliratkozási és tagság megújítási oldalon. Ez a legtöbb konfigurációra javasolt.  "
+
+#: templates/CRM/Member/Form/MembershipBlock.hlp
+msgid ""
+"If the page is configured with 'Separate Membership Payment' enabled - then "
+"just the fee amount is displayed:"
+msgstr "Ha az oldal 'Különálló tagdíj fizetés' engedélyezésével konfigurálták - akkor a tagsági díj összege kerül kijelzésre-"
+
+#: templates/CRM/Member/Form/MembershipBlock.hlp
+msgid "General Membership - $100.00"
+msgstr "Egyszerű tagság - 100 Ft"
+
+#: templates/CRM/Member/Form/MembershipBlock.hlp
+msgid ""
+"If the page 'Separate Membership Payment' is NOT enabled AND the "
+"Contribution Amount is enabled so that user's can opt to give more than the "
+"minimum membership fee - then the display looks like this:"
+msgstr "Ha az oldalon a 'Különálló tagsági díj fizetés' NINCS engedélyezve és az adomány összege engedélyezett, ekkor a felhasználónak lehetősége van a minimális tagdíjnál többet adnia - ekkor a kijelzés így néz ki:"
+
+#: templates/CRM/Member/Form/MembershipBlock.hlp
+msgid ""
+"General Membership (contribute at least $100.00 to be eligible for this "
+"membership)"
+msgstr "Egyszerű tagság (adjon legalább 1000 Ft -ot, hogy jogosult legyen erre a tagságra)"
+
+#: templates/CRM/Member/Form/MembershipBlock.tpl
+msgid ""
+"Use this form to enable and configure a Membership Signup and Renewal "
+"section for this Online Contribution Page. If you're not using this page for"
+" membership signup, leave the <strong>Enabled</strong> box un-checked.."
+msgstr "Használja ezt az űrlapot a Tagság feliratkozás és megújítás szakasz engedélyezésére és beállítására ezen az online adományozási oldalon. Ha nem használja ezt az oldalt tagsági feliratkozásra, <strong>Engedélyezve</strong> jelölőnégyzetet hagyja üresen. "
+
+#: templates/CRM/Member/Form/MembershipBlock.tpl
+msgid "Include a Membership Signup section in this Online Contribution page?"
+msgstr "Beillesszük a Tagsági feliratkozás szakaszt ebbe az online adományozási oldalba?"
+
+#: templates/CRM/Member/Form/MembershipBlock.tpl
+msgid "Membership section title - for new member signups."
+msgstr "Tagság szakasz címe - új tagok feliratkozására."
+
+#: templates/CRM/Member/Form/MembershipBlock.tpl
+msgid "Membership section introductory text - for new member signups."
+msgstr "Tagság szakasz bemutatkozó szöveg - új tag feliratkozás."
+
+#: templates/CRM/Member/Form/MembershipBlock.tpl
+msgid "Membership section title - displayed to renewing members."
+msgstr "Tagság szakasz címe - a tagságot megújítóknak kijelzett."
+
+#: templates/CRM/Member/Form/MembershipBlock.tpl
+msgid "Membership section introductory text - displayed to renewing members."
+msgstr "Tagság szakasz bemutatkozó szöveg - a tagságot megújítóknak kijelzett."
+
+#: templates/CRM/Member/Form/MembershipBlock.tpl
+msgid ""
+"No Membership Price Sets have been configured / enabled for your site. Price"
+" sets allow you to configure more complex membership signup and renewal "
+"options, including allowing constituents to sign up for multiple memberships"
+" at the same time. Click <a href='%1'>here</a> if you want to configure "
+"price sets for your site."
+msgstr "Nincsenek tagsági díj árlisták meghatározva / engedélyezve a weboldalán. Az árlisták lehetővé teszik a bonyolultabb tagságok feliratkozásának és megújításának a beállítását, beleértve azt is, hogy az ügyfelek több tagságra is feliratkozhassanak egy időben. Kattintson <a href='%1'>ide</a> ha árlistákat akar beállítani a weboldalához. "
+
+#: templates/CRM/Member/Form/MembershipBlock.tpl
+msgid ""
+"Click <a id='memQuickconfig' href='#'>here</a> if you want to configure the "
+"Membership Types below as part of a Price Set, with the added flexibility "
+"and complexity that entails."
+msgstr "Kattintson <a id = 'memQuickconfig' href='#'>ide</a> ha az árlista részeként kívánja a tagsági típusokat beállítani, figyelemmel a kapcsolódó rugalmasságra és a növekvő komplexitásra. "
+
+#: templates/CRM/Member/Form/MembershipBlock.tpl
+msgid "Include these membership types"
+msgstr "Ezeket a tagság típusokat beillesztve"
+
+#: templates/CRM/Member/Form/MembershipBlock.tpl
+msgid "(Not Available)"
+msgstr "(Nem áll rendelkezésre)"
+
+#: templates/CRM/Member/Form/MembershipBlock.tpl
+msgid ""
+"If checked, user must signup for one of the displayed membership options "
+"before continuing."
+msgstr "Ha kiválasztva, a felhasználóknak legalább egy tagság típust ki kell választaniuk a tovább lépés előtt. "
+
+#: templates/CRM/Member/Form/MembershipBlock.tpl
+msgid ""
+"Check this box if you are including both Membership Signup/Renewal AND a "
+"Contribution Amount section, AND you want the membership fee to be charged "
+"separately from any additional contribution amount."
+msgstr "Aktiválja ezt a jelölőnégyzetet, ha mindkettőt, a Tagság Feliratkozás/megújítás ÉS a Adományozási Összeg szakaszt ki akarja választani, ÉS azt akarja, hogy a tagsági díj külön tranzakcióként legyen kezelve, minden más adomány összegtől."
+
+#: templates/CRM/Member/Form/MembershipBlock.tpl
+msgid ""
+"Display the membership fee along with the membership name and description "
+"for each membership option?"
+msgstr "A tagsági díjat a tagság neve és az egyes tagságok leírása mellett jelezzük ki?"
+
+#: templates/CRM/Member/Form/MembershipBlock.tpl
+msgid ""
+"You need to have at least one <a href=\"%1\">Membership Type</a> with "
+"'Public' visibility in order to enable self-service Membership Signup and "
+"Renewal."
+msgstr "Legalább egy <a href=\"%1\">Tagsági típus</a> szükséges 'Publikus' láthatósággal az önkiszolgáló tagsági feliratkozás és megújítás engedélyezéséhez. "
+
+#: templates/CRM/Member/Form/MembershipCommon.tpl
+msgid ""
+"Membership payment amount. A contribution record will be created for this "
+"amount."
+msgstr "Tagsági fizetés összege. Ezzel az összeggel adományozási rekord kerül létrehozásra."
+
+#: templates/CRM/Member/Form/MembershipCommon.tpl
+msgid "Membership payment amount."
+msgstr "Tagsági díj fizetési összeg."
+
+#: templates/CRM/Member/Form/MembershipRelated.tpl
+msgid "Related Contacts/Memberships"
+msgstr "Kapcsolódó kapcsolatok/tagságok"
+
+#: templates/CRM/Member/Form/MembershipRelated.tpl
+msgid "Relationship Start"
+msgstr "Viszony kezdés"
+
+#: templates/CRM/Member/Form/MembershipRelated.tpl
+msgid "Relationship End"
+msgstr "Viszony befejezés"
+
+#: templates/CRM/Member/Form/MembershipRenewal.tpl
+msgid ""
+"You will not be able to send an automatic email receipt for this Renew "
+"Membership because there is no email address recorded for this contact. If "
+"you want a receipt to be sent when this Membership is recorded, click Cancel"
+" and then click Edit from the Summary tab to add an email address before "
+"Renewal the Membership."
+msgstr "Nem tud majd tagság megújítást nyugtázó automatikus e-mailt küldeni mert, ennek a kapcsolatnak nincs rögzített e-mail címe. Ha azt akarja, hogy a nyugta elküldésre kerüljön amikor ez a tagság rögzítésre kerül, kattintson a mégsem gombra, majd a szerkesztésre az összegzés oldalon, az e-mail cím megadására a tagság megújítása előtt.    "
+
+#: templates/CRM/Member/Form/MembershipRenewal.tpl
+msgid ""
+"Use this form to Renew Membership Record on behalf of %1.\n"
+"        <strong>A %2 transaction will be submitted</strong>\n"
+"        using the selected payment processor."
+msgstr "Használja ezt az űrlapot a tagság megújító rekord a %1 nevében.  <strong>%2 tranzakció  lesz elküldve</strong> a kiválasztott fizetési feldolgozóval."
+
+#: templates/CRM/Member/Form/MembershipRenewal.tpl
+msgid ""
+"Renewing will add the normal membership period to the End Date of the "
+"previous period for members whose status is Current or Grace. For Expired "
+"memberships, renewing will create a membership period commencing from the "
+"'Date Renewal Entered'. This date can be adjusted including being set to the"
+" day after the previous End Date - if continuous membership is required."
+msgstr "A megújítás egy normál tagsági periódust fog hozzáadni az előző periódus vég napjához azoknál a tagoknál, amelyek állapota érvényes vagy tiszteletbeli. A lejárt tagságnál, a megújítás létrehoz egy új tagsági periódust, a 'Beírt megújítási dátum' kezdetével. Ez a dátum változtatható az előző periódus lejárati dátumához ha a folyamatos tagság követelmény. "
+
+#: templates/CRM/Member/Form/MembershipRenewal.tpl
+msgid "change membership type"
+msgstr "tagság típus megváltoztatása"
+
+#: templates/CRM/Member/Form/MembershipRenewal.tpl
+msgid "Status of this membership."
+msgstr "Ennek a tagságnak az állapota."
+
+#: templates/CRM/Member/Form/MembershipRenewal.tpl
+msgid "Renewal extends membership end date by one membership period"
+msgstr "A megújítás meghosszabbítja a tagság vég dátumát egy tagsági periódussal"
+
+#: templates/CRM/Member/Form/MembershipRenewal.tpl
+msgid "change"
+msgstr "módosítás"
+
+#: templates/CRM/Member/Form/MembershipRenewal.tpl
+msgid "membership periods"
+msgstr "tagság időszakok"
+
+#: templates/CRM/Member/Form/MembershipRenewal.tpl
+msgid ""
+"Extend the membership end date by this many membership periods. Make sure "
+"the appropriate corresponding fee is entered below."
+msgstr "Hosszabbítsa meg a tagsági vég dátumot ennyi tagsági periódussal. Legyen biztos abban, hogy a megfelelő tagsági díj alább megadásra került."
+
+#: templates/CRM/Member/Form/MembershipRenewal.tpl
+msgid "Renewal Payment and Receipt"
+msgstr "Megújítási fizetés és nyugta."
+
+#: templates/CRM/Member/Form/MembershipRenewal.tpl
+msgid "Automatically email a membership confirmation and receipt to %1?"
+msgstr "Tagság megerősítő üzenet és nyugta küldése automatikus e-mailben %1 címre?"
+
+#: templates/CRM/Member/Form/MembershipRenewal.tpl
+msgid ""
+"Enter a message you want included at the beginning of the emailed receipt. "
+"EXAMPLE: 'Thanks for supporting our organization with your membership.'"
+msgstr "Adja meg azt az üzenetet amit a nyugtázó e-mail elejére kíván beilleszteni. PÉLDA: 'Köszönjük, hogy tagságával támogatta a szervezetünket!'"
+
+#: templates/CRM/Member/Form/MembershipStatus.tpl
+msgid "New Membership Status"
+msgstr "Új tagság állapota"
+
+#: templates/CRM/Member/Form/MembershipStatus.tpl
+msgid ""
+"When does this status begin? EXAMPLE: <strong>New</strong> status begins at "
+"the membership 'join date'."
+msgstr "Mikortól kezdődjön ez az állapot? PÉLDA: <strong>Új</strong> állapot a 'csatlakozási időponttal' kezdődik."
+
+#: templates/CRM/Member/Form/MembershipStatus.tpl
+msgid ""
+"Optional adjustment period added or subtracted from the Start Event. "
+"EXAMPLE: <strong>Current</strong> status might begin at 'join date' PLUS 3 "
+"months (to distinguish Current from New members)."
+msgstr "Opcionális korrekciós időszak került levonásra vagy hozzáadásra az esemény kezdési dátumához. PÉLDA: <strong>Érvényes</strong> állapot kezdődhet a 'csatlakozási időpont' PLUSSZ 3 hónap (az Érvényes és az új tagok megkülönböztetésére)."
+
+#: templates/CRM/Member/Form/MembershipStatus.tpl
+msgid ""
+"When does this status end? EXAMPLE: <strong>Current</strong> status ends at "
+"the membership 'end date'."
+msgstr "Mikor végződik ez az állapot? PÉLDA: <strong>Érvényes</strong> állapot befejeződik a tagság 'vég dátumával'."
+
+#: templates/CRM/Member/Form/MembershipStatus.tpl
+msgid ""
+"Optional adjustment period added or subtracted from the End Event. EXAMPLE: "
+"<strong>Grace</strong> status might end at 'end date' PLUS 1 month."
+msgstr "Opcionális korrekciós időszak került levonásra vagy hozzáadásra az esemény vég dátumához. PÉLDA: <strong>Tiszteletbeli</strong> állapot végződhet a 'vég időpont' PLUSZ 1 hónap múlva."
+
+#: templates/CRM/Member/Form/MembershipStatus.tpl
+msgid ""
+"Should this status be considered a current membership in good standing. "
+"EXAMPLE: New, Current and Grace could all be considered 'current'."
+msgstr "Ezt az állapotot érvényes tagságnak kell tekinteni. PÉLDA: Új, Érvényes és Tiszteletbeli tagsági állapotot 'érvényesnek' tekintjük."
+
+#: templates/CRM/Member/Form/MembershipStatus.tpl
+msgid ""
+"Weight sets the order of precedence for automatic assignment of status to a "
+"membership. It also sets the order for status displays. EXAMPLE: The default"
+" 'New' and 'Current' statuses have overlapping ranges. Memberships that meet"
+" both status range criteria are assigned the status with the lower weight."
+msgstr "A tagsági állapot státus sorrendjét a súlyozás adja meg. Ugyan ez adja meg az állapot kijelzés sorrendjét. PÉLDA: Az alapértelmezett 'Új' és 'Érvényes' állapotok átfedhetik egymást. Az a tagság amelyik mindkét állapot kritériumnak megfelel, az alacsonyabb súlyozású állapotot kapja meg."
+
+#: templates/CRM/Member/Form/MembershipStatus.tpl
+msgid ""
+"The default status is assigned when there are no matching status rules for a"
+" membership."
+msgstr "Az alapértelmezett állapot kerül hozzárendelésre, ha nincs megegyező tagsági állapot szabály."
+
+#: templates/CRM/Member/Form/MembershipStatus.tpl
+msgid "Is this status enabled."
+msgstr "Ez az állapot engedélyezve."
+
+#: templates/CRM/Member/Form/MembershipType.tpl
+msgid ""
+"Membership signups on or after this day of the month cover the rest of the "
+"month plus the specified number of months."
+msgstr "Az e napi és az utáni tagsági feliratkozás a erre a hónapra is vonatkozik és az előre megadott hónapokat is magába foglalja. "
+
+#: templates/CRM/Member/Form/MembershipType.tpl
+msgid ""
+"You cannot modify relationship type because there are membership records "
+"associated with this membership type."
+msgstr "Nem módosíthatja ezt a viszony típust, mert ehhez a tagsági típushoz hozzárendeltek tagsági rekordok."
+
+#: templates/CRM/Member/Form/MembershipType.tpl
+msgid ""
+"Memberships can be automatically granted to related contacts by selecting a "
+"Relationship Type."
+msgstr "Tagság automatikusan adható a vonatkozó kapcsolatnak a viszony típus kiválasztásával."
+
+#: templates/CRM/Member/Form/MembershipType.tpl
+msgid "Renewal Reminders"
+msgstr "Megújítási emlékeztető"
+
+#: templates/CRM/Member/Form/MembershipType.tpl
+msgid ""
+"Configure membership renewal reminders using <a href=\"%1\">Schedule "
+"Reminders</a>. If you have previously configured renewal reminder templates,"
+" you can re-use them with your new scheduled reminders."
+msgstr "Állítsa be a tagság megújító emlékeztetőt <a href=\"%1\">Emlékeztető ütemezés</a> használatával. Ha korábban beállított megújító emlékeztető sablonokat, azokat felhasználhatja az az új  ütemezett emlékeztetőknél."
+
+#: templates/CRM/Member/Form/MembershipView.tpl
+msgid "View contact summary"
+msgstr "Kapcsolat összegzés megtekintése"
+
+#: templates/CRM/Member/Form/MembershipView.tpl
+msgid "By Relationship"
+msgstr "Viszonyok szerint"
+
+#: templates/CRM/Member/Form/MembershipView.tpl
+msgid "View primary member contact summary"
+msgstr "Elsődleges tagság kapcsolat összegzés megtekintése"
+
+#: templates/CRM/Member/Form/MembershipView.tpl
+msgid "Related Contributions and Recurring Contributions"
+msgstr "Kapcsolódó adományok és ismétlődő adományok"
+
+#: templates/CRM/Member/Form/Search/EmptyResults.tpl
+msgid "if you are searching by member name, check your spelling"
+msgstr "Ha a tag nevére keres rá, ellenőrizze a helyesírást"
+
+#: templates/CRM/Member/Form/Search.hlp
+msgid "Primary Members"
+msgstr "Elsődleges tagok"
+
+#: templates/CRM/Member/Form/Search.hlp
+msgid ""
+"Select \"Yes\" to display only primary members (those contacts who have a "
+"membership directly attached to their record)"
+msgstr "Válassza az \"Igen\"-t csak az elsődleges tagok kijelzéséhez (azok a kapcsolatok akik tagságukkal közvetlenül kapcsolódnak a rekordjaikhoz)  "
+
+#: templates/CRM/Member/Form/Search.hlp
+msgid ""
+"Select \"No\" to display only related records (those who inherit membership "
+"through a relationship as defined in the membership type configuration)."
+msgstr "Válassza az \"Nem\"-et csak a viszonylagos tagok kijelzéséhez (azok akik örökölték a tagságot, a tagság típus beállításban meghatározott viszonyon keresztül)  "
+
+#: templates/CRM/Member/Form/Search.hlp
+msgid ""
+"Select neither to show all members, regardless of whether they are the "
+"direct member or inherit it through a relationship,"
+msgstr "Egyiket se válassza az összes tag kijelzéséhez, attól függetlenül, hogy közvetlenül tagok, vagy viszonyokon keresztül örökölték a kapcsolatot,"
+
+#: templates/CRM/Member/Form/Search.hlp
+msgid "Membership Status Is Override?"
+msgstr "Tagsági állapot felülírása?"
+
+#: templates/CRM/Member/Form/Search.hlp
+msgid ""
+"Select \"Yes\" to display only membership with Status Override set "
+"(membership is manually forced to a specific status)"
+msgstr "Válassza az \"Igen\"-t csak az állapot felülírása csoport tagságok kijelzéséhez (a kézzel specifikus állapotba kikényszerített tagságok)  "
+
+#: templates/CRM/Member/Form/Search.hlp
+msgid ""
+"Select \"No\" to display only memberships without Status Override set "
+"(membership is subject to the normal status rules)"
+msgstr "Válassza az \"Nem\"-t csak az állapot felülírása csoport nélküli tagok kijelzéséhez (a normál állapot szabályok szerinti tagságok)  "
+
+#: templates/CRM/Member/Form/Search.hlp
+msgid "Select neither to show all memberships"
+msgstr "Egyiket se válassza az összes tagság kijelzéséhez"
+
+#: templates/CRM/Member/Form/Search.hlp
+msgid "Auto-Renew Subscription Status"
+msgstr "Előfizetési állapot automatikusan megújítása"
+
+#: templates/CRM/Member/Form/Search.hlp
+msgid ""
+"Select \"None\" to display memberships that have never had an auto-renew "
+"subscription."
+msgstr "Válassza az - Egyik sem - opciót, az olyan tagságok kijelzésére, amelyek soha nem voltak automatikusan megújulók."
+
+#: templates/CRM/Member/Form/Search.hlp
+msgid ""
+"Select \"In Progress\" to display memberships with current auto-renew "
+"subscriptions."
+msgstr "Válassza a \"Folyamatban\" opciót az olyan tagságok kijelzésére, amelyek jelenleg automatikusan megújulók"
+
+#: templates/CRM/Member/Form/Search.hlp
+msgid "Select \"Failed\" to display memberships with failed subscription payment."
+msgstr "Válassza  a \"Hibás\" opciót az olyan tagságok kijelzésére, amelyek befizetése sikertelen."
+
+#: templates/CRM/Member/Form/Search.hlp
+msgid ""
+"Select \"Cancelled\" to display memberships with cancelled auto-renew "
+"subscriptions."
+msgstr "Válassza a \"Törölve\" opciót az olyan tagságok kijelzésére, amelyek automatikus megújítása törlésre került."
+
+#: templates/CRM/Member/Form/Search.hlp
+msgid ""
+"Select \"Ended\" to display memberships with an ended auto-renew "
+"subscription."
+msgstr "Válassza az \"Befejezve\" opciót, az olyan tagságok kijelzésére, amelyek sikeresem automatikusan megújultak."
+
+#: templates/CRM/Member/Form/Search.hlp
+msgid ""
+"Select \"Any\" to display memberships with auto-renew subscription "
+"irrespective of their status."
+msgstr "Válassza a \"Bármely\" opciót az  összes tagság kijelzésére, függetlenül attól, hogy automatikus megújulók-e vagy sem."
+
+#: templates/CRM/Member/Form/Selector.tpl templates/CRM/Member/Page/Tab.tpl
+msgid "by relationship"
+msgstr "Viszony szerint"
+
+#: templates/CRM/Member/Form/Selector.tpl templates/CRM/Member/Page/Tab.tpl
+msgid "Auto-renew active"
+msgstr "Automatikus megújítás aktív"
+
+#: templates/CRM/Member/Form/Selector.tpl templates/CRM/Member/Page/Tab.tpl
+msgid "Auto-renew error"
+msgstr "Automatikus megújítási hiba"
+
+#: templates/CRM/Member/Form/Selector.tpl templates/CRM/Member/Page/Tab.tpl
+msgid "View Primary member record"
+msgstr "Elsődleges tag rekordja"
+
+#: templates/CRM/Member/Form/Selector.tpl templates/CRM/Member/Page/Tab.tpl
+msgid "View Primary"
+msgstr "Elsődleges nézet"
+
+#: templates/CRM/Member/Form/Selector.tpl
+msgid "View all memberships for this contact"
+msgstr "Ezen kapcsolat összes tagságának a megtekintése"
+
+#: templates/CRM/Member/Form/Selector.tpl
+msgid "Find more members"
+msgstr "További tagok megtekintése"
+
+#: templates/CRM/Member/Form/Task/Batch.tpl
+msgid ""
+"Update field values for each member as needed. Click <strong>Update "
+"Memberships</strong> below to save all your changes. To set a field to the "
+"same value for ALL rows, enter that value for the first member and then "
+"click the <strong>Copy icon</strong> (next to the column title)."
+msgstr "Szükség szerint frissítse a mező minden egyes tag esetében. Kattintson a <strong>Tagságok frissítése</strong> gombra alább, az összes módosítás mentésére. A mezőhöz rendeljen azonos értéket az ÖSSZES sorra, adja meg az értéket az első tagnál, majd kattintson <strong>Másolás ikonra</strong> (az oszlopnév mellett)."
+
+#: templates/CRM/Member/Form/Task/Delete.tpl
+msgid ""
+"Are you sure you want to delete the selected memberships? This delete "
+"operation cannot be undone and will delete all transactions and activity "
+"associated with these memberships."
+msgstr "Biztos abban, hogy a kiválasztott tagságokat törli? Ez a törlési művelet nem visszavonható és törölni fogja ezen tagságokkal kapcsolatos összes tranzakciót és tevékenységet is."
+
+#: templates/CRM/Member/Form/Task/PDFLetter.tpl
+msgid "Membership Letter (PDF)"
+msgstr "Tagság levél (PDF)"
+
+#: templates/CRM/Member/Form/Task.tpl
+msgid "Number of selected memberships: %1"
+msgstr "Kiválasztott tagságok száma: %1"
+
+#: templates/CRM/Member/Import/Form/DataSource.hlp
+msgid "Contact Records for Members"
+msgstr "Tagok kapcsolati rekordjai"
+
+#: templates/CRM/Member/Import/Form/DataSource.hlp
+msgid ""
+"Membership import requires that each person, household or organization "
+"already exists as a contact record in your CiviCRM database. If you need to "
+"import memberships for contact records which haven't been added to CiviCRM "
+"yet - you will do this in 2 steps. First, use <strong>Import "
+"Contacts</strong> to add the contact records. If possible, include a unique "
+"'External ID' for each new contact which you can then use to match "
+"memberships to contacts. Then return to this screen and import the "
+"membership records."
+msgstr "A tagsági importáláshoz az szükséges, hogy minden egyes személy, háztartás, vagy szervezet kapcsolati rekordja már létezzen a CiviCRM adatbázisában.  Ha importálnia kell a tagságokat olyan kapcsolati rekordokkal melyek még nem kerültek hozzáadásra - 2 lépésben teheti meg. Először, használja <strong>Kapcsolatok importálását</strong>  a kapcsolati rekordok hozzáadására. Ha lehetséges, befoglalva az egyedi 'Külső azonosítót' minden egyes új kapcsolatra, amelyet később felhasznál a kapcsolatok tagságokhoz kapcsolására. Utánna térjen vissza ehhez az oldalhoz a tagsági rekordok importálására. "
+
+#: templates/CRM/Member/Import/Form/DataSource.hlp
+msgid "Matching Memberships to Contacts"
+msgstr "A tagság kapcsolatokhoz rendelése"
+
+#: templates/CRM/Member/Import/Form/DataSource.hlp
+msgid ""
+"Membership import files must contain data needed to <strong>match the "
+"membership to the contact record</strong>. This 'matching' can be handled in"
+" several different ways:"
+msgstr "A tagsági import fájloknak tartalmazniuk kell a <strong>tagságok kapcsolatokhoz rendelését</strong>. Ez a 'hozzárendelést' több módon lehet megtenni:"
+
+#: templates/CRM/Member/Import/Form/DataSource.hlp
+msgid ""
+"If you've stored a unique <strong>External Identifier</strong> for each "
+"contact in CiviCRM, you can include that value as a column in your import "
+"file. Memberships will then be matched to contact records using their "
+"External ID."
+msgstr "Ha egyedi <strong>külső azonosítót</strong> tárolt minden egyes kapcsolathoz a CiviCRM-ben, használhatja ezt az értéket mint külön oszlopot a fájl importálás során. A tagság ezen külső azonosítók alapján lesz a kapcsolat rekordhoz rendelve. "
+
+#: templates/CRM/Member/Import/Form/DataSource.hlp
+msgid ""
+"Save the CSV file with your membership data and 'contact matching' data to "
+"your local hard drive (or an accessible drive on your network) - and you are"
+" now ready for step 1 (Upload Data)."
+msgstr "Mentse a tagsági adatokat és a kapcsolat hozzárendelési adatokat CSV fájlban a helyi merevlemezére (vagy a hálózatán elérhető meghajtóra)  - most már kész az 1. lépésre (Adat feltöltés)."
+
+#: templates/CRM/Member/Import/Form/DataSource.hlp
+msgid ""
+"For each import, you can either INSERT new membership records, or UPDATE "
+"existing records. You can not do both types of operations in a single import"
+" session."
+msgstr "Minden egyes importáláskor, vagy BEILLESZTI az új tagsági rekordot, vagy FRISSÍTI a meglévő rekordokat. Mindkét művelet típust nem végezheti el egy import műveleten belül. "
+
+#: templates/CRM/Member/Import/Form/DataSource.hlp
+msgid ""
+"If you are INSERTING new membership records, you will need to include a "
+"column in your data file containing the values used to link the membership "
+"to an existing contact. You can use the 'Internal Contact ID', an 'External "
+"Identifier' (if you are using those in your contact records), OR the "
+"property defined in your Unsupervised Duplicate Matching rule (which is "
+"Email Address by default)."
+msgstr "Ha BEILLESZTI az új tagsági rekordokat, az adatfájljában lennie kell egy oszlopnak, amely olyan értékeket tartalmaz, amivel meglévő kapcsolathoz társítható a tagság. Használhat 'Belső kapcsolat azonosítót' egy 'Külső azonosítót' (ha ezeket használja a kapcsolati rekordoknál), VAGY a Felügyelet nélküli duplikáció illesztési szabálynál megfogalmazott tulajdonságot (ami alapértelmezetten az e-mail cím). "
+
+#: templates/CRM/Member/Import/Form/DataSource.hlp
+msgid ""
+"If you are UPDATING existing memberships, you will need to include a column "
+"containing the unique CiviCRM-assigned membership ID to match to the "
+"existing membership records."
+msgstr "Ha FRISSÍTI a meglévő tagságokat, meg kell adni a CiviCRM-ben meglévő tagsági azonosítókat egy oszlopban, a meglévő tagsági rekordok azonosítására."
+
+#: templates/CRM/Member/Import/Form/DataSource.tpl
+msgid ""
+"The Membership Import Wizard allows you to easily upload memberships from "
+"other applications into CiviCRM."
+msgstr "A tagság import tündér lehetővé teszi a tagsági információk egyszerű feltöltését más alkalmazásokból a CiviCRM-be."
+
+#: templates/CRM/Member/Import/Form/DataSource.tpl
+msgid ""
+"Files to be imported must be in the 'comma-separated-values' format (CSV) "
+"and must contain data needed to match the membership data to an existing "
+"contact in your CiviCRM database."
+msgstr "Az importálandó fájlnak veszővel elválasztott értékek (CSV) formátumban kell lennie, és összeegyeztethetőnek kell lennie a CiviCRM-ban meglévő kapcsolat adataival."
+
+#: templates/CRM/Member/Import/Form/DataSource.tpl
+msgid ""
+"Select 'Individual' if you are importing memberships for individual persons."
+msgstr "Válassza ki a 'egyén'-t ha egy személy tagságait kívánja importálni."
+
+#: templates/CRM/Member/Import/Form/DataSource.tpl
+msgid ""
+"Select 'Organization' or 'Household' if you are importing memberships made "
+"by contacts of that type. (NOTE: Some built-in contact types may not be "
+"enabled for your site.)"
+msgstr "Válassza ki a 'Szervezet'-t vagy 'Háztartás'-t ha ilyen típusú tagsági adatokat importál. (MEGJEGYZÉS: Néhány beépített kapcsolat típus nem engedélyezett az ön weboldalán)."
+
+#: templates/CRM/Member/Import/Form/DataSource.tpl
+msgid ""
+"If you want to use a previously saved import field mapping - select it here."
+msgstr "Ha egy korábban mentett import adatillesztést kíván használni - válassza ki itt."
+
+#: templates/CRM/Member/Import/Form/Preview.tpl
+#: templates/CRM/Member/Import/Form/Summary.tpl
+msgid "Total rows (membership records) in uploaded file."
+msgstr "Összes sorok száma (tagsági rekordok) a feltöltött fájlban."
+
+#: templates/CRM/Member/Import/Form/Summary.tpl
+msgid ""
+"CiviCRM has detected mismatched membership ID. This record has not been "
+"updated."
+msgid_plural ""
+"CiviCRM has detected mismatched membership IDs. These records have not been "
+"Updated."
+msgstr[0] "CiviCRM létséges tagsági azonosítót észlelt. Ez a rekord nem került frissítésre."
+msgstr[1] "CiviCRM egymásnak ellentmondó tagsági azonosítókat észlelt. Ezek a rekordok nem kerültek frissítésre."
+
+#: templates/CRM/Member/Import/Form/Summary.tpl
+msgid ""
+"You can <a href='%1'>Download Mismatched Memberships</a>. You may then "
+"correct them, and import the new file with the corrected data."
+msgstr "A <a href='%1'>problémás tagságokat letöltheti</a>. Később kijavíthatja őket, majd vissza importálhatja a kijavított adatokat."
+
+#: templates/CRM/Member/Import/Form/Summary.tpl
+msgid ""
+"CiviCRM has detected one record with conflicting transaction ID within this "
+"data file or relative to existing membership records. This record has not "
+"been imported."
+msgid_plural ""
+"CiviCRM has detected %count records with conflicting transaction IDs within "
+"this data file or relative to existing membership records. These records "
+"have not been imported."
+msgstr[0] "CiviCRM %count hibás tranzakciós azonosítójú rekordot talált az adatfájlban vagy a hivatkozott meglévő tagsági rekordban. Ez a rekord nem került importálásra."
+msgstr[1] "CiviCRM %count hibás tranzakciós azonosítójú rekordokat talált az adatfájlban vagy a hivatkozott meglévő tagsági rekordokban. Ezek rekordok nem kerültek importálásra."
+
+#: templates/CRM/Member/Import/Form/Summary.tpl
+msgid ""
+"CiviCRM has detected one record which is a duplicate of existing CiviCRM "
+"membership record."
+msgid_plural ""
+"CiviCRM has detected %count records which are duplicates of existing CiviCRM"
+" membership records."
+msgstr[0] "CiviCRM egy duplikált rekordot talált a CiviCRM tagsági rekordban. "
+msgstr[1] "CiviCRM %count duplikált rekordot talált a CiviCRM tagsági rekordokban. "
+
+#: templates/CRM/Member/Import/Form/Summary.tpl
+msgid "Rows with mismatched membership IDs... (NOT updated)."
+msgstr "A nem összeillő tagsági azonosítójú sorok... (NEM frissültek)."
+
+#: templates/CRM/Member/Import/Form/Summary.tpl
+msgid "Download Mismatched Memberships"
+msgstr "Ellentmondó tagságok letöltése"
+
+#: templates/CRM/Member/Import/Form/Summary.tpl
+msgid "Rows which are duplicates of existing CiviCRM membership records."
+msgstr "Meglévő CiviCRM tagsági rekordokat duplikáló sorok. "
+
+#: templates/CRM/Member/Page/DashBoard.hlp
+msgid "Member Dashboard"
+msgstr "Tagság vezérlőpult"
+
+#: templates/CRM/Member/Page/DashBoard.hlp
+msgid ""
+"CiviMember allows you to create customized membership types as well as "
+"page(s) for online membership sign-up and renewal. Administrators can create"
+" or modify Membership Types <a href='%2'>here</a>, and configure Online "
+"Contribution Pages which include membership sign-up <a href='%1'>here</a>."
+msgstr "CiviTag lehetőséget ad testre szabott tagsági típusok, valamint a tagságra történő feliratkozást és tagság megújítást lehetővé tevő weboldal(ak)  létrehozására. Az adminisztrátorok hozhatnak létre vagy módosíthatnak tagsági típusokat <a href='%2'>itt</a>, és beállíthatnak online adományozói oldalakat, amelyek tagsági feliratkozást is tartalmaznak <a href='%1'>itt</a>."
+
+#: templates/CRM/Member/Page/DashBoard.hlp
+msgid ""
+"This table provides a summary of <strong>Membership Signup and Renewal "
+"Activity</strong>, and includes shortcuts to view the details for these "
+"commonly used search criteria. To run your own customized searches - click "
+"<a href='%1'>Find Members</a>. You can search by Member Name, Membership "
+"Type, Status, and Signup Date Ranges."
+msgstr "Ez a táblázat összegzi a <strong>Tagsági feliratkozási és megújítási tevékenységeket</strong>, és parancsikonokat tartalmaz az általában használatos keresési kritériumok részleteinek a megtekintésére. Az ön által testre szabott keresések futtatására kattintson a <a href='%1'>tagok keresésére</a>. Kereshet a tagok neve, tagság típusa, állapot és feliratkozási dátum tartományok szerint."
+
+#: templates/CRM/Member/Page/DashBoard.hlp
+msgid ""
+"You can also input and track membership sign-ups offline. To record "
+"memberships manually for individual contacts, use <a href=\"%1\">Find "
+"Contacts</a> to locate the contact. Then click <strong>View</strong> to go "
+"to their summary page and click on the <strong>New Membership</strong> link."
+" You can also <a href=\"%2\">import batches of membership records</a> from "
+"other sources."
+msgstr "Hozzáadhat tagsági feliratkozásokat offline és követheti azokat. Az egyedi kapcsolatokhoz tagságokat hozzáadandó, használja a <a href=\"%1\">Kapcsolat keresést</a> a kapcsolat megtalálására. Utána kattintson a <strong>Nézetre</strong> az összegző oldal megtekintésére és kattintson az <strong>Új tagság</strong> linkre. Egyébként <a href=\"%2\">tömegesen importálhat tagsági rekordokat</a> más forrásokból."
+
+#: templates/CRM/Member/Page/DashBoard.hlp
+msgid "Refer to the online user guide for more information."
+msgstr "További információért forduljon az online felhasználói útmutatóhoz."
+
+#: templates/CRM/Member/Page/DashBoard.tpl
+msgid "Members by Type"
+msgstr "Tagok típusonként"
+
+#: templates/CRM/Member/Page/DashBoard.tpl
+msgid "(Last Month)"
+msgstr "(Múlt hónap)"
+
+#: templates/CRM/Member/Page/DashBoard.tpl
+msgid " (MTD)"
+msgstr "Eddig ebben a hónapban"
+
+#: templates/CRM/Member/Page/DashBoard.tpl
+msgid "(YTD)"
+msgstr "Eddig ebben az évben"
+
+#: templates/CRM/Member/Page/DashBoard.tpl
+msgid "through %1"
+msgstr "által %1"
+
+#: templates/CRM/Member/Page/DashBoard.tpl
+msgid "Current #"
+msgstr "Érvényes darabszám"
+
+#: templates/CRM/Member/Page/DashBoard.tpl
+msgid "Members as of %1 %2"
+msgstr "Tagjai %1 %2"
+
+#: templates/CRM/Member/Page/DashBoard.tpl
+msgid "Totals (all types)"
+msgstr "Mindösszesen (összes típus)"
+
+#: templates/CRM/Member/Page/DashBoard.tpl
+msgid ""
+"Primary member counts (those who \"own\" the membership rather than "
+"receiving via relationship) are in [brackets]."
+msgstr "Elsődleges tagság száma (azok akik \"tulajdonolják\" a tagságot azokkal ellentétben akik viszonyon keresztül kapják) [szögletes zárójelben]"
+
+#: templates/CRM/Member/Page/DashBoard.tpl
+msgid "Recent Memberships"
+msgstr "Aktuális tagság"
+
+#: templates/CRM/Member/Page/MembershipStatus.tpl
+msgid ""
+"CiviMember automatically calculates the current status of each contact's "
+"membership based on the status names and rules configured here. The status "
+"'rule' tells CiviMember what status to assign based on the start and end "
+"dates of a given membership. For example, the default <strong>Grace</strong>"
+" status rule says: 'assign Grace status if the membership period ended "
+"sometime within the past month.'"
+msgstr "A CiviTag automatikusan kiszámítja minden kapcsolat tagság jelenlegi állapotát az állapot nevek és az itt beállított szabályok alapján. Az állapot 'szabály' megadja a CiviTagnak milyen állapotot adjon hozzá az adott tagság kezdeti és végidőpontja alapján. Például, az alapértelmezett <strong>Tisztletbeli</strong> állapot szabály azt mondja: rendelje hozzá a Tiszteletbeli állapotot ha a tagsági periódus lejárt az elmúlt hónapon belül.  "
+
+#: templates/CRM/Member/Page/MembershipStatus.tpl
+msgid ""
+"The status rules provided by default may be sufficient for your "
+"organization. However, you can easily change the status names and/or adjust "
+"the rules by clicking the Edit links below. Or you can <a href='%1'>add a "
+"new status and rule</a>."
+msgstr "Az alapértelmezett állapot szabályok elégségesek lehetnek az ön szervezete részére. Ugyanakkor, egyszerűen megváltoztathatja az állapot szabályok nevét és/vagy  módosíthatja a szabályokat az alul lévő Szerkesztés linkekre kattintva. Vagy  <a href='%1'>hozzáadhat új állapotot és szabályt</a>."
+
+#: templates/CRM/Member/Page/MembershipStatus.tpl
+msgid "Add Membership Status"
+msgstr "Tagsági állapot hozzáadása"
+
+#: templates/CRM/Member/Page/MembershipStatus.tpl
+msgid ""
+"There are no custom membership status entered. You can <a href='%1'>add "
+"one</a>."
+msgstr "Nincs egyedi tagsági állapot megadva. Hozzáadhat <a href='%1'>egyet</a>."
+
+#: templates/CRM/Member/Page/MembershipType.hlp
+msgid ""
+"Use this field to configure Membership Types where memberships are "
+"automatically granted to related contacts. Examples:"
+msgstr "Használja ezt a mezőt a tagsági típus beállítására amikor a tagság automatikusan kerül hozzárendelésre a vonatkozó kapcsolathoz. Példák alább felsorolva:  "
+
+#: templates/CRM/Member/Page/MembershipType.hlp
+msgid "Direct member is:"
+msgstr "Közvetlen tag:"
+
+#: templates/CRM/Member/Page/MembershipType.hlp
+msgid "Membership is automatically granted to:"
+msgstr "Tagság automatikusan nyújtva:"
+
+#: templates/CRM/Member/Page/MembershipType.hlp
+msgid "a household"
+msgstr "egy háztartás"
+
+#: templates/CRM/Member/Page/MembershipType.hlp
+msgid "'Household Members' of that household"
+msgstr "Adott háztartás  'háztartás tagjai'"
+
+#: templates/CRM/Member/Page/MembershipType.hlp
+msgid "an organization"
+msgstr "egy szervezet"
+
+#: templates/CRM/Member/Page/MembershipType.hlp
+msgid "'Employees' of that organization"
+msgstr "Adott szervezet 'alkalmazottai'"
+
+#: templates/CRM/Member/Page/MembershipType.hlp
+msgid "an individual"
+msgstr "egy egyén"
+
+#: templates/CRM/Member/Page/MembershipType.hlp
+msgid "'Children' of that individual"
+msgstr "Adott egyén 'gyermeke'"
+
+#: templates/CRM/Member/Page/MembershipType.hlp
+msgid "Membership Period"
+msgstr "Tagsági időszakok"
+
+#: templates/CRM/Member/Page/MembershipType.hlp
+msgid ""
+"Select 'rolling' if membership periods begin at date of signup. Select "
+"'fixed' if membership periods begin on a set calendar date. If membership "
+"duration is specified in years, you will be able to specify the exact month "
+"and day for memberships to start. If membership duration is specified in "
+"months, memberships will start on the 1st of the current month and run for "
+"the number of specified months."
+msgstr "Válassza 'gördülő' opciót ha a tagsági periódus a feliratkozási dátummal kezdődik. Válassza a 'rögzített' opciót ha a tagsági periódus az előre meghatározott naptári nappal kezdődik. Ha a tagság hosszát évben adjuk meg meghatározhatja, hogy pontosan melyik hónap melyik napjától kezdődjön a tagság. Ha a tagság hónapokban kerül meghatározásra, a tagság az aktuális hónap 1. napjával indul, és addig tart amennyi hónap előzetesen meghatározásra került. "
+
+#: templates/CRM/Member/Page/MembershipType.hlp
+msgid "EXAMPLES"
+msgstr "PÉLDÁK"
+
+#: templates/CRM/Member/Page/MembershipType.hlp
+msgid ""
+"<strong>Fixed Membership Period - 1 Year Duration:</strong> Fixed period "
+"start date is set to January 1. A person signs up for membership on February"
+" 15th, 2008. Their membership start date is set to January 1, 2008 - and the"
+" end date is December 31, 2008."
+msgstr "<strong>Rögzített tagsági periódus - 1 év hosszban:</strong> A rögzített időtartam kezdőnapja január 1-re beállítva. Ha a feliratkozó személy 2008 február 15-én iratkozik fel a tagság kezdete 2008. január 1-el kezdődik és 2008. december 31-el ér véget."
+
+#: templates/CRM/Member/Page/MembershipType.hlp
+msgid ""
+"<strong>Fixed Membership - 3 Months Duration:</strong> A person signs up on "
+"February 15th, 2008. Their membership start date is set to February 1, 2008 "
+"- and the end date is April 30, 2008."
+msgstr "<strong>Rögzített tagság - 3 hónap hosszban:</strong> Ha a feliratkozó személy 2008 február 15-én iratkozik fel a tagság kezdete 2008. február 1-el kezdődik és 2008. április 30-val ér véget."
+
+#: templates/CRM/Member/Page/MembershipType.hlp
+msgid ""
+"<strong>Rolling Membership Period - 1 Year Duration:</strong> A person signs"
+" up on February 15th, 2008. Their membership start date is February 15th, "
+"2008 - and the end date is February 14th, 2009."
+msgstr "<strong>Gördülő tagsági periódus - 1 év hosszban:</strong> Ha a feliratkozó személy 2008 február 15-én iratkozik fel a tagság kezdete 2008. február 15-el kezdődik és 2009. február 14-el ér véget."
+
+#: templates/CRM/Member/Page/MembershipType.tpl
+msgid ""
+"Membership types are used to categorize memberships. You can define an "
+"unlimited number of types. Each type incorporates a 'name' (Gold Member, "
+"Honor Society Member...), a description, a minimum fee (can be $0), and a "
+"duration (can be 'lifetime'). Each member type is specifically linked to the"
+" membership entity (organization) - e.g. Bay Area Chapter."
+msgstr "A tagság típusok a tagságok kategorizálására használatosak. Végtelen számú tagság típust határozhat meg. Minden típus tartalmaz egy 'nevet' (Aranyfokozatú  tag, Tiszteletbelei egyesületi tag,...), egy leírást, minimális tagdíjat (beállítható a 0Ft is), egy időtartam (lehet 'élethosszig' tartó is). Minden tagság típus specifikusan egy tagsági egyedhez (szervezethez) kapcsolt- pl. Öböl menti csoport. "
+
+#: templates/CRM/Member/Page/MembershipType.tpl
+msgid ""
+"Configure membership renewal reminders using <a href=\"%1\">Schedule "
+"Reminders</a>."
+msgstr "Állítsa be a tagság megújító emlékeztetőt <a href=\"%1\">Emlékeztető ütemezés</a> használatával."
+
+#: templates/CRM/Member/Page/MembershipType.tpl
+#: templates/CRM/Member/Page/Tab.tpl
+msgid "Fixed Start"
+msgstr "Fixált kezdés"
+
+#: templates/CRM/Member/Page/MembershipType.tpl
+#: templates/CRM/Member/Page/Tab.tpl
+msgid "Related"
+msgstr "Kapcsolódó"
+
+#: templates/CRM/Member/Page/MembershipType.tpl
+msgid "Add Membership Type"
+msgstr "Tagság típusának hozzáadása"
+
+#: templates/CRM/Member/Page/MembershipType.tpl
+msgid ""
+"There are no membership types entered. You can <a href='%1'>add one</a>."
+msgstr "Tagság típus nincs megadva. Hozzáadhat <a href='%1'>egyet</a>."
+
+#: templates/CRM/Member/Page/Tab.hlp
+msgid "Override Status"
+msgstr "Felülbírált állapot"
+
+#: templates/CRM/Member/Page/Tab.hlp
+msgid ""
+"Membership status is normally assigned and updated automatically based on "
+"your configured membership status rules. However, if you want to assign a "
+"status manually and bypass automated status setting, choose either "
+"\"Override Permanently\" or \"Override Until Selected Date\", Then you can "
+"select from the available status options."
+msgstr "A tagsági állapot általában automatikusan hozzárendelődik és frissítődik a beállított tagsági állapot szabályok alapján. Ugyanakkor, ha kézileg kívánja hozzáadni az állapotot, és el kívánja kerülni az automatikus állapot beállításokat, válassza ki a \"Végleges felülírás\" \"Felülírás a kiválasztott dátumig\". Utána kiválaszthatja a rendelkezésre álló állapot opciókat. "
+
+#: templates/CRM/Member/Page/Tab.hlp
+msgid ""
+"If you select \"Override Permanently\", The status you assign will remain in"
+" force, unless it is again modified on this screen. If you select \"Override"
+" Until Selected Date\", it will behave same as \"Override Permanently\" but "
+"will revert to \"No\" once the selected date is reached. As long as the "
+"Membership Override is active, the automated membership status update script"
+" will NOT update this membership record."
+msgstr "Ha kiválasztotta a \"Végleges felülírás\" opciót, a beállított állapot érvényes lesz mindaddig, amíg újra nem módosítja ezen az oldalon. Ha kiválasztja a \"Felülírás a kiválasztott dátumig\" opciót ugyan úgy fog működni mint a \"Végleges felülírás\" esetében, de átvált a \"NEM\" opcióra a kiválasztott dátum elérésekor. Amíg az állapot felülírás aktív, az automatikus tagsági állapot frissítése parancsfájl NEM frissíti ezt a tagsági rekordot. "
+
+#: templates/CRM/Member/Page/Tab.hlp
+msgid ""
+"Check this box if someone other than the member is paying for this "
+"membership (i.e. a gift membership or gift subscription), and you want to "
+"link the payment to the person who is actually paying.  You will be able to "
+"select an existing contact or enter a new one. The resulting contribution "
+"record will be linked to the payer, and a soft credit for that contribution "
+"will be linked to this contact (the member)."
+msgstr "Válassza ki ezt a jelölőnégyzetet ha nem a tag fogja fizetni. (pl. ajándék tagság, vagy ajándék előfizetés), és ezt a befizetést kapcsolni akarja ahhoz a személyhez aki a ténylegesen fizet. Kiválaszthatja a meglévő kapcsolatok közül vagy megadhat egy újat. A keletkező befizetési rekord a befizetőhöz kapcsolt, és a befizetés 'lágy' befizetésként kerül a kapcsolathoz rögzítésre (a taghoz)."
+
+#: templates/CRM/Member/Page/Tab.hlp
+msgid "Override End Date for Auto-renew Memberships"
+msgstr "Tagság automatikus megújítás befejező dátum felülírása"
+
+#: templates/CRM/Member/Page/Tab.hlp
+msgid ""
+"If CiviCRM's membership end-date is different from when the payment "
+"processor will next collect a payment, various problems can occur. Members "
+"may experience a gap in their membership, and the renewal date may get "
+"changed from what is manually entered. Use care when modifying the End Date "
+"value, and check the associated recurring payment in your payment processor "
+"system so they always match."
+msgstr "Ha a CiviCRM tagság vég dátuma különbözik attól, amikor a fizetési feldolgozó legközelebb begyűjti a befizetéseket, több fajta probléma jelentkezhet. A tagok hézagokat találhatnak a tagságukban, a megújítási dátum megváltozhat a kézzel megadotthoz képest. Óvatosan használja a végdátum módosítását, és ellenőrizze le az egyezőségüket a kapcsolódó ismétlődő befizetést a rendszere fizetés feldolgozójában."
+
+#: templates/CRM/Member/Page/Tab.tpl
+msgid "Click <a %1>Add Membership</a> to record a new membership."
+msgstr "Kattintson a <a %1>Tagság hozzáadásra</a> az új tagság rögzítésére. "
+
+#: templates/CRM/Member/Page/Tab.tpl
+msgid ""
+"Click <a %1>Submit Credit Card Membership</a> to process a Membership on "
+"behalf of the member using their credit card."
+msgstr "Kattintson a  <a %1>Bankkártyával fizetett  tagság beküldése</a> a tagság feldolgozásra a bankkártyát használó tag nevében. "
+
+#: templates/CRM/Member/Page/Tab.tpl
+msgid "Current and inactive memberships for %1 are listed below."
+msgstr "Érvényes és inaktív tagságok a %1 részére alább felsorolva."
+
+#: templates/CRM/Member/Page/Tab.tpl
+msgid "Submit Credit Card Membership"
+msgstr "Bankkártyával fizetett tagság elküldése"
+
+#: templates/CRM/Member/Page/Tab.tpl
+msgid "No memberships have been recorded for this contact."
+msgstr "Ehhez a kapcsolathoz nem tartozik tagság."
+
+#: templates/CRM/Member/Page/Tab.tpl
+msgid "Active Memberships"
+msgstr "Aktív Tagságok"
+
+#: templates/CRM/Member/Page/Tab.tpl
+msgid "Pending and Inactive Memberships"
+msgstr "Függőben lévő és inaktív tagságok"
+
+#: templates/CRM/Member/Page/Tab.tpl
+msgid ""
+"The following Membership Types are associated with this organization. Click "
+"<strong>Members</strong> for a listing of all contacts who have memberships "
+"of that type. Click <strong>Edit</strong> to modify the settings for that "
+"type."
+msgstr "A szervezethez hozzárendelt tagság típusok.  Kattintson a <strong>Tagok</strong> -ra az összes ilyen tagság típussal rendelkező kapcsolat kilistázására. Kattintson a <strong>Szerkesztés</strong> -re a adott típus beállításainak módosítására."
+
+#: templates/CRM/Member/Page/UserDashboard.tpl
+msgid "Renew Now"
+msgstr "Megújítás Most"
+
+#: templates/CRM/Member/Page/UserDashboard.tpl
+msgid "Expired / Inactive Memberships"
+msgstr "Lejárt / Inaktív tagságok"
+
+#: templates/CRM/Member/Page/UserDashboard.tpl
+msgid "There are no memberships on record for you."
+msgstr "Nincs tagság az ön részére rögzítve."
+
+#: xml/templates/message_templates/membership_autorenew_billing_subject.tpl
+msgid "Membership Autorenewal Billing Updates"
+msgstr "Tagság automatikus megújítás számlázásának frissítése"
+
+#: xml/templates/message_templates/membership_autorenew_cancelled_html.tpl
+#: xml/templates/message_templates/membership_autorenew_cancelled_text.tpl
+#: xml/templates/message_templates/membership_offline_receipt_html.tpl
+#: xml/templates/message_templates/membership_offline_receipt_text.tpl
+#: xml/templates/message_templates/membership_online_receipt_html.tpl
+#: xml/templates/message_templates/membership_online_receipt_text.tpl
+msgid "Membership Information"
+msgstr "Tagsági információ"
+
+#: xml/templates/message_templates/membership_autorenew_cancelled_subject.tpl
+msgid "Autorenew Membership Cancellation Notification"
+msgstr "Automatikus tagság megújítás törlési értesítő"
+
+#: xml/templates/message_templates/membership_offline_receipt_html.tpl
+#: xml/templates/message_templates/membership_offline_receipt_text.tpl
+msgid "Thank you for this contribution."
+msgstr "Köszönjük ezt az adományát!"
+
+#: xml/templates/message_templates/membership_offline_receipt_subject.tpl
+msgid "Membership Confirmation and Receipt"
+msgstr "Tagság megerősítés és nyugta"
+
+#: xml/templates/message_templates/membership_offline_receipt_subject.tpl
+msgid "Membership Renewal Confirmation and Receipt"
+msgstr "Tagság megújítás megerősítés és nyugta"
+
+#: xml/templates/message_templates/membership_online_receipt_html.tpl
+#: xml/templates/message_templates/membership_online_receipt_text.tpl
+msgid "%1 Membership"
+msgstr "%1 tagság"
+
+#: xml/templates/message_templates/membership_online_receipt_html.tpl
+msgid "NO"
+msgstr "NEM"
+
+#: xml/templates/message_templates/membership_online_receipt_html.tpl
+#: xml/templates/message_templates/membership_online_receipt_text.tpl
+msgid "This membership will be renewed automatically."
+msgstr "Ez a tagság automatikusan megújuló."
+
+#: xml/templates/message_templates/membership_online_receipt_text.tpl
+msgid "You can cancel the auto-renewal option by visiting this web page: %1."
+msgstr "Letilthatja az automatikus megújítási opciót a weboldal felkeresésével: %1."

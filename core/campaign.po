@@ -1,0 +1,1282 @@
+# Copyright CiviCRM LLC (c) 2004-2015
+# This file is distributed under the same license as the CiviCRM package.
+# If you contribute heavily to a translation and deem your work copyrightable,
+# make sure you license it to CiviCRM LLC under Academic Free License 3.0.
+# Translators:
+# Szabo Attila, 2013
+# Zoltán Reizinger <zreizinger@hdsnet.hu>, 2013-2020
+# Zoltán Várady <zoltan@farm.co.hu>, 2016
+msgid ""
+msgstr ""
+"Project-Id-Version: CiviCRM\n"
+"POT-Creation-Date: 2020-01-21 16:29-0500\n"
+"PO-Revision-Date: 2020-01-22 15:27+0000\n"
+"Last-Translator: Zoltán Reizinger <zreizinger@hdsnet.hu>\n"
+"Language-Team: Hungarian (http://www.transifex.com/civicrm/civicrm/language/hu/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: hu\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: CRM/Campaign/BAO/Campaign.php
+msgid "Current Campaigns"
+msgstr "Jelenlegi kampányok"
+
+#: CRM/Campaign/BAO/Campaign.php
+msgid "Past Campaigns"
+msgstr "Múltbeli kampányok"
+
+#: CRM/Campaign/BAO/Campaign.php
+msgid "In the future"
+msgstr "Jövőben"
+
+#: CRM/Campaign/BAO/Campaign.php
+msgid "In the past"
+msgstr "Múltban"
+
+#: CRM/Campaign/BAO/Campaign.php
+msgid "Not set"
+msgstr "Nincs beállítva"
+
+#: CRM/Campaign/BAO/Campaign.php
+msgid "New Campaign"
+msgstr "Új kampány"
+
+#: CRM/Campaign/BAO/Petition.php
+msgid "No survey sid parameter. Cannot process signature."
+msgstr "Nem található kérdőív sid paraméter. Alárás nem feldolgozható."
+
+#: CRM/Campaign/BAO/Petition.php
+msgid "Petition Id and/or Activity Id is not of the type Positive."
+msgstr "Petíció azonosító és/vagy tevékenység azonosító nem pozitív típusú."
+
+#: CRM/Campaign/BAO/Query.php
+msgid "Survey - %1"
+msgstr "Kérdőív-%1"
+
+#: CRM/Campaign/BAO/Query.php
+msgid "Survey Status - %1"
+msgstr "Kérdőív státusz -%1"
+
+#: CRM/Campaign/BAO/Query.php
+msgid "Survey Interviewer - %1"
+msgstr "Kérdőív \"riportere\" -%1"
+
+#: CRM/Campaign/BAO/Query.php
+msgid "Interviewer"
+msgstr "Riporter/Kérdező"
+
+#: CRM/Campaign/BAO/Query.php
+msgid "Could not find survey for %1 respondents."
+msgstr "Felmérés nem található %1 válaszadóval."
+
+#: CRM/Campaign/BAO/Survey.php CRM/Campaign/Form/Task/Reserve.php
+#: CRM/Campaign/Page/Vote.php CRM/Campaign/Task.php
+msgid "Reserve Respondents"
+msgstr "Tartalék Válaszadók"
+
+#: CRM/Campaign/BAO/Survey.php CRM/Campaign/Page/Vote.php
+msgid "Interview Respondents"
+msgstr "Interjú válaszadók"
+
+#: CRM/Campaign/BAO/Survey.php CRM/Campaign/Form/Task/Release.php
+#: CRM/Campaign/Task.php templates/CRM/Campaign/Form/Task/Release.tpl
+msgid "Release Respondents"
+msgstr "Válaszadók feloldása"
+
+#: CRM/Campaign/BAO/Survey.php
+msgid "View Survey Report"
+msgstr "Kérdőív jelentés megtekintése"
+
+#: CRM/Campaign/DAO/Campaign.php
+msgid "Unique Campaign ID."
+msgstr "Egyedi kampány azonosító"
+
+#: CRM/Campaign/DAO/Campaign.php
+#: templates/CRM/Campaign/Form/Search/Campaign.tpl
+msgid "Campaign Name"
+msgstr "Kampány neve"
+
+#: CRM/Campaign/DAO/Campaign.php
+msgid "Name of the Campaign."
+msgstr "Kampány neve."
+
+#: CRM/Campaign/DAO/Campaign.php
+msgid "Title of the Campaign."
+msgstr "Kampány megnevezése."
+
+#: CRM/Campaign/DAO/Campaign.php
+msgid "Campaign Description"
+msgstr "Kampány leírása"
+
+#: CRM/Campaign/DAO/Campaign.php
+msgid "Full description of Campaign."
+msgstr "Kampány részletes leírása."
+
+#: CRM/Campaign/DAO/Campaign.php CRM/Campaign/Form/Search/Campaign.php
+msgid "Campaign Start Date"
+msgstr "Kampány kezdés dátuma"
+
+#: CRM/Campaign/DAO/Campaign.php
+msgid "Date and time that Campaign starts."
+msgstr "Kampány kezdő dátuma és ideje."
+
+#: CRM/Campaign/DAO/Campaign.php CRM/Campaign/Form/Search/Campaign.php
+msgid "Campaign End Date"
+msgstr "Kampány befejezésének dátuma"
+
+#: CRM/Campaign/DAO/Campaign.php
+msgid "Date and time that Campaign ends."
+msgstr "Kampány záró dátuma és ideje."
+
+#: CRM/Campaign/DAO/Campaign.php
+msgid ""
+"Campaign Type ID.Implicit FK to civicrm_option_value where option_group = "
+"campaign_type"
+msgstr "Kampány  típus ID.Implicit FK a civicrm_option_value értékehez, ahol option_group = campaign_type"
+
+#: CRM/Campaign/DAO/Campaign.php
+msgid ""
+"Campaign status ID.Implicit FK to civicrm_option_value where option_group = "
+"campaign_status"
+msgstr "Kampány állapot ID.Implicit FK to civicrm_option_value értékhez, ahol option_group = campaign_status"
+
+#: CRM/Campaign/DAO/Campaign.php
+msgid "Campaign External ID"
+msgstr "Kampány külső azonosítója"
+
+#: CRM/Campaign/DAO/Campaign.php
+msgid "Parent Campaign"
+msgstr "Szülő kampány"
+
+#: CRM/Campaign/DAO/Campaign.php
+msgid "Optional parent id for this Campaign."
+msgstr "Opcionális szülő azonosító ehhez a kampányhoz."
+
+#: CRM/Campaign/DAO/Campaign.php
+msgid "Is Campaign Active?"
+msgstr "Aktív kampány?"
+
+#: CRM/Campaign/DAO/Campaign.php
+msgid "Is this Campaign enabled or disabled/cancelled?"
+msgstr "Ez a kampány engedélyezett vagy tiltott/törölt?"
+
+#: CRM/Campaign/DAO/Campaign.php
+msgid "Campaign Created By"
+msgstr "Kampány létrehozója"
+
+#: CRM/Campaign/DAO/Campaign.php
+msgid "FK to civicrm_contact, who created this Campaign."
+msgstr "A kampány létrehozó civicrm_contact kapcsolat FK."
+
+#: CRM/Campaign/DAO/Campaign.php CRM/Campaign/DAO/Survey.php
+msgid "Campaign Created Date"
+msgstr "Kampány létrehozásának dátuma"
+
+#: CRM/Campaign/DAO/Campaign.php
+msgid "Date and time that Campaign was created."
+msgstr "Kampány létrehozási ideje és dátuma."
+
+#: CRM/Campaign/DAO/Campaign.php
+msgid "Campaign Modified By"
+msgstr "Kampányt módosította"
+
+#: CRM/Campaign/DAO/Campaign.php
+msgid "FK to civicrm_contact, who recently edited this Campaign."
+msgstr "A kampány módosító civicrm_contact kapcsolat FK."
+
+#: CRM/Campaign/DAO/Campaign.php
+msgid "Campaign Modified Date"
+msgstr "Kampány módosítási dátum"
+
+#: CRM/Campaign/DAO/Campaign.php
+msgid "Date and time that Campaign was edited last time."
+msgstr "Kampány utolsó szerkesztési dátuma és ideje."
+
+#: CRM/Campaign/DAO/Campaign.php CRM/Campaign/Form/Campaign.php
+msgid "Campaign Goals"
+msgstr "Kampány célok"
+
+#: CRM/Campaign/DAO/Campaign.php
+msgid "General goals for Campaign."
+msgstr "Kampány általános céljai."
+
+#: CRM/Campaign/DAO/Campaign.php
+msgid "Goal Revenue"
+msgstr "Cél bevétel"
+
+#: CRM/Campaign/DAO/Campaign.php
+msgid "The target revenue for this campaign."
+msgstr "Kampány célbevétel."
+
+#: CRM/Campaign/DAO/CampaignGroup.php
+msgid "Campaign Group ID"
+msgstr "Kampány csoport azonosító"
+
+#: CRM/Campaign/DAO/CampaignGroup.php
+msgid "Campaign Group id."
+msgstr "Kampány csoport azonosító."
+
+#: CRM/Campaign/DAO/CampaignGroup.php
+msgid "Foreign key to the activity Campaign."
+msgstr "Kampány tevékenység idegen kulcs."
+
+#: CRM/Campaign/DAO/CampaignGroup.php
+msgid "Campaign Group Type"
+msgstr "Kampány csoport típus"
+
+#: CRM/Campaign/DAO/CampaignGroup.php
+msgid "Type of Group."
+msgstr "Csoport típus."
+
+#: CRM/Campaign/DAO/CampaignGroup.php
+msgid "Entity id of referenced table."
+msgstr "Hivatkozott tábla egyed azonosító. "
+
+#: CRM/Campaign/DAO/Survey.php templates/CRM/Campaign/Form/Search/Survey.tpl
+msgid "Survey ID"
+msgstr "Felmérés azonosítója"
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Survey id."
+msgstr "Felmérés azonosító."
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Title of the Survey."
+msgstr "Felmérés megnevezése."
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Survey Campaign ID"
+msgstr "Felmérés kampány azonosító"
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Foreign key to the Campaign."
+msgstr "Kampány idegen kulcs."
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Implicit FK to civicrm_option_value where option_group = activity_type"
+msgstr "Hallgatólagos FK a civicrm_option_value értékehez, ahol option_group = activity_type"
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Follow up Interval"
+msgstr "Nyomon követés időköze "
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Recontact intervals for each status."
+msgstr "Ismételt kapcsolat felvétel intervallum az egyes állapothoz."
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Instructions"
+msgstr "Útmutatók/Leirások"
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Script instructions for volunteers to use for the survey."
+msgstr "Felmérés során használandó forgatókönyv utasítások az önkénteseknek."
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Survey Hold Duration"
+msgstr "Felmérés tartás időtartama"
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Number of days for recurrence of release."
+msgstr "Ismétlődés elengedés napok száma. "
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Maximum number of contacts"
+msgstr "Kapcsolatok maximális száma"
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Maximum number of contacts to allow for survey."
+msgstr "Felmérés részére engedélyezett maximális kapcsolat szám."
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Default number of contacts"
+msgstr "Alapértelmezett kapcsolatok száma"
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Default number of contacts to allow for survey."
+msgstr "Felmérés részére engedélyezett alapértelmezett kapcsolat szám."
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Survey Is Active"
+msgstr "Felmérés aktív"
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Is this survey enabled or disabled/cancelled?"
+msgstr "Ez a felmérés engedélyezett vagy tiltott/törölt? "
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Is Default Survey"
+msgstr "Alapértelmezett felmérés"
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Is this default survey?"
+msgstr "Alapértelmezett felmérés?"
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Survey Created By"
+msgstr "Felmérést készítette"
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "FK to civicrm_contact, who created this Survey."
+msgstr "Ezen felmérést létrehozó  civicrm_contact tartozó FK."
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Date and time that Survey was created."
+msgstr "Felmérés létrehozási ideje és dátuma."
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Survey Modified"
+msgstr "Módosított felmérés "
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "FK to civicrm_contact, who recently edited this Survey."
+msgstr "Ezen felmérést szerkesztő  civicrm_contact tartozó FK."
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Survey Modified On"
+msgstr "Felmérés módosítás dátuma"
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Date and time that Survey was edited last time."
+msgstr "Felmérés utolsó szerkesztési dátuma és ideje."
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Used to store option group id."
+msgstr "Opció csoport azonosító tárolására használt."
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "No Email Verification"
+msgstr "Nincs e-mail ellenőrzés"
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Bypass the email verification."
+msgstr "Email ellenőrzés kikerülése."
+
+#: CRM/Campaign/DAO/Survey.php
+msgid "Can people share the petition through social media?"
+msgstr "Közösségi médián keresztül megoszthatják mások? "
+
+#: CRM/Campaign/Form/Campaign.php
+msgid "Edit Campaign"
+msgstr "Kampány szerkesztése"
+
+#: CRM/Campaign/Form/Campaign.php
+msgid "- select Parent -"
+msgstr "-szülő kiválsztása-"
+
+#: CRM/Campaign/Form/Campaign.php
+msgid "Revenue Goal"
+msgstr "Cél bevétel"
+
+#: CRM/Campaign/Form/Campaign.php
+msgid "Campaign has been deleted."
+msgstr "Kampány törölve."
+
+#: CRM/Campaign/Form/Campaign.php
+msgid "Campaign %1 has been saved."
+msgstr "Kampány %1 el lett mentve."
+
+#: CRM/Campaign/Form/Campaign.php
+msgid " You can add another Campaign."
+msgstr "Hozzáadhat egy másik kampányt is."
+
+#: CRM/Campaign/Form/Gotv.php CRM/Campaign/Form/Search.php
+#: CRM/Campaign/Form/Task/Interview.php CRM/Campaign/Form/Task/Release.php
+#: CRM/Campaign/Form/Task/Reserve.php
+msgid "Survey(s)"
+msgstr "Kérdőiv(ek)"
+
+#: CRM/Campaign/Form/Gotv.php
+msgid "GOTV (Voter Tracking)"
+msgstr "GOTV (szavazók követése)"
+
+#: CRM/Campaign/Form/Gotv.php
+msgid ""
+"Oops. It looks like no surveys have been created. <a href='%1'>Click here to"
+" create a new survey.</a>"
+msgstr "Hoppá! Úgy tűnik nincs kérdőív létrehozva. <a href='%1'>Kattintson ide új kérdőív létrehozására.</a>"
+
+#: CRM/Campaign/Form/Gotv.php CRM/Campaign/Form/Task/Interview.php
+msgid "Could not find Survey."
+msgstr "Kérdőiv/Felmérés nem található."
+
+#: CRM/Campaign/Form/Petition/Signature.php
+msgid "Sign the Petition"
+msgstr "Petíció aláírása"
+
+#: CRM/Campaign/Form/Petition.php
+msgid "Edit Survey"
+msgstr "Felmérés szerkesztése"
+
+#: CRM/Campaign/Form/Petition.php CRM/Campaign/Form/Survey/Delete.php
+#: CRM/Campaign/Page/DashBoard.php
+msgid "Delete Survey"
+msgstr "Kérdőiv/Felmérés törlése"
+
+#: CRM/Campaign/Form/Petition.php
+msgid "Edit Petition"
+msgstr "Petíció szerkesztése"
+
+#: CRM/Campaign/Form/Petition.php CRM/Campaign/Page/DashBoard.php
+msgid "Delete Petition"
+msgstr "Petíció törlése"
+
+#: CRM/Campaign/Form/Petition.php
+msgid "Petition Dashboard"
+msgstr "Petíció Kezelőközpont"
+
+#: CRM/Campaign/Form/Petition.php
+msgid "Petition Title"
+msgstr "Petíció címe"
+
+#: CRM/Campaign/Form/Petition.php
+msgid "Contact Profile"
+msgstr "Kapcsolattartó profilja"
+
+#: CRM/Campaign/Form/Petition.php
+msgid "Activity Profile"
+msgstr "Tevékenység profil"
+
+#: CRM/Campaign/Form/Petition.php
+msgid "Bypass email confirmation"
+msgstr "Email megerősítés kikerülése"
+
+#: CRM/Campaign/Form/Petition.php
+msgid "Is Default?"
+msgstr "Ez az alapértelmezett?"
+
+#: CRM/Campaign/Form/Petition.php
+msgid ""
+"This title is already associated with the selected activity type. Please "
+"specify a unique title."
+msgstr "Ezt a nevet már hozzárendelték a kiválasztott tevékenység típushoz. Kérem adjon meg egy egyedi nevet. "
+
+#: CRM/Campaign/Form/Petition.php
+msgid ""
+"This title is already associated with the selected campaign and activity "
+"type. Please specify a unique title."
+msgstr "Ez a cím már hozzá lett rendelve korábban a kiválasztott kampányhoz és tevékenység típushoz. Kérem adjon meg egyedi címet. "
+
+#: CRM/Campaign/Form/Petition.php
+msgid " Petition has been deleted."
+msgstr "Petíció törölve."
+
+#: CRM/Campaign/Form/Petition.php
+msgid "Petition has been saved."
+msgstr "A petíció mentve."
+
+#: CRM/Campaign/Form/Petition.php
+msgid " You can add another Petition."
+msgstr "Itt hozhat létre másik petíciót."
+
+#: CRM/Campaign/Form/Search/Campaign.php
+msgid "Find Campaigns"
+msgstr "Kampányok keresése"
+
+#: CRM/Campaign/Form/Search/Petition.php
+msgid "Find Petition"
+msgstr "Petíció keresése"
+
+#: CRM/Campaign/Form/Search/Survey.php
+msgid "Find Survey"
+msgstr "Felmérés keresése"
+
+#: CRM/Campaign/Form/Search.php
+msgid "Find Respondents To %1"
+msgstr "Válaszadók keresése %1-hez"
+
+#: CRM/Campaign/Form/Search.php CRM/Campaign/Form/Task/Interview.php
+msgid "Record %1 Responses"
+msgstr "Válaszok %1-nak rögzitése."
+
+#: CRM/Campaign/Form/Search.php
+msgid "Could not find valid Survey Id."
+msgstr "Nem találtam valós felmérés azonosítót"
+
+#: CRM/Campaign/Form/Search.php
+msgid "Find Respondents"
+msgstr "Válaszadók keresése"
+
+#: CRM/Campaign/Form/Survey/Delete.php
+msgid "'%1' survey has been deleted."
+msgstr "'%1' kérdőív törölve."
+
+#: CRM/Campaign/Form/Survey/Delete.php
+msgid "Delete action is missing expected survey ID."
+msgstr "Törlési művelet hiányzik kérdőív azonosítót vártunk."
+
+#: CRM/Campaign/Form/Survey/Main.php
+msgid "Configure Survey"
+msgstr "Kérdőív beállítása"
+
+#: CRM/Campaign/Form/Survey/Main.php
+msgid "Survey Dashboard"
+msgstr "Felmérés Kezelőközpont"
+
+#: CRM/Campaign/Form/Survey/Main.php
+msgid "Instructions for interviewers"
+msgstr "Tudnivalók az interjúztatók számára"
+
+#: CRM/Campaign/Form/Survey/Main.php
+#: templates/CRM/Campaign/Form/Search/Survey.tpl
+#: templates/CRM/Campaign/Page/Petition.tpl
+msgid "Release Frequency"
+msgstr "Kiadás gyakorisága"
+
+#: CRM/Campaign/Form/Survey/Main.php
+msgid "Release Frequency interval should be a positive number."
+msgstr "A kiadás gyakoriságának intervalluma pozitív szám kell hogy legyen."
+
+#: CRM/Campaign/Form/Survey/Main.php
+msgid "Maximum reserved at one time"
+msgstr "Egyszerre maximálisan fentartott"
+
+#: CRM/Campaign/Form/Survey/Main.php
+msgid "Maximum reserved at one time should be a positive number"
+msgstr "Az egyszerre maximálisan fenntartottnak pozitív számnak kell lennie"
+
+#: CRM/Campaign/Form/Survey/Main.php
+msgid "Total reserved per interviewer"
+msgstr "Összes fenntartott interjúztatónként"
+
+#: CRM/Campaign/Form/Survey/Main.php
+msgid "Total reserved contacts should be a positive number"
+msgstr "Az összes fenntartott kapcsolatnak pozitív számnak kell lennie"
+
+#: CRM/Campaign/Form/Survey/Questions.php
+msgid ""
+"There are no custom data sets for activity type \"%1\". To create one, <a "
+"href=\"%2\" target=\"%3\">click here</a>."
+msgstr "Nincs egyedi adat csomag a '%1' tevékenység típushoz. Létrehozásához, <a href=\"%2\" target=\"%3\">kattintson ide</a>."
+
+#: CRM/Campaign/Form/Survey/Questions.php
+msgid "Contact Info"
+msgstr "Kapcsolat információ"
+
+#: CRM/Campaign/Form/Survey/Questions.php
+#: CRM/Campaign/Form/Survey/TabHeader.php
+msgid "Questions"
+msgstr "Kérdések"
+
+#: CRM/Campaign/Form/Survey/Results.php
+msgid "Create new result set"
+msgstr "Új eredmény lista létrehozása"
+
+#: CRM/Campaign/Form/Survey/Results.php
+msgid "Use existing result set"
+msgstr "Már meglévő eredmény lista használata"
+
+#: CRM/Campaign/Form/Survey/Results.php
+msgid "Select Result Set"
+msgstr "Eredmény lista kiválasztása"
+
+#: CRM/Campaign/Form/Survey/Results.php
+#: templates/CRM/Campaign/Form/ResultOptions.tpl
+#: templates/CRM/Campaign/Form/Search/Survey.tpl
+msgid "Recontact Interval"
+msgstr "Kapcsolat--újrafelvátel időtartama"
+
+#: CRM/Campaign/Form/Survey/Results.php
+msgid "Enter at least one result option."
+msgstr "Legalább egy eredmény opciót adjon meg."
+
+#: CRM/Campaign/Form/Survey/Results.php
+msgid "Please select a Survey Result Set."
+msgstr "Kérem válasszon egy kérdőív eredményt."
+
+#: CRM/Campaign/Form/Survey/Results.php
+msgid "A Survey Detail Report <a href='%1'>%2</a> has been created."
+msgstr "Egy kérdőív részletes jelentés <a href='%1'>%2</a>létrehozva."
+
+#: CRM/Campaign/Form/Survey/TabHeader.php
+msgid "Main Information"
+msgstr "Fő információ"
+
+#: CRM/Campaign/Form/Survey.php
+msgid "Configure Survey - %1"
+msgstr "Kérdőív beállítása - %1"
+
+#: CRM/Campaign/Form/Survey.php
+msgid "'%1' have been saved."
+msgstr "'%1' mentve."
+
+#: CRM/Campaign/Form/SurveyType.php
+msgid "Selected Survey type has been deleted."
+msgstr "A kiválasztott kérdőív/felmérés törölve."
+
+#: CRM/Campaign/Form/SurveyType.php
+msgid "The Survey type '%1' has been saved."
+msgstr "A %1 felmérés/kérdőív típus mentve."
+
+#: CRM/Campaign/Form/Task/Interview.php
+msgid "Could not find Interviewer."
+msgstr "Interjúztató nem található."
+
+#: CRM/Campaign/Form/Task/Interview.php
+msgid "No respondents are currently reserved for you to interview."
+msgstr "Jelenleg nincsenek fentartott válaszadók ön számára az interjúhoz."
+
+#: CRM/Campaign/Form/Task/Interview.php
+msgid "Oops. It looks like there is no response option configured."
+msgstr "Hoppá, úgy látszik nincs válaszlehetőség beállítva."
+
+#: CRM/Campaign/Form/Task/Interview.php
+msgid "Order By >>"
+msgstr "Rendezés >>"
+
+#: CRM/Campaign/Form/Task/Interview.php
+msgid "Release Respondents >>"
+msgstr "Válaszadók feloldása >>"
+
+#: CRM/Campaign/Form/Task/Interview.php
+msgid "Reserve More Respondents >>"
+msgstr "Még több válaszadó lefoglalása >>"
+
+#: CRM/Campaign/Form/Task/Interview.php
+msgid "Respondent Interview"
+msgstr "Válaszadó interjú"
+
+#: CRM/Campaign/Form/Task/Print.php CRM/Campaign/Task.php
+msgid "Print Respondents"
+msgstr "Válaszadók nevének kinyomtatása."
+
+#: CRM/Campaign/Form/Task/Release.php
+msgid "Please search with 'Survey', to apply this action."
+msgstr "Kérem keressen a Felméréssel/Kérdőívvel hogy végrehajtsa ez a műveletet."
+
+#: CRM/Campaign/Form/Task/Release.php CRM/Campaign/Form/Task/Reserve.php
+msgid "Missing Interviewer contact."
+msgstr "Kérdező adatai hiányoznak."
+
+#: CRM/Campaign/Form/Task/Release.php
+msgid "Could not find respondents to release."
+msgstr "Ehhez a kiadáshoz nem található válaszadó."
+
+#: CRM/Campaign/Form/Task/Release.php
+msgid "We could not found respondent for this survey to release."
+msgstr "Nem találtunk válaszadót ehhez a felméréshez/kérdőívhez hogy publikálhassuk."
+
+#: CRM/Campaign/Form/Task/Release.php
+msgid "Respondent has been released."
+msgid_plural "%count respondents have been released."
+msgstr[0] "Válaszadó feloldva"
+msgstr[1] "%count válaszadó feloldva"
+
+#: CRM/Campaign/Form/Task/Release.php
+msgid "Released"
+msgstr "Feloldva"
+
+#: CRM/Campaign/Form/Task/Release.php
+msgid "1 respondent did not release."
+msgid_plural "%count respondents did not release."
+msgstr[0] "1 válaszadó nem szabadult fel."
+msgstr[1] " %count válaszadó nem szabadult fel."
+
+#: CRM/Campaign/Form/Task/Reserve.php
+msgid "Could not find Survey Id."
+msgstr "Ez a felmérés/kérdőív azonosító nem található."
+
+#: CRM/Campaign/Form/Task/Reserve.php
+msgid "Could not find contacts for reservation."
+msgstr "Nincsenek kapcsolatok ehhez a foglaláshoz."
+
+#: CRM/Campaign/Form/Task/Reserve.php
+msgid ""
+"The maximum number of contacts is already reserved for this interviewer."
+msgstr "A maximálisan megadható kapcsolatok száma már le van foglalva ehhez az interjúztatóhoz."
+
+#: CRM/Campaign/Form/Task/Reserve.php
+msgid "You can reserve a maximum of %count contact at a time for this survey."
+msgid_plural ""
+"You can reserve a maximum of %count contacts at a time for this survey."
+msgstr[0] "Maximum %count kapcsolat foglalható le most ehhez a felméréshez."
+msgstr[1] "Maximum %count kapcsolatot foglalhat le most ehhez a felméréshez. "
+
+#: CRM/Campaign/Form/Task/Reserve.php
+#: templates/CRM/Campaign/Form/Task/Reserve.tpl
+msgid "Add respondent(s) to existing group(s)"
+msgstr "Válaszadó(k) hozzáadása már meglévő csapatokhoz"
+
+#: CRM/Campaign/Form/Task/Reserve.php
+#: templates/CRM/Campaign/Form/Task/Interview.tpl
+msgid "Reserve"
+msgstr "Fenntart"
+
+#: CRM/Campaign/Form/Task/Reserve.php
+msgid "Reserve and Interview"
+msgstr "Fenntart és Megkérdez"
+
+#: CRM/Campaign/Form/Task/Reserve.php CRM/Campaign/Page/AJAX.php
+msgid "Respondent Reservation"
+msgstr "Válaszadó foglalás"
+
+#: CRM/Campaign/Form/Task/Reserve.php
+msgid "%count contact has been reserved."
+msgid_plural "%count contacts have been reserved."
+msgstr[0] "%count kapcsolat lefoglalva."
+msgstr[1] "%count kapcsolatok lefoglalva."
+
+#: CRM/Campaign/Form/Task/Reserve.php
+msgid "They have been added to %1."
+msgstr "Hozzáadva a %1 felméréshez."
+
+#: CRM/Campaign/Form/Task/Reserve.php
+msgid "Reservation Added"
+msgstr "Fenntartás hozzáadva"
+
+#: CRM/Campaign/Form/Task/Reserve.php
+msgid "Reservation did not add for %count contact."
+msgid_plural "Reservation did not add for %count contacts."
+msgstr[0] "%count kapcsolat nem került lefoglalásra."
+msgstr[1] "%count kapcsolatok nem kerültek lefoglalásra."
+
+#: CRM/Campaign/Info.php
+msgid "CiviCRM Campaign Engine"
+msgstr "CiviCRM Kampány motor"
+
+#: CRM/Campaign/Info.php
+msgid "administer CiviCampaign"
+msgstr "CiviKampány kezelése"
+
+#: CRM/Campaign/Info.php
+msgid "Create new campaign, survey and petition types and their status"
+msgstr "Új kampány,  felmérés és petíció típus létrehozása és az állapotuk"
+
+#: CRM/Campaign/Info.php
+msgid "manage campaign"
+msgstr "kampány kezelése"
+
+#: CRM/Campaign/Info.php
+msgid "Create new campaigns, surveys and petitions, reserve respondents"
+msgstr "Új kampány,  felmérés és petíciólétrehozása, válaszolók lefoglalása"
+
+#: CRM/Campaign/Info.php
+msgid "reserve campaign contacts"
+msgstr "kampány kapcsolatok lefoglalása"
+
+#: CRM/Campaign/Info.php
+msgid "Reserve campaign contacts for surveys and petitions"
+msgstr "Kampány kapcsolatok lefoglalása a felmérésekhez és petíciókhoz"
+
+#: CRM/Campaign/Info.php
+msgid "release campaign contacts"
+msgstr "kampány kapcsolatok feloldása"
+
+#: CRM/Campaign/Info.php
+msgid "Release reserved campaign contacts for surveys and petitions"
+msgstr "A kampányra lefoglalt kapcsolatok feloldása felmérésekre és petíciókra  "
+
+#: CRM/Campaign/Info.php
+msgid "interview campaign contacts"
+msgstr "kampány kapcsolatok interjúztatása"
+
+#: CRM/Campaign/Info.php
+msgid "Record survey and petition responses from their reserved contacts"
+msgstr "Felmérés és petíció válaszok rögzítése a fenntartott kapcsolatoktól"
+
+#: CRM/Campaign/Info.php
+msgid "GOTV campaign contacts"
+msgstr "GOVT kampány kapcsolatok"
+
+#: CRM/Campaign/Info.php
+msgid "Record that contacts voted"
+msgstr "A leszavazott kapcsolatok rögzítése"
+
+#: CRM/Campaign/Info.php
+msgid "sign CiviCRM Petition"
+msgstr "CiviCRM petíció aláírása"
+
+#: CRM/Campaign/Page/AJAX.php
+msgid "Respondent Reserved."
+msgstr "Válaszadó lefoglalva."
+
+#: CRM/Campaign/Page/AJAX.php templates/CRM/Campaign/Form/Gotv.tpl
+msgid "Vote Recorded."
+msgstr "Szavazatt rögzítve."
+
+#: CRM/Campaign/Page/DashBoard.php
+msgid "Update Campaign"
+msgstr "Kampány frissítése"
+
+#: CRM/Campaign/Page/DashBoard.php
+msgid "Disable Campaign"
+msgstr "Kampány felfüggesztése"
+
+#: CRM/Campaign/Page/DashBoard.php
+msgid "Enable Campaign"
+msgstr "Kampány engedélyezése"
+
+#: CRM/Campaign/Page/DashBoard.php
+msgid "Update Survey"
+msgstr "Kérdőív frissítése"
+
+#: CRM/Campaign/Page/DashBoard.php
+msgid "Disable Survey"
+msgstr "Kérdőív felfüggesztése"
+
+#: CRM/Campaign/Page/DashBoard.php
+msgid "Enable Survey"
+msgstr "Kérdőív engedélyezése"
+
+#: CRM/Campaign/Page/DashBoard.php
+msgid "Update Petition"
+msgstr "Petíció frissítése"
+
+#: CRM/Campaign/Page/DashBoard.php
+msgid "Disable Petition"
+msgstr "Petíció felfüggesztése"
+
+#: CRM/Campaign/Page/DashBoard.php
+msgid "Enable Petition"
+msgstr "Petíció engedélyezése"
+
+#: CRM/Campaign/Page/DashBoard.php
+msgid "Sign"
+msgstr "Aláírás"
+
+#: CRM/Campaign/Page/DashBoard.php
+msgid "Sign Petition"
+msgstr "Petíció aláírása"
+
+#: CRM/Campaign/Page/DashBoard.php
+msgid "Signatures"
+msgstr "Aláírások"
+
+#: CRM/Campaign/Page/DashBoard.php
+msgid "List the signatures"
+msgstr "Aláírások listázása"
+
+#: CRM/Campaign/Page/DashBoard.php
+#: templates/CRM/Campaign/Form/Search/Campaign.tpl
+msgid "Search Campaigns"
+msgstr "Kampányok keresése"
+
+#: CRM/Campaign/Page/DashBoard.php
+msgid "Search Survey"
+msgstr "Felmérés keresése"
+
+#: CRM/Campaign/Page/DashBoard.php
+msgid "1 Day"
+msgid_plural "%count Days"
+msgstr[0] "1 nap"
+msgstr[1] "%count napok"
+
+#: CRM/Campaign/Page/DashBoard.php
+msgid "view result set"
+msgstr "eredmény megtekintése"
+
+#: CRM/Campaign/Page/DashBoard.php
+msgid "Incomplete. Click to configure result set."
+msgstr "Hiányos. Kattintson az eredmény beállítására."
+
+#: CRM/Campaign/Page/DashBoard.php
+msgid "Search Petition"
+msgstr "Petíció keresése"
+
+#: CRM/Campaign/Page/DashBoard.php
+msgid "Surveys"
+msgstr "Felmérések"
+
+#: CRM/Campaign/Page/DashBoard.php
+msgid "Petitions"
+msgstr "Petíciók"
+
+#: CRM/Campaign/Selector/Search.php
+msgid "Respondents"
+msgstr "Válaszadók"
+
+#: CRM/Campaign/Selector/Search.php
+msgid "CiviCRM Respondent Search"
+msgstr "CiviCRM Válaszadó keresés"
+
+#: CRM/Campaign/Task.php
+msgid "Record Respondents Interview"
+msgstr "A válaszoló interjújának rögzítése"
+
+#: templates/CRM/Campaign/Form/Campaign.tpl
+msgid "Are you sure you want to delete this Campaign?"
+msgstr "Biztos vagy abban hogy törölni akarod ezt a Kampányt?"
+
+#: templates/CRM/Campaign/Form/Gotv.tpl
+msgid "Is Interview Conducted?"
+msgstr "Az interjú meg van szervezve?"
+
+#: templates/CRM/Campaign/Form/Gotv.tpl
+msgid "Voted?"
+msgstr "Szavazott?"
+
+#: templates/CRM/Campaign/Form/Gotv.tpl
+msgid "Is Reserved?"
+msgstr "Fentartott?"
+
+#: templates/CRM/Campaign/Form/Gotv.tpl
+msgid "Save as voted."
+msgstr "Mentés szavazottként."
+
+#: templates/CRM/Campaign/Form/Gotv.tpl
+msgid "Save as non voted."
+msgstr "Mentés nem szavazottként."
+
+#: templates/CRM/Campaign/Form/Gotv.tpl
+msgid "Vote Cancelled."
+msgstr "Szavazás törölve."
+
+#: templates/CRM/Campaign/Form/Gotv.tpl
+msgid "Reserved."
+msgstr "Fentartott."
+
+#: templates/CRM/Campaign/Form/Gotv.tpl
+#: templates/CRM/Campaign/Form/Task/Interview.tpl
+msgid "Released."
+msgstr "Szabadon bocsájtva."
+
+#: templates/CRM/Campaign/Form/Petition/Signature.tpl
+#: templates/CRM/Campaign/Page/Petition/ThankYou.tpl
+msgid "You have already signed this petition."
+msgstr "Ezt a petíciót már aláírtad."
+
+#: templates/CRM/Campaign/Form/Petition/Signature.tpl
+msgid ""
+"You have already signed this petition but you still <b>need to verify your "
+"email address</b>."
+msgstr "Ön már aláírta ezt a petíciót de nekünk <b>meg kell erősítenie az email címét</b>."
+
+#: templates/CRM/Campaign/Form/Petition/Signature.tpl
+msgid ""
+"Please check your email inbox for the confirmation email. If you don't find "
+"it, verify if it isn't in your spam folder."
+msgstr "Kérem ellenőrizze a e-mail fiókját a megerősítő e-mail miatt. Ha nem találja, nézze meg nincs-e a levélszemét között."
+
+#: templates/CRM/Campaign/Form/Petition/Signature.tpl
+msgid "Thank you for your support."
+msgstr "Köszönjük a támogatását."
+
+#: templates/CRM/Campaign/Form/Petition.tpl
+msgid "Are you sure you want to delete this Petition?"
+msgstr "Biztos vagy benne hogy törölni akarod ezt a petíciót?"
+
+#: templates/CRM/Campaign/Form/Petition.tpl
+#: templates/CRM/Campaign/Form/Survey/Main.tpl
+msgid ""
+"Use this form to Add new Survey. You can create a new Activity type, "
+"specific to this Survey or select an existing activity type for this Survey."
+msgstr "Használd ezt a mintát új felmérés létrehozásához. Készíthetsz új Tevékenység formát is ehhez a felméréshez kapcsolódóan vagy választhatsz a már létező tevékenységek közül amik ehhez a felméréshez kapcsolódnak."
+
+#: templates/CRM/Campaign/Form/Petition.tpl
+msgid "Fields about the contact you want to collect."
+msgstr "A kiválasztott kapcsolattartóval kapcsolatos mezők ameyeket szeretnél összegyűjteni."
+
+#: templates/CRM/Campaign/Form/Petition.tpl
+msgid "Fields about the petition."
+msgstr "Mezők a petícióval kapcsolatban."
+
+#: templates/CRM/Campaign/Form/Petition.tpl
+msgid "Click here for new profile"
+msgstr "Kattintson ide az új profil elkészítéséhez "
+
+#: templates/CRM/Campaign/Form/Petition.tpl
+msgid "This title will be displayed at the top of the thank-you page."
+msgstr "Ez a cím lesz megjelenítve a köszönöm oldalad tetején."
+
+#: templates/CRM/Campaign/Form/Petition.tpl
+msgid ""
+"Enter text (and optional HTML layout tags) for the thank-you message that "
+"will appear at the top of the thank-you page."
+msgstr "Adj meg szöveget (opcionálisan HTML tagekkel) a köszönöm üzenethez ami meg fog jelenni a köszönöm oldalad tetején."
+
+#: templates/CRM/Campaign/Form/Petition.tpl
+msgid "Disable the email confirmation for unverified contacts?"
+msgstr "Email megerősítés kikapcsolása nem igazolt kapcsolatokhoz?"
+
+#: templates/CRM/Campaign/Form/Petition.tpl
+msgid "Is this petition active?"
+msgstr "Aktív ez a petíció?"
+
+#: templates/CRM/Campaign/Form/Petition.tpl
+msgid "Is this the default petition?"
+msgstr "Ez az alapértelmezett petíció?"
+
+#: templates/CRM/Campaign/Form/ResultOptions.tpl
+msgid ""
+"You can create new result options for this survey, or select an existing "
+"survey result set which you've already created for another survey."
+msgstr "Létrehozhatsz új eredmény opciókat ehhez a felméréshez vagy választhatsz a már meglévő felmérési eredmények közül amelyeket már létrehoztál ehhez a felméréshez."
+
+#: templates/CRM/Campaign/Form/ResultOptions.tpl
+msgid "Result Options"
+msgstr "Eredmény lehetőségek"
+
+#: templates/CRM/Campaign/Form/ResultOptions.tpl
+msgid ""
+"Enter up to ten (10) multiple choice options in this table (click 'another "
+"choice' for each additional choice).You can use existing result set options "
+"by selecting survey result set."
+msgstr "Kérlek adj meg maximum  (10)  különféle válaszlehetőséget ebben a táblában (kattints a 'másik lehetőség'-re minden egyes másik lehetőséghez). Használhatsz már meglévő eredményeket is a felmérés eredményeket kiválasztva."
+
+#: templates/CRM/Campaign/Form/Search/Campaign.tpl
+msgid "Add Campaign"
+msgstr "Kampány hozzáadása"
+
+#: templates/CRM/Campaign/Form/Search/Campaign.tpl
+msgid "Type ID"
+msgstr "Azonosító típusa"
+
+#: templates/CRM/Campaign/Form/Search/Campaign.tpl
+msgid "Status ID"
+msgstr "Azonosító státusza"
+
+#: templates/CRM/Campaign/Form/Search/EmptyResults.tpl
+msgid "if you are searching by respondent name, check your spelling"
+msgstr "Ha a válaszadó neve alapján keresel, ellenőrizd a helyesírást"
+
+#: templates/CRM/Campaign/Form/Search/Petition.tpl
+msgid "Add Petition"
+msgstr "Petíció hozzáadása"
+
+#: templates/CRM/Campaign/Form/Search/Petition.tpl
+msgid "Petition ID"
+msgstr "Petíció azonosítója"
+
+#: templates/CRM/Campaign/Form/Search/Petition.tpl
+msgid "Petition Type ID"
+msgstr "Petíció tipusának azonosítója"
+
+#: templates/CRM/Campaign/Form/Search/Petition.tpl
+msgid "Petition Type"
+msgstr "Petíció típusa"
+
+#: templates/CRM/Campaign/Form/Search/Petition.tpl
+msgid "Search Petitions"
+msgstr "Petíció keresése"
+
+#: templates/CRM/Campaign/Form/Search/Survey.tpl
+#: templates/CRM/Campaign/Page/Petition.tpl
+msgid "Add Survey"
+msgstr "Felmérés hozzáadása"
+
+#: templates/CRM/Campaign/Form/Search/Survey.tpl
+msgid "Survey Type ID"
+msgstr "Felmérés típusának azonosítója"
+
+#: templates/CRM/Campaign/Form/Search/Survey.tpl
+#: templates/CRM/Campaign/Page/Petition.tpl
+msgid "Survey Type"
+msgstr "Felmérés típusa"
+
+#: templates/CRM/Campaign/Form/Search/Survey.tpl
+msgid "Reserve Each Time"
+msgstr "Minden idő lefoglalása"
+
+#: templates/CRM/Campaign/Form/Search/Survey.tpl
+msgid "Total Reserve"
+msgstr "Összesen lefoglalt"
+
+#: templates/CRM/Campaign/Form/Search/Survey.tpl
+msgid "Search Surveys"
+msgstr "Felmérések keresése"
+
+#: templates/CRM/Campaign/Form/Search/Survey.tpl
+msgid "Result Set for"
+msgstr "Eredmény lista ehhez"
+
+#: templates/CRM/Campaign/Form/Survey/Delete.tpl
+msgid "Are you sure you want to delete the %1 survey?"
+msgstr "Biztos abban, hogy törölni kívánja a %1 kérdőívet?"
+
+#: templates/CRM/Campaign/Form/Survey/Main.tpl
+msgid "Title of the survey."
+msgstr "A felmérés címe"
+
+#: templates/CRM/Campaign/Form/Survey/Main.tpl
+msgid "Select the campaign for which survey is created."
+msgstr "Válaszd ki a kampányt amihez ezt a felmérést készíted."
+
+#: templates/CRM/Campaign/Form/Survey/Main.tpl
+msgid "Select the Activity Type."
+msgstr "Válaszd ki a Tevékenység típusát."
+
+#: templates/CRM/Campaign/Form/Survey/Main.tpl
+msgid ""
+"Maximum number of contacts that can be reserved for an interviewer at one "
+"time."
+msgstr "Az egyszerre maximálisan lefoglalható kapcsolatok száma egy interjúztatóhoz."
+
+#: templates/CRM/Campaign/Form/Survey/Main.tpl
+msgid ""
+"Maximum total number of contacts that can be in a reserved state for an "
+"interviewer."
+msgstr "A maximális összes kapcsolatok száma ami le lehet foglalva egy interjúztatóhoz."
+
+#: templates/CRM/Campaign/Form/Survey/Main.tpl
+msgid ""
+"Reserved respondents are released if they haven't been surveyed within this "
+"number of days. The Respondent Processor script must be run periodically to "
+"release respondents."
+msgstr "A lefoglalt válaszadók felszabadulnak ha nem válaszoknak bizonyos számú napon belül. A Válaszadó processzor scriptnek időszakosan le kell futnia hogy elengedje a válaszadókat."
+
+#: templates/CRM/Campaign/Form/Survey/Main.tpl
+msgid "Is this survey active?"
+msgstr "Aktív ez a felmérés?"
+
+#: templates/CRM/Campaign/Form/Survey/Main.tpl
+msgid "Is this the default survey?"
+msgstr "Ez az alapértelmezett felmérés?"
+
+#: templates/CRM/Campaign/Form/Task/Interview.tpl
+msgid ""
+"Click <strong>record response</strong> button to update values for each "
+"respondent as needed."
+msgstr "Kattints a <strong>válasz rögzítése </strong> gombra hogy frissítsd az értéket minden egyes válaszoló számára ha szükséges."
+
+#: templates/CRM/Campaign/Form/Task/Interview.tpl
+msgid ""
+"Click <strong>record response</strong> button to update values for each "
+"respondent as needed. <br />Click <strong>Release Respondents >></strong> "
+"button below to release any respondents for whom you haven't recorded a "
+"response. <br />Click <strong>Reserve More Respondents >></strong> button if"
+" you need to get more respondents to interview."
+msgstr "Kattints a <strong>válasz rögzítése </strong> gombra hogy frissítsd az értéket minden egyes válaszoló számára ha szükséges.<br /> Kattints a <strong> Válaszadók elengedése >></strong> gombra hogy felszabadítsd azokat a válaszadókat akiknek a válaszát nem rögzítetted.<br />Kattints a <strong>Több válaszadó fenntartása>></strong> gombra ha az interjúhoz még több válaszadóra van szükséged."
+
+#: templates/CRM/Campaign/Form/Task/Interview.tpl
+msgid "Survey Report"
+msgstr "Kérdőív jelentés"
+
+#: templates/CRM/Campaign/Form/Task/Interview.tpl
+msgid "Vote"
+msgstr "Szavazar"
+
+#: templates/CRM/Campaign/Form/Task/Interview.tpl
+msgid "Record Responses for All"
+msgstr "Összes válasz rögzítése "
+
+#: templates/CRM/Campaign/Form/Task/Interview.tpl
+msgid "record response"
+msgstr "válasz rögzítése"
+
+#: templates/CRM/Campaign/Form/Task/Interview.tpl
+msgid "Release"
+msgstr "Elenged"
+
+#: templates/CRM/Campaign/Form/Task/Interview.tpl
+msgid "release"
+msgstr "elenged"
+
+#: templates/CRM/Campaign/Form/Task/Interview.tpl
+msgid "Response Saved."
+msgstr "Válasz elmentve."
+
+#: templates/CRM/Campaign/Form/Task/Interview.tpl
+msgid "Update Response"
+msgstr "Válasz szerkesztése"
+
+#: templates/CRM/Campaign/Form/Task/Interview.tpl
+msgid "Update Responses for All"
+msgstr "Összes válasz frissítése "
+
+#: templates/CRM/Campaign/Form/Task/Interview.tpl
+msgid "Please correct the following errors in the survey fields below:"
+msgstr "Kérem javítsa az alábbi felmérés mező hibákat:"
+
+#: templates/CRM/Campaign/Form/Task/Interview.tpl
+msgid "reserve"
+msgstr "fenntart"
+
+#: templates/CRM/Campaign/Form/Task/Release.tpl
+msgid "Do you want to release respondents for '%1' ?"
+msgstr "El akarod engedni %1 válaszadóit?"
+
+#: templates/CRM/Campaign/Form/Task/Reserve.tpl
+msgid "Add Respondent Reservation(s)"
+msgstr "Válaszoló(k) lekötésének hozzáadása"
+
+#: templates/CRM/Campaign/Form/Task/Reserve.tpl
+msgid "Do you want to reserve respondents for '%1' ?"
+msgstr "Szeretnék lekötni válaszolókat %1hez?"
+
+#: templates/CRM/Campaign/Form/Task/Reserve.tpl
+msgid "Add respondent(s) to a new group"
+msgstr "Válaszadók hozzáadása egy új csapathoz"
+
+#: templates/CRM/Campaign/Form/addCampaignToComponent.hlp
+msgid ""
+"Your organization can use Campaigns to track all constituent interactions "
+"related to a particular fund-raising or engagement effort. You can link "
+"activities, contributions, event participation, mailings, membership "
+"signups, and pledges to a particular campaign."
+msgstr "A szervezete kampányok segítségével nyomon követheti az összes erőfeszísét ami kapcsolódik egy adott adománygyűjtéshez vagy kötelezettséghez. Hozzárendelhet tevékenységeket, adományokat, esemény részvételeket, leveleket, tagsági feliratkozást, felajánlásokat egy adott kampányhoz."
+
+#: templates/CRM/Campaign/Page/Petition/Confirm.tpl
+msgid ""
+"<strong>%1 - your email address '%2' has been successfully "
+"verified.</strong>"
+msgstr "<strong>%1 - Az email címedÉ '%2' megerősítése sikeres volt .</strong>"
+
+#: templates/CRM/Campaign/Page/Petition/Confirm.tpl
+msgid ""
+"Oops. We encountered a problem in processing your email verification. Please"
+" contact the site administrator."
+msgstr "Hoppá, problémába ütköztünk a megerésítő emailed feldolgozása közben. Kérem lépjen kapcsolatba a webhely adminisztrátorával. "
+
+#: templates/CRM/Campaign/Page/Petition/Confirm.tpl
+msgid "Thank you for signing the petition."
+msgstr "Köszönöm hogy aláírtad ezt a petíciót."
+
+#: templates/CRM/Campaign/Page/Petition/ThankYou.tpl
+msgid "STEP 2: Please Check Your Email"
+msgstr "2. lépés: Kérem ellenőrizze az e-mailjét"
+
+#: templates/CRM/Campaign/Page/Petition/ThankYou.tpl
+msgid ""
+"To complete and confirm your signature, please follow the activation "
+"instructions sent to the email address you provided."
+msgstr "Az aláírásod befejézéséhez és jóváhagyásához kérlek kövesd az aktiválási utasításokat amiket az általad megadott email címre küldtünk el."
+
+#: templates/CRM/Campaign/Page/Petition/ThankYou.tpl
+msgid "IMPORTANT"
+msgstr "FONTOS"
+
+#: templates/CRM/Campaign/Page/Petition/ThankYou.tpl
+msgid ""
+"Before we can add your signature, you must validate your email address by "
+"clicking on the activation link in the confirmation e-mail. Sometimes our "
+"confirmation emails get flagged as spam and are moved to your bulk folder."
+msgstr "Mielőtt hozzáadhatnánk az alárásod, érvényesítened kell az email cimed az aktiválási linken a megerősítő emailben. Néha a megerősítési emailjeinket spamnak jelölik és a szemetesládába kerülnek."
+
+#: templates/CRM/Campaign/Page/Petition/ThankYou.tpl
+msgid ""
+"If you haven't received an email within a few minutes, please check your "
+"spam folder."
+msgstr "Ha nem kapja meg az e-mailt néhány percen belül, kérem ellenőrizze a spam mappáját."
+
+#: templates/CRM/Campaign/Page/Petition/ThankYou.tpl
+msgid ""
+"You have already signed this petition but we<strong>need to confirm your "
+"email address</strong>."
+msgstr "Ön már aláírta ezt a petíciót de nekünk<strong>meg kell erősítenie az ön e-mail címét</strong>."
+
+#: templates/CRM/Campaign/Page/Petition/ThankYou.tpl
+msgid ""
+"Before we can add your signature, you must validate your email address by "
+"clicking on the activation link in the confirmation e-mail. Sometimes our "
+"confirmation emails get flagged as spam and are moved to your spam folder."
+msgstr "Mielőtt hozzáadhatnánk az alárásod, érvényesítened kell az email cimed az aktiválási linken a megerősítő emailben. Néha a megerősítési emailjeinket spamnak jelölik és a szemetesládába kerülnek."
+
+#: templates/CRM/Campaign/Page/Petition/ThankYou.tpl
+msgid ""
+"If you haven't received an email from us, check your spam folder, it might "
+"have been wrongly classified."
+msgstr "Ha nem kaptál levelet tőlünk, ellenőrizd a spam mappádat, lehet hogy rosszul lett besorolva."
+
+#: templates/CRM/Campaign/Page/Petition.tpl
+msgid "Max Number Of Contacts"
+msgstr "Kapcsolatok maximális száma"
+
+#: templates/CRM/Campaign/Page/Petition.tpl
+msgid "Default Number Of Contacts"
+msgstr "Kapcsolatok alapértelmezett száma"
+
+#: templates/CRM/Campaign/Page/SurveyType.tpl
+msgid "There are no survey types entered. You can <a href='%1'>add one</a>."
+msgstr "Felmérés típus nem lett megadva. Itt adhat meg <a href='%1'>egyet</a>."

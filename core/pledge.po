@@ -1,0 +1,949 @@
+# Copyright CiviCRM LLC (c) 2004-2015
+# This file is distributed under the same license as the CiviCRM package.
+# If you contribute heavily to a translation and deem your work copyrightable,
+# make sure you license it to CiviCRM LLC under Academic Free License 3.0.
+# Translators:
+# Piotr Szotkowski <chastell@chastell.net>, 2011
+# Szabo Attila, 2013
+# Zoltán Reizinger <zreizinger@hdsnet.hu>, 2013-2016,2018-2020
+msgid ""
+msgstr ""
+"Project-Id-Version: CiviCRM\n"
+"POT-Creation-Date: 2020-01-21 16:29-0500\n"
+"PO-Revision-Date: 2020-01-27 07:32+0000\n"
+"Last-Translator: Zoltán Reizinger <zreizinger@hdsnet.hu>\n"
+"Language-Team: Hungarian (http://www.transifex.com/civicrm/civicrm/language/hu/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: hu\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: CRM/Pledge/BAO/Pledge.php CRM/Pledge/Form/PledgeView.php
+#: CRM/Pledge/Selector/Search.php
+msgid "Pledged"
+msgstr "Felajánlott"
+
+#: CRM/Pledge/BAO/Pledge.php
+msgid "Balance Amount"
+msgstr "Fizetési egyenleg"
+
+#: CRM/Pledge/BAO/Pledge.php
+msgid "Next Payment Date"
+msgstr "Következő fizetés dátuma"
+
+#: CRM/Pledge/BAO/Pledge.php
+msgid "Paid Amount"
+msgstr "Fizetett összeg"
+
+#: CRM/Pledge/BAO/Pledge.php templates/CRM/Pledge/Page/Payment.tpl
+msgid "Paid Date"
+msgstr "Fizetés dátuma"
+
+#: CRM/Pledge/BAO/Pledge.php CRM/Pledge/BAO/Query.php
+#: templates/CRM/Pledge/Form/Search/Common.tpl
+msgid "Pledge Payment Status"
+msgstr "Pénzbeli felajánlások státusza"
+
+#: CRM/Pledge/BAO/Pledge.php CRM/Pledge/DAO/Pledge.php
+#: CRM/Pledge/DAO/PledgeBlock.php
+msgid "Pledge Frequency Unit"
+msgstr "Felajánlás gyakoriságának egysége"
+
+#: CRM/Pledge/BAO/Pledge.php CRM/Pledge/BAO/PledgeBlock.php
+#: CRM/Pledge/DAO/Pledge.php
+msgid "Pledge Frequency Interval"
+msgstr "Felajánlás gyakoriságának időköze"
+
+#: CRM/Pledge/BAO/Pledge.php
+msgid "Pledge Contribution Page Id"
+msgstr "Felajánlás adományoldal azonosító"
+
+#: CRM/Pledge/BAO/PledgeBlock.php
+msgid "%1 - due on %2 (overdue)"
+msgstr "%1 - esedékes %2 (túllépés)"
+
+#: CRM/Pledge/BAO/PledgeBlock.php
+msgid "%1 - due on %2"
+msgstr "%1 - esedékes %2 "
+
+#: CRM/Pledge/BAO/PledgeBlock.php
+msgid ""
+"Oops. It looks like there is no valid payment status for online payment."
+msgstr "Hoppá. Úgy látszik nincs érvényes kifizetési státusz online fizetéssel."
+
+#: CRM/Pledge/BAO/PledgeBlock.php
+msgid "Make Pledge Payment(s):"
+msgstr "Tegyen pénzbeni felajánlást(okat):"
+
+#: CRM/Pledge/BAO/PledgeBlock.php
+msgid "I want to make a one-time contribution"
+msgstr "Szeretnék tenni egy egyszeri felajánlást"
+
+#: CRM/Pledge/BAO/PledgeBlock.php
+msgid "I pledge to contribute this amount every"
+msgstr "Szeretném felajánlati ezt az összeget adomáynként minden"
+
+#: CRM/Pledge/BAO/PledgeBlock.php
+msgid "Frequency Intervals"
+msgstr "Gyakoriság időközök"
+
+#: CRM/Pledge/BAO/PledgeBlock.php
+msgid "Frequency Units"
+msgstr "Gyakoriság egysége"
+
+#: CRM/Pledge/BAO/PledgeBlock.php
+msgid "First installment payment"
+msgstr "Első részletfizetés"
+
+#: CRM/Pledge/BAO/PledgeBlock.php
+msgid "Day of month installments paid"
+msgstr "Részletfizetés napja "
+
+#: CRM/Pledge/BAO/Query.php
+msgid "Pledge Acknowledgement Sent"
+msgstr "Felajánlás köszönetnyilvánításelküldve"
+
+#: CRM/Pledge/BAO/Query.php
+msgid "Pledge Acknowledgement  Not Sent"
+msgstr "Felajánlás köszönetnyilvánítás nincs elküldve"
+
+#: CRM/Pledge/BAO/Query.php
+msgid "Pledge is a Test"
+msgstr "Teszt felajánlás"
+
+#: CRM/Pledge/BAO/Query.php
+msgid "Financial Type - %1"
+msgstr "Pénzügyi típus - %1"
+
+#: CRM/Pledge/BAO/Query.php
+msgid "Financial Page - %1"
+msgstr "Pénzügyi oldal - %1"
+
+#: CRM/Pledge/BAO/Query.php
+msgid "Pledge is a Test?"
+msgstr "Teszt felajánlás?"
+
+#: CRM/Pledge/BAO/Query.php
+msgid "Acknowledgement sent?"
+msgstr "Köszönetnyilvánítás elküldve?"
+
+#: CRM/Pledge/BAO/Query.php
+msgid "Please enter a number"
+msgstr "Kérem adjon meg egy számot"
+
+#: CRM/Pledge/BAO/Query.php
+msgid "Please enter number."
+msgstr "Kérem adja meg a számot."
+
+#: CRM/Pledge/BAO/Query.php
+msgid "Please enter valid Pledge Frequency Interval"
+msgstr "Kérem adjon meg érvényes felajánlás gyakorisági intervallumot"
+
+#: CRM/Pledge/BAO/Query.php
+msgid "Pledge Frequency"
+msgstr "Felajánlások státusza"
+
+#: CRM/Pledge/DAO/Pledge.php
+msgid "Foreign key to civicrm_contact.id ."
+msgstr "civicrm_contact.id FK."
+
+#: CRM/Pledge/DAO/Pledge.php
+msgid "Pledge Contribution Page"
+msgstr "Felajánlás adományoldala"
+
+#: CRM/Pledge/DAO/Pledge.php
+msgid "Total pledged amount."
+msgstr "Teljes felajánlott összeg."
+
+#: CRM/Pledge/DAO/Pledge.php
+msgid "Original Installment Amount"
+msgstr "Eredeti részletfizetési összeg"
+
+#: CRM/Pledge/DAO/Pledge.php
+msgid "Original amount for each of the installments."
+msgstr "Az egyes részletek eredetileg felajánlott összegei."
+
+#: CRM/Pledge/DAO/Pledge.php
+msgid "Pledge Currency"
+msgstr "Felajánlás pénzneme"
+
+#: CRM/Pledge/DAO/Pledge.php
+msgid "Time units for recurrence of pledge payments."
+msgstr "A felajánlott befizetések ismétlődési idő egysége."
+
+#: CRM/Pledge/DAO/Pledge.php
+msgid "Number of time units for recurrence of pledge payments."
+msgstr "A felajánlott befizetések ismétlődési idő egységek száma."
+
+#: CRM/Pledge/DAO/Pledge.php
+msgid "Pledge day"
+msgstr "Felajánlás napja"
+
+#: CRM/Pledge/DAO/Pledge.php
+msgid ""
+"Day in the period when the pledge payment is due e.g. 1st of month, 15th "
+"etc. Use this to set the scheduled dates for pledge payments."
+msgstr "A felajánlott periódusban lévő nap, amikor a befizetés esedékes. Hónap első napja, 15-ik napja, stb. Használja a befizetés ütemezés beállításához."
+
+#: CRM/Pledge/DAO/Pledge.php
+msgid "Pledge Number of Installments"
+msgstr "Felajánlás részletfizetések száma"
+
+#: CRM/Pledge/DAO/Pledge.php
+msgid "Total number of payments to be made."
+msgstr "A tervezett befizetések tejes száma."
+
+#: CRM/Pledge/DAO/Pledge.php CRM/Pledge/DAO/PledgeBlock.php
+msgid "The date the first scheduled pledge occurs."
+msgstr "Az első ütemezett felajánlás napja."
+
+#: CRM/Pledge/DAO/Pledge.php
+msgid "Payments Start Date"
+msgstr "Befizetések kezdő dátuma"
+
+#: CRM/Pledge/DAO/Pledge.php
+msgid "When this pledge record was created."
+msgstr "A felajánlási rekord létrehozási ideje."
+
+#: CRM/Pledge/DAO/Pledge.php
+msgid "Pledge Acknowledged"
+msgstr "Visszaigazolt felajánlás"
+
+#: CRM/Pledge/DAO/Pledge.php
+msgid "When a pledge acknowledgement message was sent to the contributor."
+msgstr "A felajánlás jóváhagyási üzenet elküldése az adományozóhoz. "
+
+#: CRM/Pledge/DAO/Pledge.php
+msgid "Pledge Modified Date"
+msgstr "Felajánlás módosítási dátuma"
+
+#: CRM/Pledge/DAO/Pledge.php
+msgid "Last updated date for this pledge record."
+msgstr "A felajánlási rekord utolsó frissítési dátuma."
+
+#: CRM/Pledge/DAO/Pledge.php
+msgid "Pledge Cancelled Date"
+msgstr "Felajánlás törlési dátuma"
+
+#: CRM/Pledge/DAO/Pledge.php
+msgid "Date this pledge was cancelled by contributor."
+msgstr "Ezen felajánlás adományozó általi törlés dátuma."
+
+#: CRM/Pledge/DAO/Pledge.php
+msgid ""
+"Date this pledge finished successfully (total pledge payments equal to or "
+"greater than pledged amount)."
+msgstr "A felajánlás sikeres befejeződésnek dátuma ( a felajánlott összeg egyenlő vagy nagyobb mint a felajánlott összeg)."
+
+#: CRM/Pledge/DAO/Pledge.php
+msgid "Payments Ended Date"
+msgstr "Befizetések befejező dátuma"
+
+#: CRM/Pledge/DAO/Pledge.php CRM/Pledge/DAO/PledgeBlock.php
+msgid "Maximum Number of Reminders"
+msgstr "Emlékeztetők maximális száma"
+
+#: CRM/Pledge/DAO/Pledge.php CRM/Pledge/DAO/PledgeBlock.php
+msgid "The maximum number of payment reminders to send for any given payment."
+msgstr "Bármely befizetéshez elküldött figyelmeztető értesítések maximális száma."
+
+#: CRM/Pledge/DAO/Pledge.php CRM/Pledge/DAO/PledgeBlock.php
+#: templates/CRM/Pledge/Form/PledgeView.tpl
+msgid "Initial Reminder Day"
+msgstr "Emlékeztetők kezdőnapja"
+
+#: CRM/Pledge/DAO/Pledge.php CRM/Pledge/DAO/PledgeBlock.php
+msgid "Send initial reminder this many days prior to the payment due date."
+msgstr "Előzetes értesítő küldése ennyi nappal a befizetés esedékessége előtt."
+
+#: CRM/Pledge/DAO/Pledge.php CRM/Pledge/DAO/PledgeBlock.php
+msgid "Additional Reminder Days"
+msgstr "Emlékeztetők pótnapjai"
+
+#: CRM/Pledge/DAO/Pledge.php CRM/Pledge/DAO/PledgeBlock.php
+msgid ""
+"Send additional reminder this many days after last one sent, up to maximum "
+"number of reminders."
+msgstr "Kiegészítő értesítés küldése ennyi nappal az utolsó elküldött után, a maximális emlékeztető számig."
+
+#: CRM/Pledge/DAO/Pledge.php
+msgid "Pledge Status Id"
+msgstr "Felajánlás státusz azonosítója"
+
+#: CRM/Pledge/DAO/Pledge.php
+msgid ""
+"Implicit foreign key to civicrm_option_values in the pledge_status option "
+"group."
+msgstr "A civicrm_option_values értékéhez pledge_status option group csoportban tartozó közvetlen FK."
+
+#: CRM/Pledge/DAO/Pledge.php
+msgid "The campaign for which this pledge has been initiated."
+msgstr "A kampány amelyhez ez a felajánlás kezdeményezésre került."
+
+#: CRM/Pledge/DAO/PledgeBlock.php
+msgid "Pledge Block ID"
+msgstr "Felajánlás blokk azonosítója"
+
+#: CRM/Pledge/DAO/PledgeBlock.php
+msgid ""
+"physical tablename for entity being joined to pledge, e.g. civicrm_contact"
+msgstr "a felajánláshoz kapcsolt egyed fizikai tábla neve, pl. civicrm_contact"
+
+#: CRM/Pledge/DAO/PledgeBlock.php
+msgid "Entity Id"
+msgstr "Entitás azonosítója"
+
+#: CRM/Pledge/DAO/PledgeBlock.php
+msgid "Delimited list of supported frequency units"
+msgstr "A támogatott frekvencia egységek elhatárolt listája"
+
+#: CRM/Pledge/DAO/PledgeBlock.php
+msgid "Expose Frequency Interval?"
+msgstr "Mutassa a gyakorisági időközet"
+
+#: CRM/Pledge/DAO/PledgeBlock.php
+msgid "Is frequency interval exposed on the contribution form."
+msgstr "Adomány űrlapon a frekvencia intervallum megjelenített-e "
+
+#: CRM/Pledge/DAO/PledgeBlock.php
+msgid "If true - recurring start date is shown."
+msgstr "Ha igaz - az ismétlődés kezdő dátuma kijelzett"
+
+#: CRM/Pledge/DAO/PledgeBlock.php
+msgid "Allow Edits to Recurring Donation Start Date?"
+msgstr "Ismétlődő adomány kezdőnap szerkesztésének engedélyezése?"
+
+#: CRM/Pledge/DAO/PledgeBlock.php
+msgid "If true - recurring start date is editable."
+msgstr "Ha igaz - az ismétlődés kezdő dátuma szerkeszthető"
+
+#: CRM/Pledge/DAO/PledgePayment.php
+msgid "FK to Pledge table"
+msgstr "A felajánlás tábla FK"
+
+#: CRM/Pledge/DAO/PledgePayment.php CRM/Pledge/Form/Payment.php
+msgid "Scheduled Amount"
+msgstr "Ütemezett összeg"
+
+#: CRM/Pledge/DAO/PledgePayment.php
+msgid ""
+"Pledged amount for this payment (the actual contribution amount might be "
+"different)."
+msgstr "Ehhez a befizetéshez tartozó felajánlott összeg (az aktuális adomány összege ettől eltérő lehet)."
+
+#: CRM/Pledge/DAO/PledgePayment.php
+msgid "Actual Amount"
+msgstr "Jelenlegi összeg"
+
+#: CRM/Pledge/DAO/PledgePayment.php
+msgid "Actual amount that is paid as the Pledged installment amount."
+msgstr "A felajánlási befizetés aktuális összege, ami befizetésre került."
+
+#: CRM/Pledge/DAO/PledgePayment.php
+msgid "The date the pledge payment is supposed to happen."
+msgstr "A felajánlási befizetés várható bekövetkezési dátuma."
+
+#: CRM/Pledge/DAO/PledgePayment.php
+msgid "Payment Scheduled"
+msgstr "Ütemezett befizetések"
+
+#: CRM/Pledge/DAO/PledgePayment.php templates/CRM/Pledge/Page/Payment.tpl
+msgid "Last Reminder"
+msgstr "Utolsó emlékeztető"
+
+#: CRM/Pledge/DAO/PledgePayment.php
+msgid "The date that the most recent payment reminder was sent."
+msgstr "Az utolsó aktuális befizetési értesítő elküldési dátuma."
+
+#: CRM/Pledge/DAO/PledgePayment.php templates/CRM/Pledge/Page/Payment.tpl
+msgid "Reminders Sent"
+msgstr "Emlékeztetők kiküldve"
+
+#: CRM/Pledge/DAO/PledgePayment.php
+msgid "The number of payment reminders sent."
+msgstr "A kiküldött befizetési értesítők száma."
+
+#: CRM/Pledge/Form/Payment.php
+msgid "Edit Scheduled Pledge Payment"
+msgstr "Ütemezett felajánlás szerkesztése"
+
+#: CRM/Pledge/Form/Payment.php
+msgid "Pledge Payment Schedule has been updated."
+msgstr "Felajánlás fizetési ütemezés frissítve."
+
+#: CRM/Pledge/Form/Pledge.php
+msgid "Pledge by"
+msgstr "Felajánlás általa"
+
+#: CRM/Pledge/Form/Pledge.php templates/CRM/Pledge/Form/PledgeView.tpl
+#: xml/templates/message_templates/pledge_acknowledge_html.tpl
+#: xml/templates/message_templates/pledge_acknowledge_text.tpl
+#: xml/templates/message_templates/pledge_reminder_html.tpl
+#: xml/templates/message_templates/pledge_reminder_text.tpl
+msgid "Total Pledge Amount"
+msgstr "Teljes felajánlott összeg"
+
+#: CRM/Pledge/Form/Pledge.php templates/CRM/Pledge/Form/PledgeView.tpl
+msgid "To be paid in"
+msgstr "Befizetendő"
+
+#: CRM/Pledge/Form/Pledge.php
+msgid "Please enter a valid number of installments."
+msgstr "Kérjük, adjon meg egy érvényes számú részletet."
+
+#: CRM/Pledge/Form/Pledge.php
+msgid "Please enter a number for frequency (e.g. every \"3\" months)."
+msgstr "Kérjük adjon meg egy gyakoriság számot ( pl. minden 3. hónapban)."
+
+#: CRM/Pledge/Form/Pledge.php templates/CRM/Pledge/Form/PledgeView.tpl
+msgid "Payments are due on the"
+msgstr "A kifizetések esedékesek "
+
+#: CRM/Pledge/Form/Pledge.php
+msgid "Please enter a valid payment due day."
+msgstr "Kérem adjon meg egy érévnyes fizetési határidőt."
+
+#: CRM/Pledge/Form/Pledge.php
+msgid "each"
+msgstr "mindegyik"
+
+#: CRM/Pledge/Form/Pledge.php
+msgid "Payments Start"
+msgstr "Kifizetések kezdődnek"
+
+#: CRM/Pledge/Form/Pledge.php
+msgid "Send Acknowledgment?"
+msgstr "Jóváhagyás küldése?"
+
+#: CRM/Pledge/Form/Pledge.php templates/CRM/Pledge/Page/UserDashboard.tpl
+msgid "Acknowledgment Date"
+msgstr "Jóváhagyás dátuma"
+
+#: CRM/Pledge/Form/Pledge.php templates/CRM/Pledge/Form/PledgeView.tpl
+msgid "Self-service Payments Page"
+msgstr "Önkiszolgáló Kifizetések oldala"
+
+#: CRM/Pledge/Form/Pledge.php
+msgid "Total Pledge Amount should be greater than zero."
+msgstr "Az összes felajánlott értéknek nagyobbnak kelle lennie mint 0."
+
+#: CRM/Pledge/Form/Pledge.php
+msgid "Installments should be greater than zero."
+msgstr "A részleteknek nagyobbnak kell lennie mint 0."
+
+#: CRM/Pledge/Form/Pledge.php
+msgid "Please enter a valid frequency day ie. 1 through 31."
+msgstr "Kérem adjon meg egy érvényes gyakoriság értéket pl. 1től 31-ig."
+
+#: CRM/Pledge/Form/Pledge.php
+msgid "Please enter a valid frequency day ie. 1 through 7."
+msgstr "Kérem adjon meg egy érvényes gyakoriság napot 1től 7ig."
+
+#: CRM/Pledge/Form/Pledge.php
+msgid ""
+"Pledge has been recorded and the payment schedule has been created.<br />"
+msgstr "A felajánlás rögzítve lett és a kifizetés ütemezés létre lett hoza.<br />"
+
+#: CRM/Pledge/Form/Pledge.php
+msgid "Pledge has been updated.<br />"
+msgstr "A felajánlás frissítve lett.<br />"
+
+#: CRM/Pledge/Form/Pledge.php
+msgid "An acknowledgment email has been sent to %1.<br />"
+msgstr "Egy jóváhagyó eamil ki lett küldve %1-nek.<br />"
+
+#: CRM/Pledge/Form/Pledge.php
+msgid ""
+"If a payment is due now, you can record <a href='%1'>a check, EFT, or cash "
+"payment for this pledge</a> OR <a href='%2'>submit a credit card "
+"payment</a>."
+msgstr "Ha a fizetés most esedékes , akkor rögzíthet <a href='%1'> egy csekket, EFT, vagy készpénzfizetés erre a felajánlásra </ a> vagy <a href='%2'> bankkártyás befizetés </ a>."
+
+#: CRM/Pledge/Form/Pledge.php
+msgid ""
+"If a payment is due now, you can record <a href='%1'>a check, EFT, or cash "
+"payment for this pledge</a>."
+msgstr "Ha a fizetés most esedékes , akkor rögzíthet <a href='%1'> egy csekket, EFT, vagy készpénzfizetés erre a felajánlásra </ a>"
+
+#: CRM/Pledge/Form/Pledge.php
+#: xml/templates/message_templates/pledge_reminder_html.tpl
+#: xml/templates/message_templates/pledge_reminder_text.tpl
+msgid "Payment Due"
+msgstr "Kifizetés esedékes"
+
+#: CRM/Pledge/Form/PledgeView.php
+msgid "View Pledge by"
+msgstr "Felajánlást megtekintette"
+
+#: CRM/Pledge/Form/Search.php
+msgid "Pledger Name or Email"
+msgstr "Felajánló neve vagy e-mailcíme"
+
+#: CRM/Pledge/Form/Search.php
+msgid "Pledger Name"
+msgstr "Felajánló neve"
+
+#: CRM/Pledge/Form/Search.php
+msgid "Pledger Tag(s)"
+msgstr "Felajánló Címke(ék) "
+
+#: CRM/Pledge/Form/Search.php
+msgid "Pledger Group(s)"
+msgstr "Felajánló Csoport(ok)"
+
+#: CRM/Pledge/Form/Search.php
+msgid "Pledger Contact Type"
+msgstr "Felajánló kapcsolat típus"
+
+#: CRM/Pledge/Form/Search.php
+msgid "Find Pledges"
+msgstr "Felajánlók keresése"
+
+#: CRM/Pledge/Form/Task/Delete.php
+msgid "Delete Pledges"
+msgstr "Felajánlások törlése"
+
+#: CRM/Pledge/Form/Task/Delete.php
+msgid "%count pledge deleted."
+msgid_plural "%count pledges deleted."
+msgstr[0] "%count felajánlás törölve"
+msgstr[1] "%count felajánlások törölve"
+
+#: CRM/Pledge/Form/Task/Print.php
+msgid "Print Pledge List"
+msgstr "Felajánlások nyomtatása"
+
+#: CRM/Pledge/Info.php
+msgid "CiviCRM Pledge Engine"
+msgstr "CiviCRM Felajánlás Motor"
+
+#: CRM/Pledge/Info.php
+msgid "access CiviPledge"
+msgstr "CiviFelajánlás hozzáférés"
+
+#: CRM/Pledge/Info.php
+msgid "View pledges"
+msgstr "felajánlások megtekintése"
+
+#: CRM/Pledge/Info.php
+msgid "edit pledges"
+msgstr "felajánlások szerkesztése"
+
+#: CRM/Pledge/Info.php
+msgid "Create and update pledges"
+msgstr "Felajánlások létrehozása és szerkesztése"
+
+#: CRM/Pledge/Info.php
+msgid "delete in CiviPledge"
+msgstr "törlés a CiviFelajánlásban"
+
+#: CRM/Pledge/Info.php CRM/Pledge/Task.php
+msgid "Delete pledges"
+msgstr "Felajánlások törlése"
+
+#: CRM/Pledge/Info.php
+msgid "Your Pledge(s)"
+msgstr "A te felajánlásaid"
+
+#: CRM/Pledge/Page/Tab.php
+msgid ""
+"Pledge has been Cancelled and all scheduled (not completed) payments have "
+"been cancelled.<br />"
+msgstr "A felajánlás és az összes (még meg nem történt) időzített befizetés megszakítva!<br />"
+
+#: CRM/Pledge/Selector/Search.php
+msgid ""
+"Cancelling this pledge will also cancel any scheduled (and not completed) "
+"pledge payments."
+msgstr "Ennek a felajánlásnak a törlése törölni fog bármilyen ütemezett ( és még nem befejeződött ) felajánlás kifizetését is."
+
+#: CRM/Pledge/Selector/Search.php
+msgid "View Pledge"
+msgstr "Felajánlás megtekintése"
+
+#: CRM/Pledge/Selector/Search.php
+msgid "Edit Pledge"
+msgstr "Felajánlás szerkesztése"
+
+#: CRM/Pledge/Selector/Search.php
+msgid "Cancel Pledge"
+msgstr "Felajánlás visszavonása"
+
+#: CRM/Pledge/Selector/Search.php
+msgid "Delete Pledge"
+msgstr "Felajánlás törlése"
+
+#: CRM/Pledge/Selector/Search.php
+msgid "Pledged For"
+msgstr "Felajánlva neki"
+
+#: CRM/Pledge/Selector/Search.php
+msgid "Next Pay Date"
+msgstr "Következő kifizetés dátuma"
+
+#: CRM/Pledge/Selector/Search.php
+msgid "Next Amount"
+msgstr "Következő összeg"
+
+#: CRM/Pledge/Selector/Search.php
+msgid "Pledge Search"
+msgstr "Felajánlás keresése"
+
+#: CRM/Pledge/Task.php
+msgid "Export pledges"
+msgstr "Felajánlások exportálása"
+
+#: templates/CRM/Pledge/Form/Payment.tpl
+msgid "Adjust scheduled amount"
+msgstr "Helyesbített ütemezett összeg "
+
+#: templates/CRM/Pledge/Form/Pledge.tpl
+msgid ""
+"You will not be able to send an acknowledgment for this pledge because there"
+" is no email address recorded for this contact. If you want a acknowledgment"
+" to be sent when this pledge is recorded, click Cancel and then click Edit "
+"from the Summary tab to add an email address before recording the pledge."
+msgstr "Ön nem lesz képes visszaigazolás küldésére ehhez a felajánláshoz, mert nincs e-mail címe rögzítésvee ehhez a kapcsolathoz. Ha szeretne egy elismervényt  küldeni, mikor ez a felajánlás rögzítésre kerül, kattintson a Mégse gombra, majd a Szerkesztés gombra az Összegzés lapon, hogy megadhasson egy e-mail címet mielőtt a felajánlás rögzítésre kerül."
+
+#: templates/CRM/Pledge/Form/Pledge.tpl
+msgid ""
+"WARNING: Deleting this pledge will also delete any related pledge payments."
+msgstr "Figyelmeztetés: Ennek a felajánlásnak a törlése minden ehhez kapcsolódó felajánlás kifizetését törölni fogja."
+
+#: templates/CRM/Pledge/Form/Pledge.tpl
+msgid ""
+"Consider cancelling the pledge instead if you want to maintain an audit "
+"trail and avoid losing payment data. To set the pledge status to Cancelled "
+"and cancel any not-yet-paid pledge payments, first click Cancel on this "
+"form. Then click the more &gt; link from the pledge listing, and select the "
+"Cancel action."
+msgstr "Fontolja meg ennek a felajánlásnak a felfüggesztését kérem hogyha fenn akarja tartani ennek a ellenőrzéshez kapcsolódó információkat és el akarja kerülni a kifizetési adatok elvesztését.  Ahhoz hogy a felajánlást Felfüggesztve állapotra módosítsa és hogy töröljön minden még eddig ki nem fizetett felajánlást, először kattintson a Felfüggesztésre ezen az űrlapon. Ezek után kattintson a &gt további linkekre a felajánlás listáján, és válassza a Felfüggesztés műveletet."
+
+#: templates/CRM/Pledge/Form/Pledge.tpl
+#: templates/CRM/Pledge/Form/PledgeView.tpl
+msgid ""
+" Pledge total has changed due to payment adjustments. Original pledge amount"
+" was %1."
+msgstr "A felajánlás meg lett változtatva fizetési kiigazítások miatt. Az eredeti felajánlás ennyi volt: %1."
+
+#: templates/CRM/Pledge/Form/Pledge.tpl
+#: templates/CRM/Pledge/Form/PledgeView.tpl
+msgid "installments of"
+msgstr "ennek a részlete"
+
+#: templates/CRM/Pledge/Form/Pledge.tpl
+msgid "day of the period"
+msgstr "az időszak napja"
+
+#: templates/CRM/Pledge/Form/Pledge.tpl
+msgid "This applies to weekly, monthly and yearly payments."
+msgstr "Ez heti, havi és éves kifizetésekre vonatkozik."
+
+#: templates/CRM/Pledge/Form/Pledge.tpl
+msgid "Date when pledge was made by the contributor."
+msgstr "A dátum amikor a felajánlás meg lett téve a hozzájáruló által."
+
+#: templates/CRM/Pledge/Form/Pledge.tpl
+msgid "Date of first pledge payment."
+msgstr "A felajánlás kifizetésének dátuma."
+
+#: templates/CRM/Pledge/Form/Pledge.tpl
+msgid "Automatically email an acknowledgment of this pledge to %1?"
+msgstr "Automatikus email visszaigazolás ehhez a felajánláshoz %1-nek?"
+
+#: templates/CRM/Pledge/Form/Pledge.tpl
+msgid "Date when an acknowledgment of the pledge was sent."
+msgstr "A dátuma amikor ennek a felajánlásnak a jóváhagyása el lett küldve."
+
+#: templates/CRM/Pledge/Form/Pledge.tpl
+msgid "Sets the default financial type for payments against this pledge."
+msgstr "Az alapértelmezett pénzügyi típust beállítja ennek a felajánlásnak a befizetéséhez. "
+
+#: templates/CRM/Pledge/Form/Pledge.tpl
+msgid ""
+"Select an Online Contribution page that the user can access to make self-"
+"service pledge payments. (Only Online Contribution pages configured to "
+"include the Pledge option are listed.)"
+msgstr "Válasszon ki egy online hozzájárulás oldalt, ahol a felhasználó elérheti, hogy önkiszolgáló kifizetéseket csinálhasson. (Csak ha az Online Hozzájárulás oldalak be vannak allítva amin a felajánlás opció szerepel.)"
+
+#: templates/CRM/Pledge/Form/Pledge.tpl
+msgid ""
+"Pledges are \"Pending\" until the first payment is received. Once a payment "
+"is received, status is \"In Progress\" until all scheduled payments are "
+"completed. Overdue pledges are ones with payment(s) past due."
+msgstr "A felajánlások \"függőben\" vannak amik az első kifizetés meg nem érkezett. Amint a kifizetés megérkezett, a státusz \"Folyamatban van\" -ra változik amig az összes ütemezett kifizetés meg nem történt. A túlfizetett felajánlások olyan kifizetés(ek) amelyek már lejártak."
+
+#: templates/CRM/Pledge/Form/Pledge.tpl
+msgid ""
+"Click OK to save this Pledge record AND send an acknowledgment to %1 now."
+msgstr "Kattintson az OK-ra hogy elmentse ezt a Felajánlás rekordot ÉS küldjön egy nyugtázást %1 részére azonnal."
+
+#: templates/CRM/Pledge/Form/PledgeView.tpl
+msgid "Pledge By"
+msgstr "Felajánlás általa"
+
+#: templates/CRM/Pledge/Form/PledgeView.tpl
+msgid "Payment Start"
+msgstr "Kifizetés kezdődik"
+
+#: templates/CRM/Pledge/Form/PledgeView.tpl
+msgid "Maximum Reminders Send"
+msgstr "A maximálisan számú emlékeztető elküldve"
+
+#: templates/CRM/Pledge/Form/Search/Common.tpl
+msgid "Pledge Amounts"
+msgstr "Felajánlások összege"
+
+#: templates/CRM/Pledge/Form/Search/EmptyResults.tpl
+msgid ""
+"If you are searching by pledger name, check your spelling or use fewer "
+"letters."
+msgstr "Ha a felajánló neve alapján keresel, ellenőrizd a helyesírást vagy használj kevesebb betüt."
+
+#: templates/CRM/Pledge/Form/Search/EmptyResults.tpl
+msgid ""
+"If you are searching within a date or amount range, try a wider range of "
+"values."
+msgstr "Ha a dátum vagy összeg tartományban keres, próbáljon meg tágabb értéktartományt megadni."
+
+#: templates/CRM/Pledge/Form/Selector.tpl
+msgid "Click arrow to view pledge payments."
+msgstr "Kattintson a nyílra a felajánlott befizetések megtekintésére."
+
+#: templates/CRM/Pledge/Form/Selector.tpl
+msgid "Find more pledges"
+msgstr "Felajánlások keresése"
+
+#: templates/CRM/Pledge/Form/Task/Delete.tpl
+msgid ""
+"Are you sure you want to delete the selected pledges? This delete operation "
+"cannot be undone and will delete all transactions associated with these "
+"pledges."
+msgstr "Biztos hogy törölni akarod a kiválasztott felajánlásokat? A törlést nem lehet visszavonni és le fog törölni minden egyes kapcsolódó tranzakciót ezekhez az jelöltekhez kapcsolódóan."
+
+#: templates/CRM/Pledge/Form/Task/Print.tpl
+msgid "To Be Paid"
+msgstr "Kifizetendő"
+
+#: templates/CRM/Pledge/Form/Task/Print.tpl
+msgid "Beginning Date"
+msgstr "Kezdési dátum"
+
+#: templates/CRM/Pledge/Form/Task.tpl
+msgid "Number of selected pledges: %1"
+msgstr "A kiválasztott felajánlások száma: %1"
+
+#: templates/CRM/Pledge/Page/DashBoard.tpl
+msgid "Pledge Summary"
+msgstr "Felajánlás összegzése"
+
+#: templates/CRM/Pledge/Page/DashBoard.tpl
+msgid "(current month)"
+msgstr "(aktuális hónap)"
+
+#: templates/CRM/Pledge/Page/DashBoard.tpl
+msgid "(current year)"
+msgstr "(aktuális év)"
+
+#: templates/CRM/Pledge/Page/DashBoard.tpl
+msgid "Total Pledges"
+msgstr "Összes felajánlás"
+
+#: templates/CRM/Pledge/Page/DashBoard.tpl
+msgid "Payments Received"
+msgstr "Kifizetés megérkezett"
+
+#: templates/CRM/Pledge/Page/DashBoard.tpl
+msgid "Past Due"
+msgstr "Lejárt"
+
+#: templates/CRM/Pledge/Page/DashBoard.tpl
+msgid "Recent Pledges"
+msgstr "Friss felajánlások"
+
+#: templates/CRM/Pledge/Page/Payment.hlp
+msgid ""
+"If you enter an amount which is different than the current scheduled amount,"
+" choose one of these options:"
+msgstr "Ha egy olyan értéket akar megadni ami más mint a jelenlegi ütemezett érték, akkor válasszon egyet ezek közül:"
+
+#: templates/CRM/Pledge/Page/Payment.tpl
+#: xml/templates/message_templates/pledge_reminder_html.tpl
+#: xml/templates/message_templates/pledge_reminder_text.tpl
+msgid "Amount Due"
+msgstr "Lejárt összeg"
+
+#: templates/CRM/Pledge/Page/Payment.tpl
+msgid "Amount Paid"
+msgstr "Kifizetett összeg"
+
+#: templates/CRM/Pledge/Page/Payment.tpl
+msgid "Credit Card Payment"
+msgstr "Bankkártyás fizetés"
+
+#: templates/CRM/Pledge/Page/Payment.tpl
+msgid "Edit Scheduled Payment"
+msgstr "Ütemezett befizetés szerkesztése"
+
+#: templates/CRM/Pledge/Page/Tab.hlp
+msgid "Payment Reminders"
+msgstr "Fizetési emlékeztető"
+
+#: templates/CRM/Pledge/Page/Tab.hlp
+msgid ""
+"One or more payment reminders can be emailed to this contributor based on "
+"the values entered in this section. If a 'Self-service Payments Page' has "
+"been selected, the reminder will include a link for the contributor to make "
+"their payment online."
+msgstr "Egy vagy több fizetési emlékeztetőt lehet e-mailben kiküldeni a hozzájárulónak az előre megadott értékek alapján ebben a fejezetben. Ha a \"Ön-kiszolgáló Kifizetések oldal\" lett kiválasztva, az emlékeztető tartalmazni fog egy linket a hozzájárulónak, hogy a kifizetést online tegye meg."
+
+#: templates/CRM/Pledge/Page/Tab.hlp
+msgid "In order for reminders to be sent:"
+msgstr "Annak érdekében hogy emlékeztetőt kelljen kiküldeni:"
+
+#: templates/CRM/Pledge/Page/Tab.hlp
+msgid ""
+"Your site administrator must configure the scheduled job (Administer > "
+"System Settings > Scheduled Jobs) which updates pledge payment statuses and "
+"sends the reminders."
+msgstr "A webhely rendszergazdájának konfigurálnia kell az ütemezett feladatokat (Adminisztrál>Rendszerbeállítások>Ütemezett feladatok), amely frissíti a felajánlások kifizetési állapotát és elküldi az emlékeztetőket."
+
+#: templates/CRM/Pledge/Page/Tab.hlp
+msgid ""
+"Your site administrator must also configure a \"cron job\" (scheduled server"
+" task) to run this script."
+msgstr "A webhely rendszergazdájának be kell állítania egy \"cron job\" (egy előre ütemezett szerver feladatot) hogy futtassa ezt a szkriptet."
+
+#: templates/CRM/Pledge/Page/Tab.hlp
+msgid ""
+"This contributor must have a valid email address (and must not have the \"Do"
+" Not Email\" flag checked)."
+msgstr "Ennek hozzájárulónak kell lennie egy érvényes e-mail címének (és nem szabad hogy a \"Ne külddj email\" opciót be legyen jelölve)."
+
+#: templates/CRM/Pledge/Page/Tab.tpl
+msgid "Pledges received from %1 since inception."
+msgstr "Beérkezett felajánlások %1től a kezdetek óta."
+
+#: templates/CRM/Pledge/Page/Tab.tpl
+msgid ""
+"Click <a %1>Add Pledge</a> to record a new pledge received from this "
+"contact."
+msgstr "Kattintson a  <a %1>Felajánlás hozzáadása</a> gombra hogy rögzítsen egy új felajánlást ettől a kapcsolattól."
+
+#: templates/CRM/Pledge/Page/Tab.tpl
+msgid "No pledges have been recorded from this contact."
+msgstr "Nincsenek felajánlások rögzítve ehhez a kapcsolathoz."
+
+#: templates/CRM/Pledge/Page/Tab.tpl
+msgid "Contributions made in honor of %1"
+msgstr "Az adományok %1 tiszteletére érkeztek"
+
+#: templates/CRM/Pledge/Page/UserDashboard.tpl
+msgid "Payments"
+msgstr "Fizetendők"
+
+#: templates/CRM/Pledge/Page/UserDashboard.tpl
+msgid "There are no Pledges for your record."
+msgstr "Nincsenek felajánlások a bejegyzésedhez."
+
+#: templates/CRM/Pledge/Page/UserDashboard.tpl
+msgid "Pledges made in your honor."
+msgstr "A te tiszteletedre tett felajánlások."
+
+#: templates/CRM/Pledge/Page/UserDashboard.tpl
+msgid "Pledger"
+msgstr "Felajánló"
+
+#: templates/CRM/Pledge/Page/UserDashboard.tpl
+msgid "Create date"
+msgstr "Létrehozás dátuma"
+
+#: templates/CRM/Pledge/Page/UserDashboard.tpl
+msgid "Acknowledgment Sent"
+msgstr "Jóváhagyás elküldve"
+
+#: xml/templates/message_templates/pledge_acknowledge_html.tpl
+#: xml/templates/message_templates/pledge_acknowledge_text.tpl
+msgid "Thank you for your generous pledge."
+msgstr "Köszönjük a nagylelkű felajánlását!"
+
+#: xml/templates/message_templates/pledge_acknowledge_html.tpl
+#: xml/templates/message_templates/pledge_acknowledge_text.tpl
+#: xml/templates/message_templates/pledge_reminder_html.tpl
+#: xml/templates/message_templates/pledge_reminder_text.tpl
+msgid "Pledge Information"
+msgstr "Felajánlás kapcsolatos információ"
+
+#: xml/templates/message_templates/pledge_acknowledge_html.tpl
+#: xml/templates/message_templates/pledge_acknowledge_text.tpl
+#: xml/templates/message_templates/pledge_reminder_html.tpl
+#: xml/templates/message_templates/pledge_reminder_text.tpl
+msgid "Pledge Received"
+msgstr "Felajánlás megérkezett"
+
+#: xml/templates/message_templates/pledge_acknowledge_html.tpl
+#: xml/templates/message_templates/pledge_acknowledge_text.tpl
+msgid "Payment Schedule"
+msgstr "Felajánlás üteme"
+
+#: xml/templates/message_templates/pledge_acknowledge_html.tpl
+#: xml/templates/message_templates/pledge_acknowledge_text.tpl
+msgid "%1 every %2 %3 for %4 installments."
+msgstr "%1 minden %2 %3  minden %4 részlethez."
+
+#: xml/templates/message_templates/pledge_acknowledge_html.tpl
+#: xml/templates/message_templates/pledge_acknowledge_text.tpl
+msgid "Payments are due on day %1 of the %2."
+msgstr "A %2  %1 napján esedékesek a kifizetések."
+
+#: xml/templates/message_templates/pledge_acknowledge_html.tpl
+#: xml/templates/message_templates/pledge_acknowledge_text.tpl
+msgid "Payment %1"
+msgstr "Kifizetés %1"
+
+#: xml/templates/message_templates/pledge_acknowledge_html.tpl
+#: xml/templates/message_templates/pledge_acknowledge_text.tpl
+msgid "paid"
+msgstr "fizetett"
+
+#: xml/templates/message_templates/pledge_acknowledge_html.tpl
+#: xml/templates/message_templates/pledge_acknowledge_text.tpl
+msgid "due"
+msgstr "esedékes"
+
+#: xml/templates/message_templates/pledge_acknowledge_html.tpl
+#: xml/templates/message_templates/pledge_acknowledge_text.tpl
+#: xml/templates/message_templates/pledge_reminder_html.tpl
+#: xml/templates/message_templates/pledge_reminder_text.tpl
+msgid ""
+"Please contact us at %1 or send email to %2 if you have questions\n"
+"or need to modify your payment schedule."
+msgstr "Kérem vegye fel velük a kapcsolatot itt %1 vagy küljön emailt ide %2 ha még vannak kérdései ⏎  vagy szeretné módosítani a kifizetés ütemezését."
+
+#: xml/templates/message_templates/pledge_acknowledge_subject.tpl
+msgid "Thank you for your Pledge"
+msgstr "Köszönjük a felajánlásod"
+
+#: xml/templates/message_templates/pledge_reminder_html.tpl
+#: xml/templates/message_templates/pledge_reminder_text.tpl
+msgid "This is a reminder that the next payment on your pledge is due on %1."
+msgstr "Ez egy emlékeztető hogy a következő kifizetésed a felajánlásodhoz kapcsolódóan esedékes ekkor %1."
+
+#: xml/templates/message_templates/pledge_reminder_html.tpl
+msgid "Go to a web page where you can make your payment online"
+msgstr "Menj el egy oldalra ahol meg tudod tenni a kifizetést online"
+
+#: xml/templates/message_templates/pledge_reminder_html.tpl
+#: xml/templates/message_templates/pledge_reminder_text.tpl
+msgid "Please mail your payment to"
+msgstr "Kérlek küldd el a kifizetést neki"
+
+#: xml/templates/message_templates/pledge_reminder_html.tpl
+#: xml/templates/message_templates/pledge_reminder_text.tpl
+msgid "Thank your for your generous support."
+msgstr "Köszönjük a nagylelkü támogatásod."
+
+#: xml/templates/message_templates/pledge_reminder_subject.tpl
+msgid "Pledge Payment Reminder"
+msgstr "Felajánlással kapcsolatos kifizetési emlékeztető"

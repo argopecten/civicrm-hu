@@ -1,0 +1,207 @@
+# Copyright CiviCRM LLC (c) 2004-2015
+# This file is distributed under the same license as the CiviCRM package.
+# If you contribute heavily to a translation and deem your work copyrightable,
+# make sure you license it to CiviCRM LLC under Academic Free License 3.0.
+# Translators:
+# Zoltán Reizinger <zreizinger@hdsnet.hu>, 2013,2015-2016,2018,2020
+msgid ""
+msgstr ""
+"Project-Id-Version: CiviCRM\n"
+"POT-Creation-Date: 2020-01-21 16:29-0500\n"
+"PO-Revision-Date: 2020-01-27 07:23+0000\n"
+"Last-Translator: Zoltán Reizinger <zreizinger@hdsnet.hu>\n"
+"Language-Team: Hungarian (http://www.transifex.com/civicrm/civicrm/language/hu/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: hu\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: CRM/Extension/Browser.php CRM/Extension/Downloader.php
+msgid "Directory Unwritable"
+msgstr "Könyvtár nem írható"
+
+#: CRM/Extension/Browser.php
+msgid ""
+"Your extensions cache directory (%1) is not web server writable. Please go "
+"to the <a href=\"%2\">path setting page</a> and correct it.<br/>"
+msgstr "A kiterjesztések cache könyvtára (%1) nem írható a webszerver által. Kérem menjen <a href=\"%2\">útvonal beállítási oldalra</a> és javítsa ki.</br>"
+
+#: CRM/Extension/Browser.php
+msgid ""
+"The CiviCRM public extensions directory at %1 could not be contacted - "
+"please check your webserver can make external HTTP requests or contact "
+"CiviCRM team on <a href=\"http://forum.civicrm.org/\">CiviCRM forum</a>."
+msgstr "A CiviCRM nyilvános kiterjesztés könyvtárhoz %1 nem lehet csatlakozni - kérjük ellenőrizze a webszerverre tud-e külső HTTP kéréseket küldeni, vagy forduljon a CiviCRM csapathoz itt <a href=\"http://forum.civicrm.org/\"> CiviCRM fórum </ a> . "
+
+#: CRM/Extension/Container/Basic.php CRM/Extension/Container/Default.php
+msgid "Invalid Base Directory"
+msgstr "Érvénytelen alap könyvtár"
+
+#: CRM/Extension/Container/Basic.php
+msgid "An extension container has been defined with a blank directory."
+msgstr "A kiterjesztés tároló üres könyvtárral került meghatározásra."
+
+#: CRM/Extension/Container/Basic.php CRM/Extension/Container/Default.php
+msgid "Invalid Base URL"
+msgstr "Érvénytelen alap URL"
+
+#: CRM/Extension/Container/Basic.php
+msgid "An extension container has been defined with a blank URL."
+msgstr "A kiterjesztés tároló üres URL-el került meghatározásra."
+
+#: CRM/Extension/Container/Basic.php
+msgid ""
+"Failed to determine URL for extension (%1). Please update <a "
+"href=\"%2\">Resource URLs</a>."
+msgstr "Nem tudom a kiterjesztések URL-jét meghatározni (%1). Kérem frissítse <a href=\"%2\">Erőforrás URL-ek</a>."
+
+#: CRM/Extension/Container/Basic.php
+msgid "Parse error in extension: %1"
+msgstr "Elemzési hiba a kiterjesztésben? %1"
+
+#: CRM/Extension/Container/Default.php
+msgid ""
+"The extensions directory is not properly set. Please go to the <a "
+"href=\"%1\">path setting page</a> and correct it.<br/>"
+msgstr "A kiterjesztések könyvtára nincs rendesen beállítva. Kérem menjen az <a href=\"%1\">útvonal beállítási oldalra</a>és javítsa ki.<br/>"
+
+#: CRM/Extension/Container/Default.php
+msgid ""
+"The extensions URL is not properly set. Please go to the <a href=\"%1\">URL "
+"setting page</a> and correct it.<br/>"
+msgstr "A kiterjesztés URL nincs jól beállítva.  Kérem menjen az <a href=\"%1\">Erőforrás URL-ek</a> és javítsa ki."
+
+#: CRM/Extension/Downloader.php
+msgid ""
+"Your extensions directory is not set or is not writable. Click <a "
+"href='%1'>here</a> to set the extensions directory."
+msgstr "A kiterjesztés könyvtára nincs beállítva, vagy nem írható. Kattintson <a href='%1'>ide</a> a kiterjesztés könyvtár beállításához."
+
+#: CRM/Extension/Downloader.php
+msgid "ZIP Support Required"
+msgstr "ZIP támogatás szükséges"
+
+#: CRM/Extension/Downloader.php
+msgid ""
+"You will not be able to install extensions at this time because your "
+"installation of PHP does not support ZIP archives. Please ask your system "
+"administrator to install the standard PHP-ZIP extension."
+msgstr "Most nem lesz képes kiterjesztéseket telepíteni mert a PHP telepítése nem támogatja a ZIP archívumokat.  Kérje meg a rendszer adminisztrátorát a szabványos PHP-ZIP kiterjesztés telepítésére. "
+
+#: CRM/Extension/Downloader.php
+msgid ""
+"WARNING: The downloader may be unable to download files which require HTTP "
+"redirection. This may be a configuration issue with PHP's open_basedir or "
+"safe_mode."
+msgstr "FIGYELEM: A letöltő nem tudja letölteni azokat a fájlokat melyek HTTP átirányítást igényelnek. Ez PHP open_basedir vagy safe_mode beállítási probléma lehet."
+
+#: CRM/Extension/Downloader.php
+msgid "Missing Requirement: %1"
+msgstr "Hiányzó követelmény: %1"
+
+#: CRM/Extension/Downloader.php
+msgid ""
+"You will not be able to install/upgrade %1 until you have installed the %2 "
+"extension."
+msgstr "Nem tudja telepíteni/frissíteni a %1 kiterjesztést, amíg nem telepíti a %2 kiterjesztést."
+
+#: CRM/Extension/Downloader.php
+msgid "Cannot install this extension - downloadUrl is not set!"
+msgstr "Nem tudja telepíteni ezt a kiterjesztést - downloadUrl nincs beállítva!"
+
+#: CRM/Extension/Downloader.php
+msgid "Unable to extract the extension: bad directory structure"
+msgstr "Nem tudom a kiterjesztést kibontani: hibás könyvtár struktúra"
+
+#: CRM/Extension/Downloader.php
+msgid "Unable to extract the extension: %1 cannot be cleared"
+msgstr "Nem tudom a kiterjesztést kibontani:  %1 nem lehet kiüríteni"
+
+#: CRM/Extension/Downloader.php
+msgid "Installation Error"
+msgstr "Telepítési hiba"
+
+#: CRM/Extension/Downloader.php
+msgid "Unable to extract the extension to %1."
+msgstr "Nem tudom a kiterjesztést kibontani ide %1."
+
+#: CRM/Extension/Downloader.php
+msgid "Unable to extract the extension."
+msgstr "Nem tudtam kibontani a kiterjesztést."
+
+#: CRM/Extension/Downloader.php
+msgid "Failed reading data from %1 during installation"
+msgstr "Installálás során adatbeolvasási hiba %1 forrásból"
+
+#: CRM/Extension/Downloader.php
+msgid ""
+"Cannot install - there are differences between extdir XML file and archive "
+"XML file!"
+msgstr "Nem tudom telepíteni - különbség van a külső XML fájl ás az archívum XML fájl között."
+
+#: CRM/Extension/Manager/Payment.php
+msgid "This payment processor type is already installed."
+msgstr "Ez a fizetés feldolgozó típus már telepítve van."
+
+#: CRM/Extension/Manager/Payment.php
+msgid "This payment processor type already exists."
+msgstr "Ez a fizetés feldolgozó típus már létezik."
+
+#: CRM/Extension/Manager/Payment.php
+msgid "Billing mode in info file has wrong value."
+msgstr "Az info fájl fizetési módjának rossz az értéke. "
+
+#: CRM/Extension/Manager/Payment.php
+msgid "This payment processor type is not registered."
+msgstr "Ez a fizetés feldolgozó típus nem regisztrált."
+
+#: CRM/Extension/Manager/Payment.php
+msgid "Failed to load file (%3) for payment processor (%1) while running \"%2\""
+msgstr "Nem sikerült betölteni a (%3) fájlt a (%1) fizetés feldolgozóhoz a \"%2\" futtatásakor"
+
+#: CRM/Extension/Manager/Payment.php
+msgid ""
+"Failed to determine file path for payment processor (%1) while running "
+"\"%2\""
+msgstr "Nem sikerült meghatározni a fájl útvonalat a (%1) fizetés feldolgozóhoz a \"%2\" futtatásakor"
+
+#: CRM/Extension/Manager/Payment.php
+msgid "Unrecognized payment hook (%1) in %2::%3"
+msgstr "Ismeretlen fizetési hurok (%1) %2::%3 -ban"
+
+#: CRM/Extension/Manager/Report.php
+msgid "This report is already registered."
+msgstr "Ez a jelentés már regisztrált."
+
+#: CRM/Extension/Manager/Report.php
+msgid ""
+"Component for which you are trying to install the extension (%1) is "
+"currently disabled."
+msgstr "Az a komponens amelyhez ezt a kiterjesztést telepíteni szeretné (%1) jelenleg letiltott."
+
+#: CRM/Extension/Manager/Search.php
+msgid "This custom search is already registered."
+msgstr "Ez az egyedi keresés már regisztrált."
+
+#: CRM/Extension/Manager.php
+msgid ""
+"A copy of the extension (%1) is in a system folder (%2). The system copy "
+"will be preserved, but the new copy will be used."
+msgstr "A kiterjesztés (%1) másolata a rendszer könyvtárban (%2) van. A rendszer másolat megőrzésre kerül, és az új másolat kerül felhasználásra."
+
+#: CRM/Extension/Manager.php
+msgid "Selected option value has been deleted."
+msgstr "A kiválasztott opció érték törölve."
+
+#: CRM/Extension/System.php
+msgid "Disabled (Missing)"
+msgstr "Letiltva (Hiányzik)"
+
+#: CRM/Extension/System.php
+msgid "Enabled (Missing)"
+msgstr "Engedélyezve (Hiányzik)"
+
+#: CRM/Extension/System.php
+msgid "Obsolete"
+msgstr "Elavult"

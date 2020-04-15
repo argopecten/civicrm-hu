@@ -1,0 +1,1020 @@
+# Copyright CiviCRM LLC (c) 2004-2015
+# This file is distributed under the same license as the CiviCRM package.
+# If you contribute heavily to a translation and deem your work copyrightable,
+# make sure you license it to CiviCRM LLC under Academic Free License 3.0.
+# Translators:
+# Szabo Attila, 2013
+# Zoltán Reizinger <zreizinger@hdsnet.hu>, 2013-2019
+msgid ""
+msgstr ""
+"Project-Id-Version: CiviCRM\n"
+"POT-Creation-Date: 2020-01-21 16:29-0500\n"
+"PO-Revision-Date: 2020-01-21 21:48+0000\n"
+"Last-Translator: Mathieu Lu <mathieu@bidon.ca>\n"
+"Language-Team: Hungarian (http://www.transifex.com/civicrm/civicrm/language/hu/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: hu\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: CRM/PCP/BAO/PCP.php
+msgid "Are you sure you want to delete this Personal Campaign Page?"
+msgstr "Biztosan törölni akarod ezt a Személyes Kampány oldalt?"
+
+#: CRM/PCP/BAO/PCP.php
+msgid "Create a Personal Campaign Page"
+msgstr "Személyes kampány olal létrehozása"
+
+#: CRM/PCP/BAO/PCP.php
+msgid "Edit Your Page"
+msgstr "Szerkeszd az oldalad"
+
+#: CRM/PCP/BAO/PCP.php
+msgid "Tell Friends"
+msgstr "Mesélj erről a barátoknak"
+
+#: CRM/PCP/BAO/PCP.php
+msgid "URL for this Page"
+msgstr "Ezen oldal URL-je "
+
+#: CRM/PCP/BAO/PCP.php CRM/PCP/Form/PCPAccount.php
+msgid "Update Contact Information"
+msgstr "Kapcsolat információinak frissítése"
+
+#: CRM/PCP/BAO/PCP.php
+msgid "Enable Personal Campaign Pages?"
+msgstr "Személyes kampány oldalak engedélyezése"
+
+#: CRM/PCP/BAO/PCP.php
+msgid "Approval required"
+msgstr "Jóváhagyás szükséges"
+
+#: CRM/PCP/BAO/PCP.php
+msgid "Owner Email Notification"
+msgstr "Tulajdonos e-mail értesítés"
+
+#: CRM/PCP/BAO/PCP.php
+msgid "Allow 'Tell a friend' functionality"
+msgstr "Az 'Add tovább' funkció engedélyezése "
+
+#: CRM/PCP/BAO/PCP.php
+msgid "'Tell a friend' maximum recipients limit"
+msgstr "'Add tovább'  címzettek maximális száma "
+
+#: CRM/PCP/BAO/PCP.php
+msgid "Please enter a valid limit."
+msgstr "Kérlek adj meg egy érvényes limitet."
+
+#: CRM/PCP/BAO/PCP.php
+msgid "'Create Personal Campaign Page' link text"
+msgstr "'Személyes kampány olal létrehozása' linkjének szövege"
+
+#: CRM/PCP/BAO/PCP.php
+msgid ""
+"This event registration is being made thanks to the efforts of "
+"<strong>%1</strong>, who supports our campaign. "
+msgstr "Ez az esemény regisztráció <strong>%1</strong> felhasználónak köszönhetően jött létre, aki a mi kampányunkat támogatja."
+
+#: CRM/PCP/BAO/PCP.php
+msgid ""
+"This contribution is being made thanks to the efforts of "
+"<strong>%1</strong>, who supports our campaign. "
+msgstr "Ez az adomány <strong>%1</strong> felhasználónak köszönhetően jött létre, aki a mi kampányunkat támogatja."
+
+#: CRM/PCP/BAO/PCP.php
+msgid "Show my support in the public honor roll"
+msgstr "Mutasd a támogatásomat a büszkeségfalon."
+
+#: CRM/PCP/BAO/PCP.php
+msgid "List my support anonymously"
+msgstr "A támogatásom mutatása névtelenként"
+
+#: CRM/PCP/BAO/PCP.php
+msgid ""
+"This page is not related to the Personal Campaign Page you have just "
+"visited. However you can still make a contribution here."
+msgstr "Ez az oldal nem kapcsolódik a Személyes Kampány oldalhoz amint az előbb látogattál meg. Ennek ellenére tehetsz egy felajánlást itt is."
+
+#: CRM/PCP/BAO/PCP.php
+msgid ""
+"The Personal Campaign Page you have just visited is currently %1. However "
+"you can still support the campaign here."
+msgstr "A Személyes Kampány oldal amit az előbb látogatott meg jelenleg a %1. Ennek ellenére támogathatja ezt a kampányt itt egy adománnyal."
+
+#: CRM/PCP/BAO/PCP.php
+msgid ""
+"Personal Campaign Pages are currently not enabled for this contribution "
+"page. However you can still support the campaign here."
+msgstr "A Személyes Kampány oldalak jelenleg nem engedélyezettek ehhez a támogatói oldalhoz.Ennek ellenére támogathatod ezt a kampányt itt egy adománnyal."
+
+#: CRM/PCP/BAO/PCP.php
+msgid ""
+"The Personal Campaign Page you have just visited is currently inactive. "
+"However you can still support the campaign here."
+msgstr "Ez a Személyes Kampány oldal amit az előbb látogattál meg most éppen inaktív. Ennek ellenére tehetsz egy felajánlást itt is."
+
+#: CRM/PCP/BAO/PCP.php
+msgid ""
+"The Personal Campaign Page you have just visited is only active from %1 to "
+"%2. However you can still support the campaign here."
+msgstr "Ez a Személyes Kampány oldal amit az előbb látogattál meg csak %1 és %2 között aktív. Ennek ellenére támogathatod ezt a kampányt  itt egy adománnyal."
+
+#: CRM/PCP/BAO/PCP.php
+msgid ""
+"The Personal Campaign Page you have just visited will be active beginning on"
+" %1. However you can still support the campaign here."
+msgstr "Ez a Személyes Kampány oldal amit az előbb látogattál meg aktív lesz %1 időponttól. Ennek ellenére támogathatod ezt a kampányt itt egy adománnyal."
+
+#: CRM/PCP/BAO/PCP.php
+msgid ""
+"The event linked to the Personal Campaign Page you have just visited is over"
+" (as of %1)."
+msgstr "Az esemény ami a Személyes Kampány oldaladhoz tartozik amit az előbb látogattál meg véget ért (%1től)."
+
+#: CRM/PCP/BAO/PCP.php
+msgid ""
+"The Personal Campaign Page you have just visited is no longer active (as of "
+"%1). However you can still support the campaign here."
+msgstr "Ez a Személyes Kampány oldal amit az előbb látogattál már nem aktív (%1 időponttól). Ennek ellenére támogathatod ezt a kampányt  itt egy adománnyal."
+
+#: CRM/PCP/BAO/PCP.php
+msgid "%1 status has been updated to %2."
+msgstr "%1 állapot frissítve %2"
+
+#: CRM/PCP/BAO/PCP.php
+msgid "A notification email has been sent to the supporter."
+msgstr "Egy értesítő email ki lett küldve a támogatónak."
+
+#: CRM/PCP/BAO/PCP.php
+msgid "Email Sent"
+msgstr "E-mail elküldve"
+
+#: CRM/PCP/BAO/PCP.php
+msgid ""
+"Supporter profile is not set for this Personal Campaign Page or the profile "
+"is disabled. Please contact the site administrator if you need assistance."
+msgstr "Támogatói profil nincs beállítva ehhez a Személyes Kampány oldalhoz vagy a profil fel van függesztve. Kérlek keresd meg a weboldal adminisztrátorát ha további segítségre van szükséged."
+
+#: CRM/PCP/BAO/PCP.php
+msgid ""
+"Owner Notification is not set for this Personal Campaign Page. Please "
+"contact the site administrator if you need assistance."
+msgstr "Tulajdonos értesítés nincs beállítva ehhez a Személyes Kampány oldalhoz. Kérem keresse meg a weboldal adminisztrátorát ha további segítségre van szüksége."
+
+#: CRM/PCP/DAO/PCP.php
+msgid "Personal Campaign Page ID"
+msgstr "Személyes Kampány oldal azonosítója"
+
+#: CRM/PCP/DAO/PCP.php
+msgid "Personal Campaign Page Status"
+msgstr "Személyes Kampány oldal státusza"
+
+#: CRM/PCP/DAO/PCP.php
+msgid "Intro Text"
+msgstr "Bemutatkozó szöveg"
+
+#: CRM/PCP/DAO/PCP.php
+msgid "Page Text"
+msgstr "Oldal szövege"
+
+#: CRM/PCP/DAO/PCP.php
+msgid "Donate Link Text"
+msgstr "Adomány linkjének szövege"
+
+#: CRM/PCP/DAO/PCP.php
+msgid "The Contribution or Event Page which triggered this pcp"
+msgstr "A személyes kampány oldalt előhívó adomány vagy esemény oldal"
+
+#: CRM/PCP/DAO/PCP.php
+msgid "PCP Page Type"
+msgstr "PCP odal tipusa"
+
+#: CRM/PCP/DAO/PCP.php
+msgid "The type of PCP this is: contribute or event"
+msgstr "Személyes kampányoldal típusa: adomány vagy esemény"
+
+#: CRM/PCP/DAO/PCP.php
+msgid "PCP Block"
+msgstr "személyes kampányoldal blokk"
+
+#: CRM/PCP/DAO/PCP.php
+msgid "The pcp block that this pcp page was created from"
+msgstr "A személyes kampányoldalt blokkoló személyes kampányoldal, amiből ez létrehozásra került"
+
+#: CRM/PCP/DAO/PCP.php
+msgid "Use Thermometer?"
+msgstr "Hőmérőt használjunk?"
+
+#: CRM/PCP/DAO/PCP.php
+msgid "Show Honor Roll?"
+msgstr "Büszkeségfalat mutassuk?"
+
+#: CRM/PCP/DAO/PCP.php
+msgid "Goal amount of this Personal Campaign Page."
+msgstr "Személyes kampány oldal célösszege"
+
+#: CRM/PCP/DAO/PCP.php
+msgid "Is Personal Campaign Page enabled/active?"
+msgstr "Eza személyes kampány oldal engedélyezett/aktív?"
+
+#: CRM/PCP/DAO/PCP.php
+msgid "Notify Owner?"
+msgstr "Tulajdonost értesítsük?"
+
+#: CRM/PCP/DAO/PCP.php
+msgid "Notify owner via email when someone donates to page?"
+msgstr "A tulajdonos e-mail értesítése, ha valaki adományozott az oldalon?"
+
+#: CRM/PCP/DAO/PCPBlock.php
+msgid "PCP Block ID"
+msgstr "személyes kkampányoldal azonosító"
+
+#: CRM/PCP/DAO/PCPBlock.php
+msgid "PCP block Id"
+msgstr "Személyes kampány oldal blokk azonosító"
+
+#: CRM/PCP/DAO/PCPBlock.php
+msgid "FK to civicrm_contribution_page.id OR civicrm_event.id"
+msgstr " civicrm_contribution_page.id VAGY civicrm_event.id FK"
+
+#: CRM/PCP/DAO/PCPBlock.php
+msgid "Target Entity"
+msgstr "Cél egyed"
+
+#: CRM/PCP/DAO/PCPBlock.php
+msgid "The type of entity that this pcp targets"
+msgstr "A személyes kampány oldal által megcélzott egyed típusok"
+
+#: CRM/PCP/DAO/PCPBlock.php
+msgid "Target Entity ID"
+msgstr "Cél egyed azonosító"
+
+#: CRM/PCP/DAO/PCPBlock.php
+msgid "The entity that this pcp targets"
+msgstr "A személyes kampány oldal által megcélzott egyed"
+
+#: CRM/PCP/DAO/PCPBlock.php
+msgid ""
+"FK to civicrm_uf_group.id. Does Personal Campaign Page require manual "
+"activation by administrator? (is inactive by default after setup)?"
+msgstr "civicrm_uf_group.id FK. A személyes kampány oldal engedélyezéséhez az adminisztrátor kézi jóváhagyása kell? (alap beállítás szerint inaktív)?"
+
+#: CRM/PCP/DAO/PCPBlock.php
+msgid "Owner Notification"
+msgstr "Tulajdonos értesítés"
+
+#: CRM/PCP/DAO/PCPBlock.php
+msgid "FK to civicrm_option_group with name = PCP owner notifications"
+msgstr "civicrm_option_group with name = személyes kampányoldal tulajdonos értesítés FK"
+
+#: CRM/PCP/DAO/PCPBlock.php
+msgid "Approval Required?"
+msgstr "Jóváhagyás szükséges?"
+
+#: CRM/PCP/DAO/PCPBlock.php
+msgid ""
+"Does Personal Campaign Page require manual activation by administrator? (is "
+"inactive by default after setup)?"
+msgstr "A személyes kampány oldal engedélyezéséhez az adminisztrátor kézi jóváhagyása kell? (alap beállítás szerint inaktív)?"
+
+#: CRM/PCP/DAO/PCPBlock.php
+msgid "Tell a Friend Enabled?"
+msgstr "Add tovább engedélyezve?"
+
+#: CRM/PCP/DAO/PCPBlock.php
+msgid "Does Personal Campaign Page allow using tell a friend?"
+msgstr "A személyes kampány oldal engedélyezi, az add tovább használatát? "
+
+#: CRM/PCP/DAO/PCPBlock.php
+msgid "Tell A Friend Limit"
+msgstr "Add tovább korlát"
+
+#: CRM/PCP/DAO/PCPBlock.php
+msgid "Maximum recipient fields allowed in tell a friend"
+msgstr "Az engedélyezett maximum címzett mező szám az add tovább funkcióban"
+
+#: CRM/PCP/DAO/PCPBlock.php templates/CRM/PCP/Form/Event.hlp
+msgid "Link Text"
+msgstr "Link szövege"
+
+#: CRM/PCP/DAO/PCPBlock.php
+msgid "Link text for PCP."
+msgstr "Személyes kampányoldal link szövege."
+
+#: CRM/PCP/DAO/PCPBlock.php
+msgid "Is Personal Campaign Page Block enabled/active?"
+msgstr "A személyes kampány oldal engedélyezett/aktív?"
+
+#: CRM/PCP/DAO/PCPBlock.php
+msgid ""
+"If set, notification is automatically emailed to this email-address on "
+"create/update Personal Campaign Page"
+msgstr "Ha beállított, az értesítés automatikusan elküldésre kerül erre az e-mail címre a személyes kampányoldal létrehozásakor/frissítésekor"
+
+#: CRM/PCP/Form/Campaign.php
+msgid "Setup a Personal Campaign Page - Step 2"
+msgstr "Személyes Kampány oldal létrehozása - Második lépés"
+
+#: CRM/PCP/Form/Campaign.php
+msgid "Edit Your Personal Campaign Page"
+msgstr "Személyes Kampány oldal szerkesztésé lap"
+
+#: CRM/PCP/Form/Campaign.php
+msgid "Welcome"
+msgstr "Üdvözlet"
+
+#: CRM/PCP/Form/Campaign.php
+msgid "Your Goal"
+msgstr "A te célod"
+
+#: CRM/PCP/Form/Campaign.php
+msgid "Goal Amount should be a numeric value"
+msgstr "Cél mennyiség értékének számnak kell lennie"
+
+#: CRM/PCP/Form/Campaign.php
+msgid "Join Us"
+msgstr "Csatlakozz hozzánk"
+
+#: CRM/PCP/Form/Campaign.php
+msgid "Sign up Button"
+msgstr "Feliratkozás gomb"
+
+#: CRM/PCP/Form/Campaign.php
+msgid "Donate Now"
+msgstr "Adományozás most"
+
+#: CRM/PCP/Form/Campaign.php
+msgid "Donation Button"
+msgstr "Adományozás gomb"
+
+#: CRM/PCP/Form/Campaign.php
+msgid "Progress Bar"
+msgstr "Állapotjelző"
+
+#: CRM/PCP/Form/Campaign.php
+msgid "Honor Roll"
+msgstr "Büszkeségfal"
+
+#: CRM/PCP/Form/Campaign.php
+msgid "Notify me via email when someone donates to my page"
+msgstr "Értesítsen e-mailen keresztül ha valaki adományoz az oldalamon"
+
+#: CRM/PCP/Form/Campaign.php
+msgid "Goal Amount should be a numeric value greater than zero."
+msgstr "Cél mennyiség értékének számnak kell lennie ami nagyobb mint 0."
+
+#: CRM/PCP/Form/Campaign.php
+msgid "Button Text must be less than 64 characters."
+msgstr "A gomb szövegének 64 karakternél rövidebbnek kell lennie."
+
+#: CRM/PCP/Form/Campaign.php
+msgid ""
+"but requires administrator review before you can begin promoting your "
+"campaign. You will receive an email confirmation shortly which includes a "
+"link to return to this page."
+msgstr "De adminisztrátor jóváhagyás kell mielőtt elkezdheted hirdetni a kampányod. Nemsokára kapni fogsz egy jóváhagyó emailt ami tartalmaz egy linket hogy visszatérhess erre az oldalra."
+
+#: CRM/PCP/Form/Campaign.php
+msgid "and is ready to use."
+msgstr "és már használható is."
+
+#: CRM/PCP/Form/Campaign.php
+msgid "updated"
+msgstr "frissítve"
+
+#: CRM/PCP/Form/Campaign.php
+msgid "created"
+msgstr "létrehozva"
+
+#: CRM/PCP/Form/Campaign.php
+msgid "A notification email has been sent to the site administrator."
+msgstr "Egy értesítő email ki lett küldve az oldal adminisztrátorának."
+
+#: CRM/PCP/Form/Campaign.php
+msgid ""
+" You will receive a second email as soon as the review process is complete."
+msgstr "Kapni fogsz egy másik emailt amint az átvizsgálási folyamat befejeződött."
+
+#: CRM/PCP/Form/Campaign.php
+msgid "Your Personal Campaign Page has been %1 %2 %3"
+msgstr "A Személyes Kampány oldalad %1 %2 %3"
+
+#: CRM/PCP/Form/Contribute.php
+msgid "Create your own fundraising page"
+msgstr "Hozd létre a saját adományozó oldalad"
+
+#: CRM/PCP/Form/Contribute.php
+msgid "Enable Personal Campaign Pages? (for this contribution page)"
+msgstr "Személyes Kampány oldal engedélyezése? (ehhez az adomáy oldalhoz)"
+
+#: CRM/PCP/Form/Contribute.php
+msgid ""
+"if Tell Friend is enabled, Maximum recipients limit should be greater than "
+"zero."
+msgstr "Ha az Add tovább aktív, a címzettek maximális számának 0-nál nagyobbnak kell lennie."
+
+#: CRM/PCP/Form/Contribute.php CRM/PCP/Form/Event.php
+msgid "Supporter profile is a required field."
+msgstr "Támogató profil kötelezően kitöltendő mező."
+
+#: CRM/PCP/Form/Contribute.php CRM/PCP/Form/Event.php
+msgid "A valid Notify Email address must be specified"
+msgstr "Egy érvényes megerősítő emailt kell megadni"
+
+#: CRM/PCP/Form/Contribute.php CRM/PCP/Form/Event.php
+msgid "Enable Personal Campaign Pages"
+msgstr "Személyes kampány oldalak engedélyezése"
+
+#: CRM/PCP/Form/Event.php
+msgid "Personal Campaign Page Settings (%1)"
+msgstr "Személyes Kampány oldal beállítások (%1)"
+
+#: CRM/PCP/Form/Event.php
+msgid "Promote this event with a personal campaign page"
+msgstr "Támogasd ezt az esemény egy személyes kampány oldallal"
+
+#: CRM/PCP/Form/Event.php
+msgid "Enable Personal Campaign Pages? (for this event)"
+msgstr "Személyes Kampány oldalak engedélyezése? (ehhez az eseményhez)"
+
+#: CRM/PCP/Form/Event.php
+msgid ""
+"if Tell Friend is enable, Maximum recipients limit should be greater than "
+"zero."
+msgstr "Ha az Add tovább aktív, a címzettek maximális számának 0-nál nagyobbnak kell lennie."
+
+#: CRM/PCP/Form/PCP.php
+msgid "The Campaign Page '%1' has been deleted."
+msgstr "Ez a Kampány oldal '%' törölve."
+
+#: CRM/PCP/Form/PCP.php
+msgid "Page Deleted"
+msgstr "Oldal törölve"
+
+#: CRM/PCP/Form/PCP.php
+msgid "The Campaign Page '%1' has been disabled."
+msgstr "Ez a Kampány oldal '%1' felfüggesztve."
+
+#: CRM/PCP/Form/PCP.php
+msgid "Page Disabled"
+msgstr "Oldal letiltva"
+
+#: CRM/PCP/Form/PCP.php
+msgid "The Campaign Page '%1' has been enabled."
+msgstr "Ez a Kampány oldal '%1' engedélyezve."
+
+#: CRM/PCP/Form/PCP.php
+msgid "Page Enabled"
+msgstr "Oldal engedélyezve"
+
+#: CRM/PCP/Form/PCP.php
+msgid "Source Type"
+msgstr "Forrás tipusa"
+
+#: CRM/PCP/Form/PCPAccount.php
+msgid ""
+"We can't load the requested web page due to an incomplete link. This can be "
+"caused by using your browser's Back button or by using an incomplete or "
+"invalid link."
+msgstr "Hiányos link miatt a kért weboldal nem betölthető. Ezt az okozhatta, hogy a böngésző \"Vissza\" gombját használta, vagy hiányos, érvénytelen linket adott meg."
+
+#: CRM/PCP/Form/PCPAccount.php
+msgid "Could not find source page id."
+msgstr "Kiindulási oldal azonosítója nem található."
+
+#: CRM/PCP/Form/PCPAccount.php
+msgid ""
+"There is already an user associated with this email address. Please enter "
+"different email address."
+msgstr "Már van egy felhasználó ehhez az email címhez társítva. Kérlek adj meg egy másik email címet."
+
+#: CRM/PCP/Page/PCP.php
+msgid "Are you sure you want to delete this Campaign Page ?"
+msgstr "Biztos vagy abban hogy törölni akarod ezt a Kampány oldalt?"
+
+#: CRM/PCP/Page/PCP.php
+msgid "Edit Personal Campaign Page"
+msgstr "Személyes Kampány oldal szerkesztése lap"
+
+#: CRM/PCP/Page/PCP.php
+msgid "Approve"
+msgstr "Jóváhagy"
+
+#: CRM/PCP/Page/PCP.php
+msgid "Approve Personal Campaign Page"
+msgstr "Személyes kampány oldal jóváhagyása"
+
+#: CRM/PCP/Page/PCP.php
+msgid "Reject"
+msgstr "Elutasít"
+
+#: CRM/PCP/Page/PCP.php
+msgid "Reject Personal Campaign Page"
+msgstr "Személyes kampány oldal elutasítása"
+
+#: CRM/PCP/Page/PCP.php
+msgid "Delete Personal Campaign Page"
+msgstr "Személyes kampány olal törlése"
+
+#: CRM/PCP/Page/PCP.php
+msgid "Search Campaign Pages"
+msgstr "Személyes kampány oldal keresése"
+
+#: CRM/PCP/Page/PCPInfo.php
+msgid "The personal campaign page you requested is currently unavailable."
+msgstr "Ez a személyes kampány oldal amit keresel jelenleg nem elérhető."
+
+#: CRM/PCP/Page/PCPInfo.php
+msgid ""
+"Once you've received your new account welcome email, you can <a "
+"href=%1>click here</a> to login and promote your campaign page."
+msgstr "Amint megkaptad az új felhasználód üdvözlő emailjét, <a href=%1>kattints ide</a> hogy belépj és támogasd a kampány oldalad."
+
+#: CRM/PCP/Page/PCPInfo.php
+msgid ""
+"The personal campaign page you requested is currently unavailable. However "
+"you can still support the campaign by making a contribution here."
+msgstr "Ez a Személyes Kampány oldal amit az előbb látogattál meg most éppen inaktív. Ennek ellenére tehetsz egy felajánlást itt is."
+
+#: CRM/PCP/Page/PCPInfo.php
+msgid "Change the content and appearance of your page"
+msgstr "Változtasd meg az oldalad tartalmát és megjelenését"
+
+#: CRM/PCP/Page/PCPInfo.php
+msgid "Send emails inviting your friends to support your campaign!"
+msgstr "Küldj emaileket amikkel meghívhatod a barátaidat hogy támogassák a kampányod."
+
+#: CRM/PCP/Page/PCPInfo.php
+msgid "Copy this link to share directly with your network!"
+msgstr "Másolja le ezt a linket és ossza meg az ismerőseivel!"
+
+#: CRM/PCP/Page/PCPInfo.php
+msgid "Update your personal contact information"
+msgstr "Frissítsd a személyes elérhetőségeidet"
+
+#: CRM/PCP/Page/PCPInfo.php
+msgid "De-activate the page (you can re-activate it later)"
+msgstr "Az oldal felfüggesztése, kikapcsolása (később újra aktiválhatod)"
+
+#: CRM/PCP/Page/PCPInfo.php
+msgid "Activate the page (you can de-activate it later)"
+msgstr "Az oldal aktiválása (később felfüggesztheted ha akarod)"
+
+#: CRM/PCP/Page/PCPInfo.php
+msgid "Remove the page (this cannot be undone!)"
+msgstr "Az oldal eltávolítása ( visszavonás nem lehetséges!)"
+
+#: CRM/PCP/Page/PCPInfo.php
+msgid "Contribute Now"
+msgstr "Adományozz most"
+
+#: templates/CRM/PCP/Form/Campaign.tpl
+msgid ""
+"Personalize the contents and appearance of your personal campaign page here."
+" You will be able to return to this page and make changes at any time."
+msgstr "Szabd személyre a tartalmát és megjelenését a személyes kampány oldalnak itt. Később bármikor visszatérhetsz erre az oldalra és változtathatsz amit csak akarsz."
+
+#: templates/CRM/PCP/Form/Campaign.tpl
+msgid ""
+"Introduce the campaign and why you're supporting it. This text will appear "
+"at the top of your personal page AND at the top of the main contribution or "
+"event registration page."
+msgstr "Mutasd be a kampányt és hogy miért támogatod azt. Ez a szöveg jelenik meg a személyes oldalad tetején is és  a fő adomány vagy az esemény regisztrációs oldal tetején is."
+
+#: templates/CRM/PCP/Form/Campaign.tpl
+msgid "The text for the contribute or register button."
+msgstr "Az adomány vagy a regisztrálás gomb szövege."
+
+#: templates/CRM/PCP/Form/Campaign.tpl
+msgid ""
+"If this option is checked, an \"honor roll\" will be displayed with the "
+"names (or nicknames) of the people who supported you. (Donors will have the "
+"option to remain anonymous. Their names will NOT be listed.)"
+msgstr "Ha ez az opció be van jelölve, egy \"Dicsőség táblán\" jelenik meg a kampányt támogató személyek neve (vagy beceneve). (Az adományozók névtelenek is maradnhatnak. Az Ő nevük nem lesz kijelezve.)"
+
+#: templates/CRM/PCP/Form/Campaign.tpl
+msgid ""
+"If this option is checked, you will receive an email notification when "
+"people contribute to your campaign."
+msgstr "Ha ez az opció kiválasztott, e-mail értesítést kap, amikor az emberek a kampányához hozzájárulnak."
+
+#: templates/CRM/PCP/Form/Contribute.hlp
+msgid ""
+"When Personal Campaign Pages are enabled, constituents will see a link "
+"inviting them to create their own fundraising page after making a "
+"contribution.  Contributions from people who come in through a Personal "
+"Campaign Page are recorded as \"soft credits\" for the supporter who created"
+" that campaign page."
+msgstr "Amikor a személyes kampányoldalak engedélyezettek, a hozzájárulók számára megjelenik egy link ami lehetőséget ad nekik a saját adománygyűjtő oldaluk létrehozására egy adomány után. Azok az adományozók akik egy Személyes Kampány oldalon keresztül érkeznek \"soft credit\" címszó alatt lesznek rögzítve annak számára aki létrehozta a kampány oldalt."
+
+#: templates/CRM/PCP/Form/Contribute.hlp templates/CRM/PCP/Form/Event.hlp
+msgid "Email Notification"
+msgstr "E-mail értesítés"
+
+#: templates/CRM/PCP/Form/Contribute.hlp templates/CRM/PCP/Form/Event.hlp
+msgid ""
+"The Supporter Profile is used to collect or update basic information (e.g. "
+"name and email address) from users while they are creating a Personal "
+"Campaign Page. The profile you select must be configured with 'Account "
+"creation required' (under Profile Settings &raquo; Advanced Settings). You "
+"must include an Email address field - and you may include any number of "
+"other fields in the profile. If you don't yet have an appropriate Profile "
+"configured, you will need to <a href='%1'>create one first</a>, and then "
+"return to this form to select it."
+msgstr "A 'Támogató profil' kerül felhasználásra, az alap információk összegyűjtésére (um. név és e-mail cím) a felhasználóktól, a személyes kampányoldal készítése közben. Az ön által kiválasztott profilt a 'Felhasználói fiók szükséges'  (Profil beállítások &raquo; Részletes beállítások). Az e-mail cím kötelező mező - de más mezőket is tartalmazhat a profil korlátozás nélkül. Ha nem áll rendelkezésre megfelelő profil előbb  <a href='%1'>készítsen egyet</a>, és térjen vissza ehhez az űrlaphoz, és válassza ki. "
+
+#: templates/CRM/PCP/Form/Contribute.tpl templates/CRM/PCP/Form/Event.tpl
+msgid ""
+"No Profile with a user account registration option has been configured / "
+"enabled for your site. You need to <a href='%1'>configure a Supporter "
+"profile</a> first. It will be used to collect or update basic information "
+"from users while they are creating a Personal Campaign Page."
+msgstr "Profil nélküli felhasználói fiók regisztrálási opció be van állítva / engedélyezve a webhelyeden. Előszür be kell konfigurálnod  <a href='%1'> Támogatói profilt </ a> . Ez lesz alkalmas felhasználói információk gyűjtésére vagy frissítésére azoktól a felhasználóktól akik egy Személyes Kampány oldalt hoznak létre."
+
+#: templates/CRM/PCP/Form/Event.hlp
+msgid ""
+"Personal Campaign Pages provide your constituents with the ability to "
+"promote this event or a related fundraising effort. When Personal Campaign "
+"Pages are enabled constituents will see a link after registering for this "
+"event which invites them to create their own page to promote the event (or "
+"promote a related online contribution page). Event registration fees (or "
+"contributions) from people who come in through a Personal Campaign Page are "
+"recorded as \"soft credits\" for the supporter who created that campaign "
+"page."
+msgstr "A Személyes Kampány oldal támogatja az ügyfeleket azzal, hogy reklámozhassák ezt az eseményt, illetve a kapcsolt adománygyűjtés erőfeszítéseket. Amikor a személyes kampány oldalak engedélyezve vannak, az ügyfeleknek megjelenik egy link a regisztráció után ami arra szólítja fel őket, hogy hozzanak létre egy saját oldalt az esemény népszerűsítésére (vagy támogassanak egy ehhez  kapcsolódó  oldalt az adományukkal. Egy esemény regisztrációs díja (vagy adományok) az emberektől akik egy személyes kampány keresztül jönnek, \"lágy jóváírásként\" elszámolásra kerül annak aki létrehozta a kampány oldalt."
+
+#: templates/CRM/PCP/Form/Event.hlp
+msgid ""
+"Notification will be sent to this email address whenever a Personal Campaign"
+" Page linked to this event is either created or updated. The notification "
+"will include links to view the campaign page as well as the contact record "
+"of the creator of the page."
+msgstr "Figyelmeztetést küldünk erre az e-mail címre, ha az adomány oldalhoz csatlakozó személyes kampányoldal létrehozásra vagy módosításra kerül. A figyelmeztetés tartalmazni fogja a kampányoldal linkjét a megtekintéshez, és az oldalt létrehozó kapcsolati rekordját."
+
+#: templates/CRM/PCP/Form/Event.hlp
+msgid ""
+"Can the 'owner' of a Personal Campaign Page use the Tell-a-Friend function "
+"to send emails to people inviting them to visit their page and register or "
+"contribute? NOTE: Tell a Friend emails will automatically include a link to "
+"the sender's campaign page."
+msgstr "A személyes kampányoldal 'tulajdonosa' az 'Add tovább' funkciót felhasználva e-mailt küldhet-e az ismerőseinek, meghíva őket az oldal meglátogatására és adományozásra? MEGJEGYZÉS: Az Add tovább e-mailek automatikusan tartalmazzák a küldő kampányoldalára mutató linket."
+
+#: templates/CRM/PCP/Form/Event.hlp
+msgid ""
+"Text for the link inviting constituents to create a Personal Campaign Page. "
+"This link will appear on the Event registration Thank-you page as well as on"
+" each Personal Campaign Page. Leave blank if you do not want constituents to"
+" be prompted to create their own Personal Campaign Pages."
+msgstr "Az ügyfelek személyes adomány oldalának létrehozására felhívó link szövege. Ez a link az esemény regisztrációt megköszönő oldalon, valamint a személyes kampányoldalon jelenik meg. Hagyja üresen ha azt akarja, hogy az ügyfeleket ne szakítsuk meg a személyes kampányoldal létrehozására történő felszólítással."
+
+#: templates/CRM/PCP/Form/Event.hlp
+msgid ""
+"Select \"Event\" if you want your supporters to encourage people in their "
+"network to also register for this event. Select \"Contribution\" if you want"
+" supporters to promote a related online fundraising campaign (by linking to "
+"an online contribution page)."
+msgstr "Válassza ki az \"Eseményt\", ha azt szeretné, hogy a támogatói ösztönözzék az embereket a regisztrálásra a saját hálózatukon belül erre az eseményre. Válassza ki az \"Adományt\", ha azt szeretné, hogy a támogatói reklámozzanak egy idekapcsolódó adománygyűjtő kampányt (azzal hogy hozzákötnek egy elérhető támogatói oldalt)."
+
+#: templates/CRM/PCP/Form/Event.hlp
+msgid ""
+"Select the related online contribution page that supporters of this event "
+"are promoting. Visitors to their Personal Campaign pages will be directed to"
+" the selected online contribution page to donate money."
+msgstr "Válassza ki a kapcsolódó online adományoldalt amit ezen esemény támogatói hirdetnek. A saját személyes kampány oldalukra látogatók át lesznek átirányítva egy kiválasztott adományoldalra ahol pénzt adományozhatnak."
+
+#: templates/CRM/PCP/Form/Event.tpl
+msgid ""
+"Allow constituents to create their own personal fundraising pages linked to "
+"this event."
+msgstr "Engedélyezze az ügyfeleinek a személyes adománygyűjtő oldalaik készítését, ehhez az eseményhez csatlakozva. "
+
+#: templates/CRM/PCP/Form/PCP.tpl templates/CRM/PCP/Page/PCP.hlp
+msgid ""
+"You can also place additional links (or menu items) allowing constituents to"
+" create their own fundraising pages using the following URL:"
+msgstr "Elhelyezhet kiegészítő linkeket (vagy menüelemeket), amely az ügyfeleknek lehetővé teszi a saját adomány gyűjtő oldal készítést a következő URL használatával:"
+
+#: templates/CRM/PCP/Form/PCP.tpl templates/CRM/PCP/Page/PCP.hlp
+msgid ""
+"You can also create front-end links (or menu items) allowing constituents to"
+" create their own fundraising pages using the Menu Manager. Select "
+"<strong>Contributions &raquo; Personal Campaign Pages</strong> and then "
+"select this event."
+msgstr "Front-end linkeket tud létrehozni (vagy menü elemeket) , ezzel  lehetővé téve az ügyfeleknek a saját adományozói oldaluk létrehozására a menü menedzserrel. Válassza ki a <strong>Adományok &raquo; Személyes kampányoldalak</strong>-t és azután válassza ki ezt az eseményt."
+
+#: templates/CRM/PCP/Form/PCPAccount.tpl
+msgid ""
+"Creating your own campaign page is simple. Fill in some basic information "
+"below, which will allow you to manage your page and invite friends to "
+"support you. Then click 'Continue' to personalize and announce your page."
+msgstr "Saját adomány gyűjtő oldal létrehozása egyszerű. Töltsön ki néhány alapvető információt lejjebb, amely lehetővé teszi az oldal kezelését és a barátainak a meghívását adományozásra. Majd kattintson a 'Tovább' gombra az oldal személyessé tételére és bejelentésére. "
+
+#: templates/CRM/PCP/Page/PCP.hlp
+msgid ""
+"Personal Campaign Pages (PCPs) allow your constituents to create their own "
+"fundraising page for your organization. This means that a donor, after "
+"donating to your organization, can elect to create a page with her own "
+"photo, text, and personal information. She can then send a link to the page "
+"to her friends, soliciting support for your organization. This is a powerful"
+" way to widely and quickly spread the message about your campaign."
+msgstr "A Személyes Kampány Oldalak (SZKOk) lehetővé teszi a választó számára, hogy létrehozzák saját adománygyűjtő oldalukat a szervezete számára. Ez azt jelenti,hogy miután adakoztak a szervezete számára, választhatnak hogy létrehoznak egy oldalt a saját képükkel, szövegükkel és személyes információjukkal. Ezután ey linket lehet küldeni a barátok számára, amelyben támogatást kérnek az ön szervezetének. Ez egy erőteljes módszer hogy széleskörüen és gyorsan terjedjen a szó az ön kampányáról."
+
+#: templates/CRM/PCP/Page/PCP.hlp
+msgid ""
+"When someone donates through a personal campaign page, a soft credit is "
+"given to the owner of the page to recognize the role she played in the "
+"contribution. CiviContribute has a section that allows you to administer all"
+" of the PCPs for your organization. You can require approval before a PCP "
+"goes 'live', and disable or delete any campaign pages you don't approve of."
+msgstr "Ha valaki adományoz egy személyes kampány oldalon keresztül, egy úgynevezett \"soft kredit\" kerül jóváírásra az oldal létrehozójának javára hogy felismerhető legyen az ő szerepe is a segítségben. A CiviContribute-ban van egy szekció ami megengedi neked hogy karban tartsd az összes SZKOdat a szervezethez kapcsolódóan. Engedélyre van szükséged mielőtt egy SZKO \"éles\" lesz vagy hogy felfüggessz vagy hogy törölj bármilyen kampány oldalt amit te nem hagytál jóvá."
+
+#: templates/CRM/PCP/Page/PCP.tpl
+msgid ""
+"This screen shows all the Personal Campaign Pages created in the system and "
+"allows administrator to review them and change their status."
+msgstr "Ez az oldal mutatja az Összes Személtes Kampány oldalt ami létre lett hozva a rendszerbem és engedélyezett az adminisztrátorok számára hogy felülvizsgálják vagy változtassanak a státuszán."
+
+#: templates/CRM/PCP/Page/PCP.tpl
+msgid "Contribution Page / Event"
+msgstr "Adományodal / Esemény"
+
+#: templates/CRM/PCP/Page/PCP.tpl
+msgid "View Personal Campaign Page"
+msgstr "Személyes kampány oldal megtekintése"
+
+#: templates/CRM/PCP/Page/PCP.tpl
+msgid "View page"
+msgstr "Oldal nézet"
+
+#: templates/CRM/PCP/Page/PCP.tpl
+msgid "There are no Personal Campaign Pages which match your search criteria."
+msgstr "Nincsenek Személyes Kampány oldalak amelyek megfelelnek a keresési feltételeidnek."
+
+#: templates/CRM/PCP/Page/PCP.tpl
+msgid "There are currently no Personal Campaign Pages."
+msgstr "Jelenleg nincsenek Személyes Kampány oldalak."
+
+#: templates/CRM/PCP/Page/PCPInfo.tpl
+msgid "Personal Campaign Preview"
+msgstr "Személyes Kampány Előnézet"
+
+#: templates/CRM/PCP/Page/PCPInfo.tpl
+msgid "This is a preview of your Personal Campaign Page in support of"
+msgstr "Ez az előnézete a te személyes kampány oldaladnak amivel támogatod"
+
+#: templates/CRM/PCP/Page/PCPInfo.tpl
+msgid "The current status of your page is"
+msgstr "Az oldalad jelenlegi helyzete"
+
+#: templates/CRM/PCP/Page/PCPInfo.tpl
+msgid ""
+"You will receive an email notification when your page is Approved and you "
+"can begin promoting your campaign."
+msgstr "Egy email értesítést fogsz kapni mikor az oldala Jóvá lett hagyva és te is elkedheted hirdetni a kampányod."
+
+#: templates/CRM/PCP/Page/PCPInfo.tpl
+msgid "People can register for this event starting on "
+msgstr "Az emberek elkedhetnek regisztrálni erre az eseményre"
+
+#: templates/CRM/PCP/Page/PCPInfo.tpl
+msgid "This campaign is active from"
+msgstr "Ez a kampány aktív tól/től"
+
+#: templates/CRM/PCP/Page/PCPInfo.tpl
+msgid "You can"
+msgstr "Ezek a lehetőségeid"
+
+#: templates/CRM/PCP/Page/PCPInfo.tpl
+msgid ""
+"You must be logged in to your account to access the editing options above. "
+"(If you visit this page without logging in, you will be viewing the page in "
+"\"live\" mode - as your visitors and friends see it.)"
+msgstr "Belépve kell hogy legyél a fiókodba hogy elérhesd a fent említett szerkesztési opciókat.( Ha meglátogatod ezt az oldalt belépés nélkül, az oldal \"éles\" változatát láthatod - mint ahogyan a látogatók vagy a barátok látják.)"
+
+#: templates/CRM/PCP/Page/PCPInfo.tpl
+msgid "Goal"
+msgstr "Cél"
+
+#: templates/CRM/PCP/Page/PCPInfo.tpl
+msgid "raised"
+msgstr "emelt"
+
+#: templates/CRM/PCP/Page/PCPInfo.tpl
+msgid "HONOR ROLL"
+msgstr "BÜSZKESÉGFAL"
+
+#: templates/CRM/PCP/Page/PCPInfo.tpl
+msgid "Stop"
+msgstr "Állj"
+
+#: templates/CRM/PCP/Page/PCPInfo.tpl
+msgid "Start scrolling"
+msgstr "Kezdd el görgetni"
+
+#: templates/CRM/PCP/Page/PCPInfo.tpl
+msgid "Stop scrolling"
+msgstr "Görgetés Állj"
+
+#: xml/templates/message_templates/pcp_notify_html.tpl
+#: xml/templates/message_templates/pcp_notify_subject.tpl
+#: xml/templates/message_templates/pcp_notify_text.tpl
+msgid "Personal Campaign Page Notification"
+msgstr "Személyes Kampány Oldal Értesítések"
+
+#: xml/templates/message_templates/pcp_notify_html.tpl
+#: xml/templates/message_templates/pcp_notify_text.tpl
+msgid "Updated personal campaign page"
+msgstr "Frissült személyes kampány oldal"
+
+#: xml/templates/message_templates/pcp_notify_html.tpl
+#: xml/templates/message_templates/pcp_notify_text.tpl
+msgid "New personal campaign page"
+msgstr "Új személyes kampány oldal"
+
+#: xml/templates/message_templates/pcp_notify_html.tpl
+#: xml/templates/message_templates/pcp_notify_text.tpl
+msgid "View Page"
+msgstr "Oldal nézet"
+
+#: xml/templates/message_templates/pcp_notify_html.tpl
+#: xml/templates/message_templates/pcp_notify_text.tpl
+msgid "Linked to Contribution Page"
+msgstr "Linkelve egy adományoldalhoz"
+
+#: xml/templates/message_templates/pcp_owner_notify_html.tpl
+#: xml/templates/message_templates/pcp_owner_notify_text.tpl
+msgid "You have received a donation at your personal page"
+msgstr "Adományt kapott a személyes oldalán."
+
+#: xml/templates/message_templates/pcp_owner_notify_html.tpl
+#: xml/templates/message_templates/pcp_owner_notify_text.tpl
+msgid "Your fundraising total has been updated."
+msgstr "Az ön adománygyűjtésének összege frissítésre került."
+
+#: xml/templates/message_templates/pcp_owner_notify_html.tpl
+#: xml/templates/message_templates/pcp_owner_notify_text.tpl
+msgid ""
+"The donor's information is listed below.  You can choose to contact them and"
+" convey your thanks if you wish."
+msgstr "Az adományozók információi alább kilistázva. Ha akarja, kapcsolatba léphet velük és megköszönheti nekik. "
+
+#: xml/templates/message_templates/pcp_owner_notify_html.tpl
+#: xml/templates/message_templates/pcp_owner_notify_text.tpl
+msgid ""
+"The donor's name has been added to your honor roll unless they asked not to "
+"be included."
+msgstr "Az adományozó neve hozzáadva a büszkeségfalhoz, kivéve ha az adományozók azt kérik, hogy ne legyenek rajta."
+
+#: xml/templates/message_templates/pcp_owner_notify_subject.tpl
+msgid "Someone has just donated to your personal campaign page"
+msgstr "Valaki éppen most adományozott s személyes kampányoldalán"
+
+#: xml/templates/message_templates/pcp_owner_notify_text.tpl
+msgid "Personal Campaign Page Owner Notification"
+msgstr "Személyes kampányoldal tulajdonos értesítés"
+
+#: xml/templates/message_templates/pcp_status_change_html.tpl
+#: xml/templates/message_templates/pcp_status_change_text.tpl
+msgid "Your Personal Campaign Page"
+msgstr "A te személyes kampány oldalad"
+
+#: xml/templates/message_templates/pcp_status_change_html.tpl
+#: xml/templates/message_templates/pcp_status_change_text.tpl
+msgid "Your personal campaign page has been approved and is now live."
+msgstr "A te személyes kampány oldalad jóvá lett hagyva és mostantól éles."
+
+#: xml/templates/message_templates/pcp_status_change_html.tpl
+#: xml/templates/message_templates/pcp_status_change_text.tpl
+#: xml/templates/message_templates/pcp_supporter_notify_html.tpl
+#: xml/templates/message_templates/pcp_supporter_notify_text.tpl
+msgid "Whenever you want to preview, update or promote your page"
+msgstr "Ha bármikor látni akarod az oldalad előnézetét,frissíteni vagy reklámozni"
+
+#: xml/templates/message_templates/pcp_status_change_html.tpl
+#: xml/templates/message_templates/pcp_supporter_notify_html.tpl
+msgid "Login to your account"
+msgstr "Lépj be a fiókodba"
+
+#: xml/templates/message_templates/pcp_status_change_html.tpl
+#: xml/templates/message_templates/pcp_supporter_notify_html.tpl
+msgid "Go to your page"
+msgstr "Menj az oldaladra"
+
+#: xml/templates/message_templates/pcp_status_change_html.tpl
+#: xml/templates/message_templates/pcp_status_change_text.tpl
+#: xml/templates/message_templates/pcp_supporter_notify_html.tpl
+#: xml/templates/message_templates/pcp_supporter_notify_text.tpl
+msgid ""
+"When you view your campaign page WHILE LOGGED IN, the page includes links to"
+" edit your page, tell friends, and update your contact info."
+msgstr "Amikor a saját kampányoldalát nézi BELÉPVE, az oldal tartalmaz linkeket ahhoz hogy szerkessze oldalát, meséljen róla a barátainak vagy frissítse a kapcsolat információját."
+
+#: xml/templates/message_templates/pcp_status_change_html.tpl
+#: xml/templates/message_templates/pcp_status_change_text.tpl
+msgid ""
+"After logging in, you can use this form to promote your fundraising page"
+msgstr "Miután beléptél, használhatod ezt a mintát hogy reklámozd az adománygyüjtő oldalad"
+
+#: xml/templates/message_templates/pcp_status_change_html.tpl
+#: xml/templates/message_templates/pcp_status_change_text.tpl
+#: xml/templates/message_templates/pcp_supporter_notify_html.tpl
+#: xml/templates/message_templates/pcp_supporter_notify_text.tpl
+msgid "Questions? Send email to"
+msgstr "Kérdések? Külddj emailt"
+
+#: xml/templates/message_templates/pcp_status_change_html.tpl
+#: xml/templates/message_templates/pcp_status_change_text.tpl
+msgid ""
+"Your personal campaign page has been reviewed. There were some issues with "
+"the content which prevented us from approving the page. We are sorry for any"
+" inconvenience."
+msgstr "A személyes kampány oldala felül lett vizsgálva. Volt néhány probléma a tartalommal, ami miatt nem tudjuk jóváhagyni azt. Bocsánat a kellemetlenségekért."
+
+#: xml/templates/message_templates/pcp_status_change_html.tpl
+#: xml/templates/message_templates/pcp_status_change_text.tpl
+msgid "Please contact our site administrator for more information"
+msgstr "Kérlek lépj kapcsolatba az oldal adminisztrátorával további információkért"
+
+#: xml/templates/message_templates/pcp_status_change_subject.tpl
+#: xml/templates/message_templates/pcp_supporter_notify_subject.tpl
+msgid "Your Personal Campaign Page for %1"
+msgstr "A %1 kapcsolódó személyes kampány oldalad "
+
+#: xml/templates/message_templates/pcp_status_change_text.tpl
+#: xml/templates/message_templates/pcp_supporter_notify_text.tpl
+msgid "Login to your account at"
+msgstr "Lépj be a fiókodba "
+
+#: xml/templates/message_templates/pcp_status_change_text.tpl
+#: xml/templates/message_templates/pcp_supporter_notify_text.tpl
+msgid "Click or paste this link into your browser to go to your page"
+msgstr "Kattins vagy illeszd be ezt a linket a böngésződbe hogy a saját oldaladra kerülj"
+
+#: xml/templates/message_templates/pcp_supporter_notify_html.tpl
+#: xml/templates/message_templates/pcp_supporter_notify_text.tpl
+msgid "Thanks for creating a personal campaign page in support of %1."
+msgstr "Köszönjük hogy létrehoztál egy személyes kampány oldalt arra hogy %1 támogasd."
+
+#: xml/templates/message_templates/pcp_supporter_notify_html.tpl
+#: xml/templates/message_templates/pcp_supporter_notify_text.tpl
+msgid "Promoting Your Page"
+msgstr "Az oldalad reklámozása"
+
+#: xml/templates/message_templates/pcp_supporter_notify_html.tpl
+#: xml/templates/message_templates/pcp_supporter_notify_text.tpl
+msgid "You can begin your fundraising efforts using our \"Tell a Friend\" form"
+msgstr "Elkezdheted az adomány gyűjtést az \"Add tovább\" űrlap segítségével"
+
+#: xml/templates/message_templates/pcp_supporter_notify_html.tpl
+msgid "Click this link and follow the prompts"
+msgstr "Kattins erre a linkre és kövesd az utasításokat"
+
+#: xml/templates/message_templates/pcp_supporter_notify_html.tpl
+#: xml/templates/message_templates/pcp_supporter_notify_text.tpl
+msgid ""
+"Send email to family, friends and colleagues with a personal message about "
+"this campaign."
+msgstr "Külddj emailt a családodnak, barátoknak és kollégáknak egy személyes üzenettel erről a kampányról."
+
+#: xml/templates/message_templates/pcp_supporter_notify_html.tpl
+#: xml/templates/message_templates/pcp_supporter_notify_text.tpl
+msgid "Include this link to your fundraising page in your emails"
+msgstr "Add hozzá ezt a linket az adománygyüjtő oldaladról az emailjeidhez"
+
+#: xml/templates/message_templates/pcp_supporter_notify_html.tpl
+#: xml/templates/message_templates/pcp_supporter_notify_text.tpl
+msgid "Managing Your Page"
+msgstr "Az oldalad kezelése"
+
+#: xml/templates/message_templates/pcp_supporter_notify_html.tpl
+#: xml/templates/message_templates/pcp_supporter_notify_text.tpl
+msgid ""
+"Your page requires administrator review before you can begin your "
+"fundraising efforts."
+msgstr "Az oldaladnak adminisztrátori jóváhagyásra van szüksége mielőtt elkezdhetsz vele adományokat gyüjteni."
+
+#: xml/templates/message_templates/pcp_supporter_notify_html.tpl
+#: xml/templates/message_templates/pcp_supporter_notify_text.tpl
+msgid ""
+"A notification email has been sent to the site administrator, and you will "
+"receive another notification from them as soon as the review process is "
+"complete."
+msgstr "Egy értesítő email ki lett küldve az oldal adminisztrátorának és amint a felülvizsgálat befejeződött kapni fogsz egy másik emailt is."
+
+#: xml/templates/message_templates/pcp_supporter_notify_html.tpl
+#: xml/templates/message_templates/pcp_supporter_notify_text.tpl
+msgid "You can still preview your page prior to approval"
+msgstr "Még mindig megnézheted az oldalad mielőtt jóvá lesz hagyva"
+
+#: xml/templates/message_templates/pcp_supporter_notify_html.tpl
+msgid "Click this link"
+msgstr "Kattins erre a hivatkozásra"
+
+#: xml/templates/message_templates/pcp_supporter_notify_text.tpl
+msgid "Click or paste this link into your browser and follow the prompts"
+msgstr "Kattins vagy illeszd be ezt a hivatkozást a böngésződbe és kövesd az utasításokat"
+
+#: xml/templates/message_templates/pcp_supporter_notify_text.tpl
+msgid "Click or paste this link into your browser"
+msgstr "Kattins vagy illeszd be ezt a linket a böngésződbe"
